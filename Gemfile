@@ -16,6 +16,15 @@ group :assets do
   gem 'uglifier'
 end
 
+group :development do
+  gem 'rspec-rails', '2.6.1'
+end
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'webrat', '0.7.1'
+end
+
 gem 'jquery-rails'
 
 # Use unicorn as the web server
@@ -26,8 +35,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-
-group :test do
-  # Pretty printed test output
-  gem 'turn', :require => false
-end
