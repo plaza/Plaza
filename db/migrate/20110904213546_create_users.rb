@@ -4,7 +4,6 @@ class CreateUsers < ActiveRecord::Migration
 			t.string :full_name
 			t.string :visible_name
 			t.string :email
-			t.string :profile_picture
 
 			t.timestamps
 		end

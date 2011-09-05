@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110904223508) do
+ActiveRecord::Schema.define(:version => 20110905075443) do
+
+  create_table "departments", :force => true do |t|
+    t.string   "name"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "events", :force => true do |t|
     t.string   "name"
@@ -27,8 +34,21 @@ ActiveRecord::Schema.define(:version => 20110904223508) do
     t.integer "group_id"
   end
 
+  create_table "events_locations", :id => false, :force => true do |t|
+    t.integer "event_id"
+    t.integer "location_id"
+  end
+
   create_table "group_posts", :force => true do |t|
     t.string   "title"
+    t.text     "content"
+    t.integer  "group_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "group_types", :force => true do |t|
+    t.string   "name"
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -40,10 +60,8 @@ ActiveRecord::Schema.define(:version => 20110904223508) do
     t.text     "description"
     t.string   "website"
     t.string   "email"
-    t.string   "type"
-    t.string   "group_type"
-    t.string   "department"
-    t.string   "profile_picture"
+    t.integer  "group_type_id"
+    t.integer  "department_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -65,6 +83,8 @@ ActiveRecord::Schema.define(:version => 20110904223508) do
     t.string   "type"
     t.string   "email"
     t.boolean  "has_edit_permission"
+    t.integer  "user_id"
+    t.integer  "group_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -73,7 +93,6 @@ ActiveRecord::Schema.define(:version => 20110904223508) do
     t.string   "full_name"
     t.string   "visible_name"
     t.string   "email"
-    t.string   "profile_picture"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -4,7 +4,9 @@ class CreateOfficers < ActiveRecord::Migration
 			t.string :type
 			t.string :email
 			t.boolean :has_edit_permission
-
+			t.integer :user_id
+			t.integer :group_id
+			
 			t.timestamps
 		end
 	end

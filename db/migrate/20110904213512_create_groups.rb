@@ -7,9 +7,8 @@ class CreateGroups < ActiveRecord::Migration
 			t.string :website
 			t.string :email
 			t.string :type
-			t.string :group_type
-			t.string :department
-			t.string :profile_picture
+			t.integer :group_type_id
+			t.integer :department_id
 			
 			t.timestamps
   	  	end
