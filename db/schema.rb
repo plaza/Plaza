@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110905075443) do
+ActiveRecord::Schema.define(:version => 20110907053514) do
 
   create_table "departments", :force => true do |t|
     t.string   "name"
@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(:version => 20110905075443) do
     t.string   "name"
     t.datetime "start_date"
     t.datetime "end_date"
-    t.string   "profile_picture"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -74,15 +73,14 @@ ActiveRecord::Schema.define(:version => 20110905075443) do
   create_table "locations", :force => true do |t|
     t.string   "full_name"
     t.string   "visible_name"
-    t.string   "profile_picture"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "location_details"
   end
 
   create_table "officers", :force => true do |t|
     t.string   "type"
     t.string   "email"
-    t.boolean  "has_edit_permission"
     t.integer  "user_id"
     t.integer  "group_id"
     t.datetime "created_at"
