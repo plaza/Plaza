@@ -13,3 +13,4 @@ doc/
 *~
 .project
 .DS_Store
+*.csv
