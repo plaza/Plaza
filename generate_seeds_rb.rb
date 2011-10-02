@@ -1,7 +1,7 @@
 require 'csv'
 require 'set'
 
-CSV_FILE = "testmygroupsdata.csv"
+CSV_FILE = "mygroupsdata.csv"
 SEEDS_FILE = "db/seeds.rb"
 
 GROUP_NAME = 0
@@ -116,6 +116,6 @@ File.open(SEEDS_FILE, "w")	do |seedFile|
 	end
 end	
 
-puts "Succesfully generated seeds.rb using data from "+ SEEDS_FILE
+puts "Succesfully generated seeds.rb using data from "+ CSV_FILE
 
 
