@@ -1,5 +1,129 @@
-<p id="notice"><%= notice %></p>
-
-
-<%= link_to 'Edit', edit_group_path(@group) %> |
-<%= link_to 'Back', groups_path %>
+<div id="wrapper">
+		<div id="header">
+		  <div style="text-align: center;">
+		  	<%= image_tag("logo.png", :alt => "logo", :class => "", :id => "logo-img", :width => "188", :height => "92" ) %> 
+		    
+		  </div>
+			
+			<div id="search-wrapper">
+				<input type="search" placeholder="Search Everything" class="big-search" autosave='plaza-search' results = 5 incremental="incremental" />
+			</div>
+			
+			<div id="nav">
+				<div class="top">
+					<a>Alex Atallah&nbsp;&nbsp;|&nbsp;&nbsp;Sign out</a>
+				</div>
+				<div class="bottom">
+				  <div class="item">
+				  	<p class="large-caps blue">Profile</p>
+				  </div>
+					<div class="item current">
+						<p class="large-caps green">Groups</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div id="content-top" class="large-caps red">
+				<%= @group.visible_name %>
+				<span class="button" style="float: right; opacity: 0;">
+				  Follow<%= image_tag("plus.png", :alt => "plus", :class => "plus-img", :id => "") %>
+				</span>
+			</div>
+			<div id="content-left">
+  			<div class="heading">
+  			  <div class="medium-grey" style="float: left">Info:</div>
+  			  <span class="button" style="float: right">Edit Info</span>
+  			  <div class="clear"></div>
+  			</div>
+			  <div style="text-align: center">
+			  <%= image_tag("group_logo.png", :alt => "Members", :class => "", :id => "", :width => "70%") %>
+			  </div>
+				<div class="text-block">
+					<p class="small-black">About us</p>
+					<p><%= @group.description %></p>
+				</div>
+				<div class="text-block" style="text-align: left">
+					<p class="small-black" style="text-align: left">Members</p>
+					<ul style="margin-left: 20px">
+					  <li>Someone</li>
+					  <li>Someone else</li>
+					</ul>
+<!--					<img src="images/Members.png" width="165" height="108" alt="Members" />-->
+				</div>
+				<p class="small-black">Website</p>
+				<p class="small-black">Email</p>
+			</div>
+			
+			<div id="content-center">
+  			<div class="heading">
+  			  <div class="medium-grey" style="float: left">Posts:</div>
+  			  <span class="button" style="float: right">
+  			    New Post<%= image_tag("plus.png", :alt => "plus", :class => "plus-img", :id => "") %>
+  			  </span>
+  			  <div class="clear"></div>
+  			</div>
+				<div class="text-block">
+					<p class="medium-black">Blog Post</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed tortor et erat faucibus aliquet quis id tellus. Sed augue magna, bibendum et suscipit vulputate, mattis in eros. Donec bibendum eleifend lacus, a consectetur nisl aliquam ac. Nam ut odio ac velit feugiat mattis ac vel massa. Sed dapibus laoreet lectus, a tempus quam porta at. Donec ornare dictum libero, sit amet blandit tortor condimentum ac. Donec sodales placerat est. Aenean a turpis at tortor auctor congue. Nunc interdum dapibus justo non mattis. In mattis nisi eget lacus iaculis egestas. Sed quam eros, ultricies consequat pharetra id, vulputate vel risus. Suspendisse potenti. Donec eros eros, congue non aliquet ac, cursus id lectus.</p>
+				</div>
+				<div class="text-block">
+					<p class="medium-black">Blog Post 2</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed tortor et erat faucibus aliquet quis id tellus. Sed augue magna, bibendum et suscipit vulputate, mattis in eros. Donec bibendum eleifend lacus, a consectetur nisl aliquam ac. Nam ut odio ac velit feugiat mattis ac vel massa. Sed dapibus laoreet lectus, a tempus quam porta at. Donec ornare dictum libero, sit amet blandit tortor condimentum ac. Donec sodales placerat est. Aenean a turpis at tortor auctor congue. Nunc interdum dapibus justo non mattis. In mattis nisi eget lacus iaculis egestas. Sed quam eros, ultricies consequat pharetra id, vulputate vel risus. Suspendisse potenti. Donec eros eros, congue non aliquet ac, cursus id lectus.</p>
+				</div>
+			</div>
+			
+			<div id="content-right">
+				<div class="heading">
+				  <div class="medium-grey" style="float: left">Events:</div>
+				  <span class="button" style="float: right">
+				    New Event<%= image_tag("plus.png", :alt => "plus", :class => "plus-img", :id => "") %>
+				  </span>
+				  <div class="clear"></div>
+				</div>
+				
+				<div class="text-block">
+				  <%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
+				  <strong>Event name</strong>
+				  <p>Time</p>
+				  <p>Location</p>
+				</div>
+				
+				<div class="text-block">
+				  <%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
+				  <strong>Event name</strong>
+				  <p>Time</p>
+				  <p>Location</p>
+				</div>
+				
+				<div class="text-block">
+				  <%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
+				  <strong>Event name</strong>
+				  <p>Time</p>
+				  <p>Location</p>
+				</div>
+				
+				<div class="text-block">
+				  <%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
+				  <strong>Event name</strong>
+				  <p>Time</p>
+				  <p>Location</p>
+				</div>
+				
+				<div class="medium-grey">Past Events:</div>
+				<div class="text-block">
+				  <strong>Event name</strong>
+				  <p>Date and Time</p>
+				  <p>Location</p>
+				</div>
+				
+				<div class="text-block">
+				  <strong>Event name</strong>
+				  <p>Date and Time</p>
+				  <p>Location</p>
+				</div>
+				
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>

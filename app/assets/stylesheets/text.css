@@ -1,0 +1,95 @@
+/* =========== */
+/* = Headers = */
+/* =========== */
+
+.large-red {
+	color: #AB013A;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.medium-red {
+	color: #AB013A;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.small-red {
+	color: #AB013A;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.small-black {
+	color: #303030;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.medium-black {
+	color: #303030;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+.medium-grey {
+	color: #515151;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+/* ========= */
+/* = Other = */
+/* ========= */
+
+.large-caps {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* ========== */
+/* = Colors = */
+/* ========== */
+
+.green {
+	color: #369239;
+}
+
+.blue {
+	color: #405EBE;
+}
+
+.red {
+	color: #AB013A;
+}
+
+/* ================== */
+/* = Wrapper Styles = */
+/* ================== */
+
+.text-block {
+	background-color: #FFF;
+	box-shadow: #222 0 1px 6px inset;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+
+#nav .top a {
+  padding: 6px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: #68a3d8;
+	box-shadow: inset 0 1px 3px #527697;
+	border-radius: 8px;
+	width:100px;
+}
