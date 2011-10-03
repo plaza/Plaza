@@ -25,7 +25,7 @@
 		</div>
 		<div id="content">
 			<div id="content-top" class="large-caps red">
-				<%= @group.visible_name %>
+				<%= @group.visible_name +  %>
 				<span class="button" style="float: right; opacity: 0;">
 				  Follow<%= image_tag("plus.png", :alt => "plus", :class => "plus-img", :id => "") %>
 				</span>
@@ -33,7 +33,7 @@
 			<div id="content-left">
   			<div class="heading">
   			  <div class="medium-grey" style="float: left">Info:</div>
-  			  <a href="<%= "/e" %>" class="button" style="float: right">Edit Info</a>
+  			  <a href="<%= "/groups/edit/"+params[:id] %>" class="button" style="float: right">Edit Info</a>
   			  <div class="clear"></div>
   			</div>
 			  <div style="text-align: center">
