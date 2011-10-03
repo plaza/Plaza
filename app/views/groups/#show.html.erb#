@@ -33,7 +33,7 @@
 			<div id="content-left">
   			<div class="heading">
   			  <div class="medium-grey" style="float: left">Info:</div>
-  			  <a href="" class="button" style="float: right">Edit Info</a>
+  			  <a href="<%= "/e" %>" class="button" style="float: right">Edit Info</a>
   			  <div class="clear"></div>
   			</div>
 			  <div style="text-align: center">
