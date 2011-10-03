@@ -33,7 +33,7 @@
 			<div id="content-left">
   			<div class="heading">
   			  <div class="medium-grey" style="float: left">Info:</div>
-  			  <a href="" class="button" style="float: right">Edit Info</a>
+  			  <a href="<%= "/e" %>" class="button" style="float: right">Edit Info</a>
   			  <div class="clear"></div>
   			</div>
 			  <div style="text-align: center">
@@ -41,7 +41,6 @@
 			  </div>
 				<div class="text-block">
 					<p class="small-black">About us</p>
-					<p><em><%= @group.group_type.name %></em></p>
 					<p><%= @group.description %></p>
 				</div>
 				<div class="text-block" style="text-align: left">
@@ -53,10 +52,8 @@
 					</ul>
 <!--					<img src="images/Members.png" width="165" height="108" alt="Members" />-->
 				</div>
-				<div class="text-block" style="text-align: left">
-					<p class="small-black">Website</p>
-					<p class="small-black">Email</p>
-				</div>
+				<p class="small-black">Website</p>
+				<p class="small-black">Email</p>
 			</div>
 			
 			<div id="content-center">

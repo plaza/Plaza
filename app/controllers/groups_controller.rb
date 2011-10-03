@@ -15,6 +15,7 @@ class GroupsController < ApplicationController
   def show
     @group = Group.find(params[:id])
     @group_name = @group.visible_name
+    @group_users = @group.users
 
     respond_to do |format|
       format.html # show.html.erb
