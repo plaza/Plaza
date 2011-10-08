@@ -25,7 +25,7 @@ class GroupsController < ApplicationController
   
   # GET /groups/search.json
   def search
-    
+    @groups = Group.find_by(params[:id])
   end
 
   # GET /groups/new

@@ -26,6 +26,7 @@
 .button {
   color: #e05e61;
   text-transform: uppercase;
+  text-decoration: none;
   font-weight: bold;
   font-size: 16px;
   padding: 8px;
