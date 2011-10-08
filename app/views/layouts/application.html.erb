@@ -14,7 +14,7 @@
 	
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function () {
-			
+			searcher = new Searcher();
 		});
 	</script>
 	
@@ -39,12 +39,14 @@
 	<div id="wrapper">
 			<div id="header">
 			  <div style="text-align: center;">
-			  	<%= image_tag("logo.png", :alt => "logo", :class => "", :id => "logo-img", :width => "188", :height => "92" ) %> 
+			  	<%= image_tag("logo.png", :alt => "logo", :class => "logo-img", :id => "logo-img", :width => "188", :height => "92" ) %> 
 
 			  </div>
 
 				<div id="search-wrapper">
-					<input type="search" placeholder="Search Everything" class="big-search" autosave='plaza-search' results = 5 incremental="incremental" />
+					<input type="search" id="search-input" placeholder="Search Everything" autosave='plaza-search' results = 5 incremental="incremental" />
+					<div id="results">
+					</div>
 				</div>
 
 				<div id="nav">

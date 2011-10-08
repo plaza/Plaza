@@ -25,7 +25,12 @@ class GroupsController < ApplicationController
   
   # GET /groups/search.json
   def search
-    @groups = Group.find_by(params[:id])
+    q = "%#{params[:query]}%"
+    groups = Group.where("full_name like lower(?) or description like lower(?)", q, q)
+    
+    respond_to do |format|
+      format.json { render json: groups }
+    end
   end
 
   # GET /groups/new

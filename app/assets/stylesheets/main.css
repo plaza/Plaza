@@ -36,12 +36,26 @@ body {
 		}
 		
 		#search-wrapper {
-			margin: 35px 0px 0px 125px;
+			margin: 35px 0px 0px 0px;
 		}
 		
-			.big-search {
+			#search-input {
 				font-size: 20px;
 				width: 180px;
+				margin-left: 125px;
+			}
+			
+			.a-result {
+			  display: block;
+			  text-decoration: none;
+			  font-weight: bold;
+			  padding: 10px;
+			}
+			
+			#results {
+			  width: 500px;
+			  background-color: white;
+			  position: absolute;
 			}
 			
 		#nav {
