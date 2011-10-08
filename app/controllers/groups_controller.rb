@@ -22,6 +22,11 @@ class GroupsController < ApplicationController
       format.json { render json: @group }
     end
   end
+  
+  # GET /groups/search.json
+  def search
+    
+  end
 
   # GET /groups/new
   # GET /groups/new.json
