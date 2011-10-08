@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background-image: url(/assets/StanfordBackground.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Gill Sans", Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+	#header {
+		background-color: transparent;
+		padding: 5px;
+		height: 73px;
+	}
+	
+		#logo-img, #search-wrapper {
+			float: left;
+		}
+		
+		#search-wrapper {
+			margin: 35px 0px 0px 0px;
+		}
+		
+			#search-input {
+				font-size: 20px;
+				width: 180px;
+				margin-left: 125px;
+			}
+			
+			.a-result {
+			  display: block;
+			  text-decoration: none;
+			  font-weight: bold;
+			  padding: 10px;
+			}
+			
+			#results {
+			  width: 500px;
+			  background-color: white;
+			  position: absolute;
+			}
+			
+		#nav {
+			float: right;
+			margin-top: 18px;
+		}
+			#nav .top {
+        			text-align: right;
+	            margin-right: 85px;
+	            height: 33px;
+	            padding-top: 5px;
+	            display: none;
+			}
+			
+	#content {
+		border-radius: 4px;
+		background-color: rgba(255,255,255,0.8);
+		padding: 15px;
+		box-shadow: #333 0px 4px 15px;
+	}
+	
+	  .heading {
+	    margin-bottom: 10px;
+	  }
+	
+		#content-top {
+			height: 40px;
+		}
+		
+		#content-left, #content-center, #content-right {
+			float: left;
+		}
+		
+		#content-left {
+			width: 235px;
+			padding-right: 15px;
+		}
+		
+		#content-center {
+			width: 400px;
+			padding: 0 15px;
+		}
+		
+		#content-right {
+			width: 235px;
+			padding-left: 15px;
+		}
+		
+		  img.ical {
+		    float: right;
+		  }

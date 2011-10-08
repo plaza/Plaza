@@ -1,6 +1,10 @@
 Plaza::Application.routes.draw do
 
 	resources :groups
+	
+	match 'search' => 'groups#search', :as => :search
+	match 'groups/search', :to => 'groups#search' # not working
+	
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
