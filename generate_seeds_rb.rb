@@ -34,6 +34,15 @@ File.open(SEEDS_FILE, "w")	do |seedFile|
 	
 	if(seedFile)
 	seedFile.puts "# encoding:cp1252\n\n"
+	seedFile.puts "# New Test Locations"
+	seedFile.puts "location1 = Location.create(:full_name => \"White Plaza\", :visible_name => \"White Plaza\")"
+	seedFile.puts "location2 = Location.create(:full_name => \"The CoHo\", :visible_name => \"The CoHo\")"
+	seedFile.puts "location3 = Location.create(:full_name => \"Loro 210\", :visible_name => \"Loro 210\")"
+	seedFile.puts "location4 = Location.create(:full_name => \"Meyer Library\", :visible_name => \"Meyer Library\")"
+	seedFile.puts "location5 = Location.create(:full_name => \"Arroyo\", :visible_name => \"Arroyo\")"
+	seedFile.puts "location6 = Location.create(:full_name => \"Phi Si\", :visible_name => \"Phi Si\")"
+	seedFile.puts "\n"
+	
 	
 		CSV.foreach(CSV_FILE, :col_sep => '|', :headers => true, :return_headers => false) do |row|
 		
@@ -64,6 +73,30 @@ File.open(SEEDS_FILE, "w")	do |seedFile|
 			seedFile.puts "newGroup.group_type = thisGroupType"
 			seedFile.puts "newGroup.save"
 			seedFile.puts "\n"	
+			
+			seedFile.puts "# New Test Events"
+			seedFile.puts "thisEvent = Event.new(:name => \"Future Event 1\",
+								:start_date => \"#{DateTime.civil(2011,10,30,12,0,0,7)}\",
+								:end_date => \"#{DateTime.civil(2011,10,30,3,0,0,7)}\",
+								:location_details => \"Near the Claw!\")"
+			seedFile.puts "thisEvent.groups << newGroup"
+			seedFile.puts "thisEvent.locations << location1"
+			seedFile.puts "thisEvent.save\n"
+			seedFile.puts "thisEvent = Event.new(:name => \"Future Event 2\",
+								:start_date => \"#{DateTime.civil(2011,10,18,12,0,0,7)}\",
+								:end_date => \"#{DateTime.civil(2011,10,18,3,0,0,7)}\",
+								:location_details => \"On the stage!\")"
+			seedFile.puts "thisEvent.groups << newGroup"
+			seedFile.puts "thisEvent.locations << location2"
+			seedFile.puts "thisEvent.save\n"
+			seedFile.puts "thisEvent = Event.new(:name => \"Past Event 1\",
+								:start_date => \"#{DateTime.civil(2011,10,03,12,0,0,7)}\",
+								:end_date => \"#{DateTime.civil(2011,10,03,3,0,0,7)}\",
+								:location_details => \"At the best room ever!\")"
+			seedFile.puts "thisEvent.groups << newGroup"
+			seedFile.puts "thisEvent.locations << location3"
+			seedFile.puts "thisEvent.save\n"
+			seedFile.puts "\n"
 			
 			presCombo = row[PRESIDENT].strip + row[PRESIDENT_EMAIL].strip
 			if(not userCombos.include?(presCombo))

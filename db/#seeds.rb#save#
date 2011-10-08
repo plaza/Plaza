@@ -1,0 +1,4720 @@
+# encoding:cp1252
+
+# New Department
+Department.create(:name => "Medical School")
+
+# New GroupType
+GroupType.create(:name => "Community Service")
+
+# New Group
+thisDepartment = Department.find_by_name("Medical School")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "49ers Academy Teaching Team",
+								:visible_name => "49ers Academy Teaching Team",
+								:description => "Our group teaches science to middle school children at a charter school in East Palo Alto, the 49ers Academy. Every two to three weeks, we supplement their science class by bringing in demonstrations or leading experiments. Our goal is to transform science from being frighteningly unfamiliar to being fun, interesting, and understandable.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "IZUMI HINKSON",
+									:visible_name => "IZUMI HINKSON",
+									:email => "zoomzoom@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Tiffany Williams",
+									:visible_name => "Tiffany Williams",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("IZUMI HINKSON")
+thisFinOf = User.find_by_full_name("Tiffany Williams")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "zoomzoom@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Other")
+
+# New GroupType
+GroupType.create(:name => "Athletic")
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Athletic")
+newGroup = Group.new(:full_name => "6th Man Club",
+								:visible_name => "6th Man Club",
+								:description => "The 6th Man Club is one of the most well known and respected student fan clubs in college basketball and gives Stanford a true home court advantage at Maples.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Willys DeVoll",
+									:visible_name => "Willys DeVoll",
+									:email => "wdevoll@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Jake Peiros",
+									:visible_name => "Jake Peiros",
+									:email => "jpeiros@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Willys DeVoll")
+thisFinOf = User.find_by_full_name("Jake Peiros")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "wdevoll@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jpeiros@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Women's Community Center")
+
+# New GroupType
+GroupType.create(:name => "Preprofessional")
+
+# New Group
+thisDepartment = Department.find_by_name("Women's Community Center")
+thisGroupType = GroupType.find_by_name("Preprofessional")
+newGroup = Group.new(:full_name => "85 Broads, Stanford Chapter",
+								:visible_name => "85 Broads, Stanford Chapter",
+								:description => "85 Broads is an international network of over 17,000 women. The Stanford chapter of 85 Broads aims to further 85 Broads' mission of empowering women and connecting women to each other through the network. On campus, we have successfully found our niche in truly being an all-encompassing career network and community. Our group uniquely offers quality and crucial skills and career workshops that any student, of any major and career path, can benefit from.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jocelyn Kinsey",
+									:visible_name => "Jocelyn Kinsey",
+									:email => "kinseyj@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Ilyssa McIntyre",
+									:visible_name => "Ilyssa McIntyre",
+									:email => "imac@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jocelyn Kinsey")
+thisFinOf = User.find_by_full_name("Ilyssa McIntyre")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "kinseyj@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "imac@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Athletics")
+
+# New Group
+thisDepartment = Department.find_by_name("Athletics")
+thisGroupType = GroupType.find_by_name("Athletic")
+newGroup = Group.new(:full_name => "Aiki Association of Stanford",
+								:visible_name => "Aiki Association of Stanford",
+								:description => "Aikido, purely in its practical application, is an art of self-defense. Aikido emphasizes good body movement, throws, and locks. It is related ethically to defense against an unprovoked attack. Using Aikido properly, violent aggression can be neutralized swiftly and cleanly with demonstrable control over all the aspects of attack and defense, so that effective self-defense becomes possible without the necessity for inflicting serious injury. Aikido is more than a physical art, though. Into its techniques are woven elements of philosophy, psychology, and dynamics. It is a way of life that unifies life energy, ki, a way of being in harmony with one's environment and centered within oneself. At its highest levels, it is an effective discipline for the development, integration, and utilization of all of one's powers - mental as well as physical.",
+								:website => "aikido.stanford.edu",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Aubrey Shapero",
+									:visible_name => "Aubrey Shapero",
+									:email => "ashapero@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Muneaki Nakamura",
+									:visible_name => "Muneaki Nakamura",
+									:email => "mrn@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Aubrey Shapero")
+thisFinOf = User.find_by_full_name("Muneaki Nakamura")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ashapero@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "mrn@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Media / Publications")
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Media / Publications")
+newGroup = Group.new(:full_name => "Aisthesis, Stanford Undergraduate Journal of Classical Studies",
+								:visible_name => "Aisthesis, Stanford Undergraduate Journal of Classical Studies",
+								:description => "An undergraduate group that works to publish at the end of May a Stanford Undergraduate Journal that contains academic works in Classical Studies in online and paper formats.",
+								:website => "None specified",
+								:email => "aisthesis.stanford@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "John Lindsay",
+									:visible_name => "John Lindsay",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Giancarlo Velarde",
+									:visible_name => "Giancarlo Velarde",
+									:email => "velardeg@stanford.edu"
+									)
+thisPres = User.find_by_full_name("John Lindsay")
+thisFinOf = User.find_by_full_name("Giancarlo Velarde")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "velardeg@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Creative Arts")
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Alliance Streetdance",
+								:visible_name => "Alliance Streetdance",
+								:description => "Alliance Streetdance is a group of diverse Stanford students who share a common passion—hip-hop dance. Our original pieces are choreographed by our own members and utilize a wide-ranging collection of styles. Innovative and exciting, we strive to entertain the Stanford community and the Bay Area with our high-energy, risk-taking performances. But most of all, we are a close-knit family that shows what can happen when people from all different backgrounds get together to do something they love.",
+								:website => "alliancestreetdance.stanford.edu",
+								:email => "alliancestreetdance@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Tiffany Hsieh",
+									:visible_name => "Tiffany Hsieh",
+									:email => "th09196@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Christine Chung",
+									:visible_name => "Christine Chung",
+									:email => "cchung91@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Tiffany Hsieh")
+thisFinOf = User.find_by_full_name("Christine Chung")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "th09196@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "cchung91@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Media / Publications")
+newGroup = Group.new(:full_name => "ALMANAC",
+								:visible_name => "ALMANAC",
+								:description => "Conceived and produced by the graduate students of the Department of Art and Art History at Stanford, ALMANAC is a collaborative annual publication (i.e., a book) intended to stimulate and document conversations between separate fields within the department at large, particularly around questions of the relationship between theory and practice. ALMANAC draws together the writing and artwork of the Art History, Art Practice, Design, and Film and Media Studies students and faculty. The publication includes content produced for, and ideas emerging from, already established departmental events and independent projects. It functions as both a substantial and innovative academic publication and as a kind of annual report: a document of the ideas and labor that link the theory, practice, and history of art as they unfold within the Department of Art & Art History at Stanford University over the course of an academic year.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "David Fresko",
+									:visible_name => "David Fresko",
+									:email => "dfresko@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Kenneth White",
+									:visible_name => "Kenneth White",
+									:email => "kwhite1@stanford.edu"
+									)
+thisPres = User.find_by_full_name("David Fresko")
+thisFinOf = User.find_by_full_name("Kenneth White")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "dfresko@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "kwhite1@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Black Community Services Center")
+
+# New GroupType
+GroupType.create(:name => "Sorority")
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Sorority")
+newGroup = Group.new(:full_name => "Alpha Kappa Alpha Sorority, Incorporated",
+								:visible_name => "Alpha Kappa Alpha Sorority, Incorporated",
+								:description => "Alpha Kappa Alpha Sorority, Inc. is an African American interest sorority that has been serving the community since 1908. Established at Howard University in Washington D. C., Alpha Kappa Alpha Sorority became the first black sorority and continues to provide emotional, intellectual, and social support for college women to this day. In 1981 Xi Beta chapter was chartered on Stanford's campus and since then the Lovely Ladies have uplifted Stanford and the surrounding area through community service, educational, and social programming.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Alexandra Hunter",
+									:visible_name => "Alexandra Hunter",
+									:email => "aehunter@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Taryn Sanks",
+									:visible_name => "Taryn Sanks",
+									:email => "tdsanks@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Alexandra Hunter")
+thisFinOf = User.find_by_full_name("Taryn Sanks")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "aehunter@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "tdsanks@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Preprofessional")
+newGroup = Group.new(:full_name => "Alpha Kappa Psi",
+								:visible_name => "Alpha Kappa Psi",
+								:description => "Alpha Kappa Psi is Stanford's only Co-Ed Professional Business Fraternity. Our mission is to develop well-trained, ethical, skilled, resourceful business leaders.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Tyler White",
+									:visible_name => "Tyler White",
+									:email => "tylerw@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Dominik Pasalic",
+									:visible_name => "Dominik Pasalic",
+									:email => "dpasalic@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Tyler White")
+thisFinOf = User.find_by_full_name("Dominik Pasalic")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "tylerw@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dpasalic@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Sorority")
+newGroup = Group.new(:full_name => "Alpha Phi",
+								:visible_name => "Alpha Phi",
+								:description => "Alpha Phi Sorority",
+								:website => "stanfordalphaphi.com",
+								:email => "stanfordalphaphi@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Nina Brener-Hellmund",
+									:visible_name => "Nina Brener-Hellmund",
+									:email => "ninabh@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Caglanur Kaymaz",
+									:visible_name => "Caglanur Kaymaz",
+									:email => "ckaymaz@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Nina Brener-Hellmund")
+thisFinOf = User.find_by_full_name("Caglanur Kaymaz")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ninabh@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "ckaymaz@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Fraternity")
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Fraternity")
+newGroup = Group.new(:full_name => "Alpha Phi Alpha",
+								:visible_name => "Alpha Phi Alpha",
+								:description => "Alpha Phi Alpha Fraternity, Inc. was founded on Tuesday, December 4, 1906 at Cornell University on the principles of manly deeds, scholarship, and love for all mankind. Founded on Stanford's campus in 1978, the Nu Sigma Chapter continues the national tradition of tight fraternal bonds, ground-breaking innovation, and service to the African-American community and humankind as a whole.",
+								:website => "aphia.stanford.edu",
+								:email => "aphia.nusigma@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Elijah Frazier",
+									:visible_name => "Elijah Frazier",
+									:email => "efrazier@stanford.edu"
+									)
+# New User
+User.create(:full_name => "William Wagstaff",
+									:visible_name => "William Wagstaff",
+									:email => "wagstaff@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Elijah Frazier")
+thisFinOf = User.find_by_full_name("William Wagstaff")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "efrazier@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "wagstaff@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Haas Center for Public Service")
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Alpha Phi Omega",
+								:visible_name => "Alpha Phi Omega",
+								:description => "Alpha Phi Omega is a co-ed service fraternity. The organization seeks to develop leadership, promote friendship, and provide service on campus, in the community, throughout the fraternity, and in the nation. Alpha Phi Omega offers support to non-profit, non-political community organizations for many of the physical tasks necessary to put on an event or program.",
+								:website => "None specified",
+								:email => "president.apozeta@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Amy Dao",
+									:visible_name => "Amy Dao",
+									:email => "amydao@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Daniel Reynolds",
+									:visible_name => "Daniel Reynolds",
+									:email => "dreynold@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Amy Dao")
+thisFinOf = User.find_by_full_name("Daniel Reynolds")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "amydao@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dreynold@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Political / Social Awareness")
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Political / Social Awareness")
+newGroup = Group.new(:full_name => "American Civil Liberties Union, Stanford Chapter",
+								:visible_name => "American Civil Liberties Union, Stanford Chapter",
+								:description => "The ACLU is a national organization aimed at protecting and increasing civil liberties. We deal with issues such as First Amendment liberties, equality in the work place, reproductive rights, gay marriage, and Habeas Corpus rights.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Miles Unterreiner",
+									:visible_name => "Miles Unterreiner",
+									:email => "milesu1@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Caitlin Tharp",
+									:visible_name => "Caitlin Tharp",
+									:email => "caitharp@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Miles Unterreiner")
+thisFinOf = User.find_by_full_name("Caitlin Tharp")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "milesu1@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "caitharp@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Law School")
+
+# New Group
+thisDepartment = Department.find_by_name("Law School")
+thisGroupType = GroupType.find_by_name("Political / Social Awareness")
+newGroup = Group.new(:full_name => "American Constitution Society",
+								:visible_name => "American Constitution Society",
+								:description => "The American Constitution Society (ACS) is a national organization of law students, law professors, practicing lawyers, judges, policy makers, and activists. We seek to revitalize and transform the legal debate, from our classrooms to our courtrooms. We seek to counter the dominant vision of American law today, a narrow conservative vision that lacks appropriate regard for the ways in which the law affects people's lives. We seek to restore the fundamental principles of human dignity, individual rights and liberties, genuine equality, and access to justice to their rightful¿and traditionally central¿place in American law. We want to strengthen the intellectual underpinnings and the public case for a vision of the law in which these values are paramount on such issues as: privacy; freedom of speech; federalism; anti-discrimination and affirmative action; gay rights; a woman¿s right to choose; labor and consumer rights; protection of health, safety, and the environment; the death penalty; and the criminal justice system. At Stanford, we host speakers, panels, debates, monthly roundtable dinners, and visits by judges. We foster community and support for our movement. Our Judicial Review project takes on one federal judiciary candidate per semester and performs a thorough, non-partisan review of their writings. There is lots of room to get involved in major and minor ways, or to just take advantage of our stimulating programming and community-building activities.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Sean Hassan",
+									:visible_name => "Sean Hassan",
+									:email => "shassan@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Michael Stewart",
+									:visible_name => "Michael Stewart",
+									:email => "mestew@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Sean Hassan")
+thisFinOf = User.find_by_full_name("Michael Stewart")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "shassan@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "mestew@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Academic")
+
+# New Group
+thisDepartment = Department.find_by_name("Medical School")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "American Medical Student Association",
+								:visible_name => "American Medical Student Association",
+								:description => "The American Medial Student Association is committed to improving health care and health care delivery to all people; promoting active improvement in medical education; involving its members in the social, moral, and ethical obligations of the profession of medicine; assisting in the improvement and understanding of world health problems; contributing to the welfare of medical students, interns, residents and post-MD/DO trainees; and advancing the profession of medicine.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jai Madhok",
+									:visible_name => "Jai Madhok",
+									:email => "jmadhok1@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Deepa Galaiya",
+									:visible_name => "Deepa Galaiya",
+									:email => "dgalaiya@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jai Madhok")
+thisFinOf = User.find_by_full_name("Deepa Galaiya")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jmadhok1@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dgalaiya@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Preprofessional")
+newGroup = Group.new(:full_name => "American Medical Student Association Stanford Premedical Chapter",
+								:visible_name => "American Medical Student Association Stanford Premedical Chapter",
+								:description => "We strive to ensure the well being of premedical students during the challenging years they spend preparing for medical school. We advocate community, support, creative expression, and education of complementary and alternative medicine techniques. Uniquely, we also act as a link to both the greater National AMSA community and Stanford Medical School’s own AMSA Chapter. These connections can serve to educate and engage Stanford students in AMSA projects throughout the country, thus enabling them to collaborate with other universities. This also promotes a cohesive relationship with premedical and medical student AMSA chapters throughout the nation.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "John Do",
+									:visible_name => "John Do",
+									:email => "johndo@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Maia Mosse",
+									:visible_name => "Maia Mosse",
+									:email => "mmosse@stanford.edu"
+									)
+thisPres = User.find_by_full_name("John Do")
+thisFinOf = User.find_by_full_name("Maia Mosse")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "johndo@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "mmosse@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "American Society for Engineering Education (Stanford Chapter)",
+								:visible_name => "American Society for Engineering Education (Stanford Chapter)",
+								:description => "Stanford ASEE is a student-based organization focused on promoting engineering education through encouraging participation, eliciting feedback, and promoting awareness in engineering education.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Chelsey Simmons",
+									:visible_name => "Chelsey Simmons",
+									:email => "chelseys@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Saniya LeBlanc",
+									:visible_name => "Saniya LeBlanc",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("Chelsey Simmons")
+thisFinOf = User.find_by_full_name("Saniya LeBlanc")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "chelseys@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "American Society of Civil Engineers",
+								:visible_name => "American Society of Civil Engineers",
+								:description => "Stanford student chapter of the American Society of Civil Engineers, a group dedicated to furthering interest in the civil engineering profession and providing connections to the professional community.",
+								:website => "http://stanford.edu/~ernyfu/cgi-bin/wordpress/?p=1",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Anthony Clarke",
+									:visible_name => "Anthony Clarke",
+									:email => "aclarke3@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Marcos Vidal",
+									:visible_name => "Marcos Vidal",
+									:email => "mavidal@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Anthony Clarke")
+thisFinOf = User.find_by_full_name("Marcos Vidal")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "aclarke3@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "mavidal@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Political / Social Awareness")
+newGroup = Group.new(:full_name => "Amnesty International, Stanford University Chapter",
+								:visible_name => "Amnesty International, Stanford University Chapter",
+								:description => "Amnesty International, founded over four decades ago, is a worldwide movement of people in more than 160 countries who campaign for human rights. For example, Amnesty International works to ensure fair and prompt trials for political prisoners; abolish the death penalty and other forms of cruel, inhuman, and degrading forms of punishment; end political killings; and secure the release of prisoners of conscience. (A prisoner of conscience is a person who has not used nor advocated violence, but been imprisoned, detained or otherwise physically restricted because of their political, religious or other conscientiously-held beliefs or because of their ethnicity, sexual orientation, gender, race, or nationality.) Stanford Amnesty was formed to continue the work of Amnesty International at Stanford University and raise campus awareness of worldwide human rights issues. We engage in letter writing and campus-wide petitioning weekly, with the hope that our work helps to protect and promote human rights worldwide.",
+								:website => "http://amnesty.stanford.edu",
+								:email => "stanford.amnesty@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Annamaria Prati",
+									:visible_name => "Annamaria Prati",
+									:email => "aprati@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Pearle Lun",
+									:visible_name => "Pearle Lun",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("Annamaria Prati")
+thisFinOf = User.find_by_full_name("Pearle Lun")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "aprati@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Arabesque Middle Eastern Dance",
+								:visible_name => "Arabesque Middle Eastern Dance",
+								:description => "Arabesque aims to promote awareness for Middle Eastern culture and traditions with an emphasis on Middle Eastern dance. The organization will focus on a variety of dance customs, including belly dance, folk, and Debka. Through workshops, performances, social events, and collaboration with other organizations at Stanford, Arabesque hopes to convey that the traditions of the Middle East are truly unique and timeless.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Tania Anaissie",
+									:visible_name => "Tania Anaissie",
+									:email => "anaissie@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Dania Kechrid",
+									:visible_name => "Dania Kechrid",
+									:email => "dkechrid@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Tania Anaissie")
+thisFinOf = User.find_by_full_name("Dania Kechrid")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "anaissie@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dkechrid@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Medical School")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Arbor Free Clinic",
+								:visible_name => "Arbor Free Clinic",
+								:description => "The mission of Arbor Free Clinic is to provide quality free medical care to low-income and uninsured people and to provide a hands-on learning environment for Stanford students.",
+								:website => "http://arbor.stanford.edu/",
+								:email => "arborclinic@stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Lara Vogel",
+									:visible_name => "Lara Vogel",
+									:email => "lvogel@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Lisa Chen",
+									:visible_name => "Lisa Chen",
+									:email => "lisachen@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Lara Vogel")
+thisFinOf = User.find_by_full_name("Lisa Chen")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "lvogel@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "lisachen@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Ethnic / Cultural")
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Argentinos en Stanford",
+								:visible_name => "Argentinos en Stanford",
+								:description => "Group dedicated to facilitating the integration of Argentine students and to spreading the Argentine culture in campus life.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Andres Drenik",
+									:visible_name => "Andres Drenik",
+									:email => "adrenik@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Diego Asenjo",
+									:visible_name => "Diego Asenjo",
+									:email => "dasenjo@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Andres Drenik")
+thisFinOf = User.find_by_full_name("Diego Asenjo")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "adrenik@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dasenjo@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Armenian Students Association",
+								:visible_name => "Armenian Students Association",
+								:description => "An association of anyone, undergraduate or graduate, with an interest in Armenian culture.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Narek Tovmasyan",
+									:visible_name => "Narek Tovmasyan",
+									:email => "ntarmen1@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Hovnatan Karapetyan",
+									:visible_name => "Hovnatan Karapetyan",
+									:email => "hovnatan@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Narek Tovmasyan")
+thisFinOf = User.find_by_full_name("Hovnatan Karapetyan")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ntarmen1@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "hovnatan@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Political / Social Awareness")
+newGroup = Group.new(:full_name => "Asha for Education",
+								:visible_name => "Asha for Education",
+								:description => "A group which seeks to undertake projects related to education of the underprivileged children in India with the objective of overall socio-economic development.",
+								:website => "www.ashanet.org/stanford",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Harendra Guturu",
+									:visible_name => "Harendra Guturu",
+									:email => "hguturu@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Raghunandan Keshavan",
+									:visible_name => "Raghunandan Keshavan",
+									:email => "raghuram@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Harendra Guturu")
+thisFinOf = User.find_by_full_name("Raghunandan Keshavan")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "hguturu@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "raghuram@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Asian American Activities Center")
+
+# New Group
+thisDepartment = Department.find_by_name("Asian American Activities Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Asian American Graduate Student Association",
+								:visible_name => "Asian American Graduate Student Association",
+								:description => "The Asian American Graduate Student Association (AAGSA) is a graduate student organization with the primary goal of supporting the Asian American graduate community through social, political, and educational events. AAGSA seeks to build community and provide a space for Asian American grad students to thrive by organizing events and activities that celebrate shared experiences and identities while recognizing the diverse complexity of our community.",
+								:website => "http://aagsa.stanford.edu/",
+								:email => "su.aagsa@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Michael Wu",
+									:visible_name => "Michael Wu",
+									:email => "mikemwu@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Mingyu Kim",
+									:visible_name => "Mingyu Kim",
+									:email => "minkyu89@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Michael Wu")
+thisFinOf = User.find_by_full_name("Mingyu Kim")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mikemwu@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "minkyu89@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Asian American Activities Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Asian American Student Association",
+								:visible_name => "Asian American Student Association",
+								:description => "The Asian American Students' Association (AASA) serves the Asian Pacific Islander (API) community at Stanford through education, organization, service, and action. Formed over 20 years ago, AASA continues to actively promote consciousness of API cultures, identities, and issues. In addition to being an independent organization, AASA is also the coordinating umbrella organization for over 30 other Asian Pacific American groups on campus and is dedicated to fostering open communication and cooperation among these different groups. Furthermore, AASA supports the ongoing API struggle for justice and equality, affirming the importance of interethnic/interracial diversity while standing in solidarity with all communities of color and the Lesbian, Gay, Bisexual, Transgender, Queer movement. AASA sponsors several major events each year, including an Asian American issues conference, 'Listen to the Silence,' the Fashion Show, and API Heritage events during the month of May.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Justin Lam",
+									:visible_name => "Justin Lam",
+									:email => "jthlam@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Nancy Pham",
+									:visible_name => "Nancy Pham",
+									:email => "phamn@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Justin Lam")
+thisFinOf = User.find_by_full_name("Nancy Pham")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jthlam@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "phamn@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Asian American Activities Center")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Asian American Theater Project",
+								:visible_name => "Asian American Theater Project",
+								:description => "The Asian American Theater Project is a 25 year old student run theatrical society. It brings fresh voices to the stage where students take part in a meaningful theater experience. AATP strives to feature Asian Americans in positive, non-stereotypical roles and to encourage Asian American talent in the arts. We hope to continue to build on our fine tradition of Asian American drama by providing opportunities to act, direct, write, and design. We welcome those interested in drama and theater to join us in our portrayals of the different stories which compose the Asian American experience. AATP produces at least one show a year and sponsors a playwrights' circle.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Deanna Tan",
+									:visible_name => "Deanna Tan",
+									:email => "dsjtan@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Amanda Le",
+									:visible_name => "Amanda Le",
+									:email => "amandale@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Deanna Tan")
+thisFinOf = User.find_by_full_name("Amanda Le")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "dsjtan@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "amandale@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Asian American Activities Center")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Asian American Wellness Program",
+								:visible_name => "Asian American Wellness Program",
+								:description => "The Asian American Wellness Program addresses the ongoing issue of mental health within Asian American youth, an underserved and vulnerable  community influenced by cultural values that stigmatize psychological needs. The purpose of the program is two­- fold. First, we strive  to build the personal strength and skills in high school students necessary to handle life stressors in an Asian American context. Secondly, we want to construct a safe space where students can discuss issues without fear or shame and learn about available resources for help.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jenny Nguyen",
+									:visible_name => "Jenny Nguyen",
+									:email => "jenguyen@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Victor Em",
+									:visible_name => "Victor Em",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("Jenny Nguyen")
+thisFinOf = User.find_by_full_name("Victor Em")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jenguyen@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Medical School")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Asian Pacific American Medical Student Association (formerly SAAMS)",
+								:visible_name => "Asian Pacific American Medical Student Association (formerly SAAMS)",
+								:description => "The Stanford Chapter of the Asian Pacific American Medical Student Association (APAMSA), formerly known as Stanford Asian American Medical Students (SAAMS) and the Association of Asian Medical Students (AAMS), serves to advocate the needs and interests of Asian American and Pacific Islander (AAPI) students attending Stanford University School of Medicine. It seeks to 1) address the educational and social issues pertaining to AAPIs in medicine, 2) promote cultural awareness and sensitivity within Stanford's medical community, 3) provide resources and education as advocates for improving AAPI health in communities at large, and 4) foster participation in community service and outreach programs.",
+								:website => "http://apamsa.stanford.edu/",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "James Xie",
+									:visible_name => "James Xie",
+									:email => "jxie@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Kevin Chi",
+									:visible_name => "Kevin Chi",
+									:email => "kevinchi@stanford.edu"
+									)
+thisPres = User.find_by_full_name("James Xie")
+thisFinOf = User.find_by_full_name("Kevin Chi")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jxie@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "kevinchi@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Asian/Pacific Islander Heritage Month",
+								:visible_name => "Asian/Pacific Islander Heritage Month",
+								:description => "Asian/Pacific Islander Heritage Month is responsible for coordinating and promoting events in honor and celebration of API Heritage Month in May at Stanford University.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+thisPres = User.find_by_full_name("Justin Lam")
+thisFinOf = User.find_by_full_name("Nancy Pham")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jthlam@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "phamn@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Preprofessional")
+newGroup = Group.new(:full_name => "Asia-Pacific Student Entreprenuership Society",
+								:visible_name => "Asia-Pacific Student Entreprenuership Society",
+								:description => "The Asia-Pacific Student Entrepreneurship Society is a global organization that seeks to build networks between students and professionals interested in business and high tech entrepreneurship in the Asia Pacific region.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Ricardo Corona",
+									:visible_name => "Ricardo Corona",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Larry Win",
+									:visible_name => "Larry Win",
+									:email => "kaung30@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Ricardo Corona")
+thisFinOf = User.find_by_full_name("Larry Win")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "kaung30@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Political / Social Awareness")
+newGroup = Group.new(:full_name => "Associated Students of Stanford University Speakers Bureau",
+								:visible_name => "Associated Students of Stanford University Speakers Bureau",
+								:description => "We are a student-run organization that brings well-known speakers to campus and co-sponsors other student groups' speaking events. The Bureau caters to the broadest possible audience by bringing prominent speakers who are leaders in politics, academia, entertainment, science and industry and the arts. Membership is open to all students, and all events are free to Stanford community members who did not request a special fee refund.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Rahul Sastry",
+									:visible_name => "Rahul Sastry",
+									:email => "rasastry@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Stephanie Nicholson",
+									:visible_name => "Stephanie Nicholson",
+									:email => "snichol1@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Rahul Sastry")
+thisFinOf = User.find_by_full_name("Stephanie Nicholson")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "rasastry@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "snichol1@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Association for Radiological Sciences Students",
+								:visible_name => "Association for Radiological Sciences Students",
+								:description => "A forum for students interested in Radiological Sciences Research to meet one another and exchange ideas.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Elena Kaye",
+									:visible_name => "Elena Kaye",
+									:email => "klena@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Kristin Granlund",
+									:visible_name => "Kristin Granlund",
+									:email => "granlund@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Elena Kaye")
+thisFinOf = User.find_by_full_name("Kristin Granlund")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "klena@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "granlund@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Bechtel")
+
+# New Group
+thisDepartment = Department.find_by_name("Bechtel")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Association of Chinese Students and Scholars at Stanford",
+								:visible_name => "Association of Chinese Students and Scholars at Stanford",
+								:description => "ACSSS is a student-run organization whose mission is to broaden the channels of communication between the Stanford mainland Chinese community and various other cultural, academic, and professional communities in the Bay Area. As representatives of the Stanford Chinese community, ACSSS also seeks to foster a unique appreciation for Chinese culture and provide information on the academic and professional opportunities there to all Stanford community members. Finally, ACSSS will do its best to help incoming Chinese students and scholars settle into the Stanford environment by providing practical services.",
+								:website => "acsss.stanford.edu",
+								:email => "acsss-contact@lists.stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Ken Wang",
+									:visible_name => "Ken Wang",
+									:email => "kenmwang@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Ningxuan Wang",
+									:visible_name => "Ningxuan Wang",
+									:email => "nwang6@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Ken Wang")
+thisFinOf = User.find_by_full_name("Ningxuan Wang")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "kenmwang@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "nwang6@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Association of Computing Machinery",
+								:visible_name => "Association of Computing Machinery",
+								:description => "The Stanford ACM chapter will be the premier student computing society, creating a unique environment in which innovation, creativity, and collaboration will thrive. It will enable talented and motivated students to come together and discuss emerging trends in cutting edge technology, cooperate on hobby projects, and create a welcoming atmosphere of innovation. Chapter Goals 1. Build bridges between academia and industry. 2. Create a forum for students to share research interests. 3. Provide a place where students with diverse intellectual backgrounds will have the opportunity to collaborate on novel projects in computer science and engineering.",
+								:website => "http://acm.stanford.edu",
+								:email => "feross@stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Feross Aboukhadijeh",
+									:visible_name => "Feross Aboukhadijeh",
+									:email => "feross@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Ranjani Iyer",
+									:visible_name => "Ranjani Iyer",
+									:email => "iyerr@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Feross Aboukhadijeh")
+thisFinOf = User.find_by_full_name("Ranjani Iyer")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "feross@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "iyerr@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "ASSU Arts Grant Program",
+								:visible_name => "ASSU Arts Grant Program",
+								:description => "The Arts Grant Program provides financial, organizational, and creative support to artists on the Stanford campus. By subsidizing student art work and and showcasing it where students live, eat, study and relax, the Arts Grant Program seeks to develop and invigorate the student arts community at Stanford, and foster a presence of art across campus.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Ketaki Shriram",
+									:visible_name => "Ketaki Shriram",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Hannah Kauffman",
+									:visible_name => "Hannah Kauffman",
+									:email => "hannahjk@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Ketaki Shriram")
+thisFinOf = User.find_by_full_name("Hannah Kauffman")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "hannahjk@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Philosophical")
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Philosophical")
+newGroup = Group.new(:full_name => "Atheists, Humanists, and Agnostics at Stanford",
+								:visible_name => "Atheists, Humanists, and Agnostics at Stanford",
+								:description => "a welcoming community where nonreligious students may discuss philosophical, social, and political issues with like-minded individuals",
+								:website => "aha.stanford.edu",
+								:email => "atheists@stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jimmy Grayson",
+									:visible_name => "Jimmy Grayson",
+									:email => "jgrayson@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Elizabeth Goodman",
+									:visible_name => "Elizabeth Goodman",
+									:email => "esqg@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jimmy Grayson")
+thisFinOf = User.find_by_full_name("Elizabeth Goodman")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jgrayson@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "esqg@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Religious")
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Bahai Association at Stanford",
+								:visible_name => "Bahai Association at Stanford",
+								:description => "The aim of the Baha'i Association at Stanford is to dialogue with individuals and groups who are interested in asking questions about the nature of man and society. We provide a unique function at the university by creating a forum for the open and frank discussion of issues, without party political bias or doctrinal prejudice. We hold informative discussions, meetings and seminars on such issues as world peace, human rights, religious understanding, and the goal of a new world order, aiming to appreciate and evoke the spiritual and moral attitudes that the possibility for enduring solutions can be found. By inviting differnet societies and individuals of varied backgrounds to meet together, we aim to foster a spirit of unity that overcomes cultural, religious and ideological barriers. All can contribute to this endeavor.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Sadaf Sobhani",
+									:visible_name => "Sadaf Sobhani",
+									:email => "ssobhani@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Roxana Daneshjou",
+									:visible_name => "Roxana Daneshjou",
+									:email => "roxanad@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Sadaf Sobhani")
+thisFinOf = User.find_by_full_name("Roxana Daneshjou")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ssobhani@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "roxanad@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "El Centro Chicano")
+
+# New Group
+thisDepartment = Department.find_by_name("El Centro Chicano")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Ballet Folklorico de Stanford",
+								:visible_name => "Ballet Folklorico de Stanford",
+								:description => "El Ballet Folklórico de Stanford is a student run organization which seeks to foster respect and understanding of Mexican folklore by celebrating it through song and dance. Ballet Folklorico involves not only learning traditional dances but sharing these dances by performing on and off campus at community events throughout the Bay Area.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Merlin Greuel",
+									:visible_name => "Merlin Greuel",
+									:email => "mgreuel@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Noemi Alarcon",
+									:visible_name => "Noemi Alarcon",
+									:email => "nalarcon@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Merlin Greuel")
+thisFinOf = User.find_by_full_name("Noemi Alarcon")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mgreuel@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "nalarcon@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("El Centro Chicano")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Barrio Assistance",
+								:visible_name => "Barrio Assistance",
+								:description => "Barrio Assistance (B.A.) was initiated in 1971 by student members of the Chicano/ Latino community as an effort to provide spanish speaking Chicano/Latino children from East Palo Alto community with tutoring and mentoring opportunities. The program is composed of two components: BA for K-5 and Bridge for grades 6-8. Each component operates by pairing a child with a Stanford student who serves as their tutor and mentor for the duration of one academic year.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Christopher Brunson",
+									:visible_name => "Christopher Brunson",
+									:email => "cbrunson@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Alejandro Virrueta",
+									:visible_name => "Alejandro Virrueta",
+									:email => "axva1663@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Christopher Brunson")
+thisFinOf = User.find_by_full_name("Alejandro Virrueta")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "cbrunson@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "axva1663@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Basmati Raas",
+								:visible_name => "Basmati Raas",
+								:description => "Raas-Garba is a style of dance from the folk culture of Gujarat, India. Garba is characterized by its fluidity, grace, flexibility, and clapping of hands to supplement the music. Garba dances also may include such props as bedlu (a water jug), or supra (a decorated sifter) to incorporate the everyday items used by peasants in the dance. Raas, with similar elements to garba, is different due to its use of dandia (dancing sticks) that are twirled, tossed, and thrown in elaborate choreography. These attributes distinguish it from Indian classical or film dance. This competitive Raas-Garba dance team serves as an outlet for those interested and serious about Indian folk dance of the Gujarati tradition to learn, practice, and perform at cultural and competitive activities both on and off campus. We travel to competitions in Los Angeles, Michigan, and New York City. The team has placed highly in national competitions since its founding, and has traveled to the Best of the Best competition three times. Tryouts required; with regular practices throughout the year.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Siddharth Damania",
+									:visible_name => "Siddharth Damania",
+									:email => "sdamania@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Arjun Aggarwal",
+									:visible_name => "Arjun Aggarwal",
+									:email => "arjun917@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Siddharth Damania")
+thisFinOf = User.find_by_full_name("Arjun Aggarwal")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "sdamania@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "arjun917@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "BELGICA",
+								:visible_name => "BELGICA",
+								:description => "We bring together Belgians and other students interested in Belgian culture to exchange ideas about the experience of living in America and to help each other with the integration process in the United States. Secondly, we participate every year in several cultural events organized on the Stanford campus to introduce and promote the Belgian culture to the members of the Stanford community.",
+								:website => "www.stanford.edu/group/belgica/",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Stéphanie Dupont",
+									:visible_name => "Stéphanie Dupont",
+									:email => "sdupont@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Nicholas Sergeant",
+									:visible_name => "Nicholas Sergeant",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("Stéphanie Dupont")
+thisFinOf = User.find_by_full_name("Nicholas Sergeant")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "sdupont@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Bengalis at Stanford",
+								:visible_name => "Bengalis at Stanford",
+								:description => "Bengali cultural organization",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Gourab Mukherjee",
+									:visible_name => "Gourab Mukherjee",
+									:email => "gourab@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Surajit Roy",
+									:visible_name => "Surajit Roy",
+									:email => "surajitr@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Gourab Mukherjee")
+thisFinOf = User.find_by_full_name("Surajit Roy")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "gourab@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "surajitr@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Bent Spoon Dance Company",
+								:visible_name => "Bent Spoon Dance Company",
+								:description => "Founded in 2001, Bent Spoon Dance Company is a modern dance troupe dedicated to presenting innovative and entertaining performances to the campus community and beyond. As Stanford's only modern dance group, we appeal to diverse audiences by showcasing student and professional choreography that is both impressive and fresh. We produce our own shows twice a year and perform at a wide variety of events including Urban Nights, Art Affair, Spring Migration and more.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Samantha Smith-Eppsteiner",
+									:visible_name => "Samantha Smith-Eppsteiner",
+									:email => "samlse@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Christine Ensley",
+									:visible_name => "Christine Ensley",
+									:email => "censley@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Samantha Smith-Eppsteiner")
+thisFinOf = User.find_by_full_name("Christine Ensley")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "samlse@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "censley@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Bhakti Yoga Club",
+								:visible_name => "Bhakti Yoga Club",
+								:description => "The Bhakti Yoga Club represents an ancient non-sectarian and non-religious spiritual practice, which is is open to everyone, reaching beyond the boundaries of cast, creed and color, and strives to empower its members in spiritualizing their everyday lives through modern yogic techniques of mantra meditation, kirtan, yoga, vedic sciences and vegetarian/vegan cooking.The motto of Bhakti Yoga Club is ‘Rekindling Wisdom, Reviving Love’",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Himanshu Asnani",
+									:visible_name => "Himanshu Asnani",
+									:email => "asnani@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Taru Roy",
+									:visible_name => "Taru Roy",
+									:email => "taruroy@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Himanshu Asnani")
+thisFinOf = User.find_by_full_name("Taru Roy")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "asnani@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "taruroy@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Biomedical Engineering Society",
+								:visible_name => "Biomedical Engineering Society",
+								:description => "The purpose of the Stanford Biomedical Engineering Society (BMES) chapter is to promote and enhance biomedical engineering knowledge among undergraduate and graduate students at Stanford University. It accomplishes this by connecting existing student groups, establishing mentorships, and performing community outreach.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Meghan Bowler",
+									:visible_name => "Meghan Bowler",
+									:email => "mbowler4@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Michele Dragoescu",
+									:visible_name => "Michele Dragoescu",
+									:email => "mdragoes@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Meghan Bowler")
+thisFinOf = User.find_by_full_name("Michele Dragoescu")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mbowler4@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "mdragoes@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Black Family Gathering Committee",
+								:visible_name => "Black Family Gathering Committee",
+								:description => "Community building event promoting the arts, education, and service with neighboring communities.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Ashley Lyle",
+									:visible_name => "Ashley Lyle",
+									:email => "alyle@stanford.edu"
+									)
+# New User
+User.create(:full_name => "cameron henry",
+									:visible_name => "cameron henry",
+									:email => "chenry7@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Ashley Lyle")
+thisFinOf = User.find_by_full_name("cameron henry")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "alyle@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "chenry7@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Black Graduate Students Association",
+								:visible_name => "Black Graduate Students Association",
+								:description => "Association of all black graduate students at Stanford for academic, social, and moral support. This organization sponsors and supports many black events on as well as off campus.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jarrell Cook",
+									:visible_name => "Jarrell Cook",
+									:email => "jarrellc@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Christopher Wilson",
+									:visible_name => "Christopher Wilson",
+									:email => "cpwilson@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jarrell Cook")
+thisFinOf = User.find_by_full_name("Christopher Wilson")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jarrellc@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "cpwilson@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Law School")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Black Law Students Association",
+								:visible_name => "Black Law Students Association",
+								:description => "BLSA serves as a resource for Black students at Stanford Law School. BLSA provides a supportive academic and social network, serves as a conduit for social change within the law arena, and provides opportunities for members to actively participate in the community outside the law school.",
+								:website => "http://blsa.stanford.edu/",
+								:email => "stanfordlawblsa@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Camille Fletcher",
+									:visible_name => "Camille Fletcher",
+									:email => "cfletche@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Angela McCray",
+									:visible_name => "Angela McCray",
+									:email => "admccray@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Camille Fletcher")
+thisFinOf = User.find_by_full_name("Angela McCray")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "cfletche@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "admccray@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Black Men's Forum",
+								:visible_name => "Black Men's Forum",
+								:description => "The Black Men's Forum is an organization started in recognition of a need for an inclusive, meaningful, and structured network of Black male students on Stanford's campus. The goal is to establish and foster a sense of unity, strength, and love among Black males and to direct it towards uplifting the community at large.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jabari Nyomba",
+									:visible_name => "Jabari Nyomba",
+									:email => "jnyomba@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jabari Nyomba")
+thisFinOf = User.find_by_full_name("Christopher Brunson")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jnyomba@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "cbrunson@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Black Psychology Student Association",
+								:visible_name => "Black Psychology Student Association",
+								:description => "The Black Psychology Student Association provides support for Black students majoring in, or with an interest in, Psychology. We seek to serve all interested members of the Stanford community, by enhancing their overall undergraduate experience, but our primary goals are to equip Black students with the tools, resources, and desire to pursue higher education; to provide mentorship to undergraduate Psychology majors of color by offering guidance throughout their Stanford career; and to provide a forum in which students can discuss and share research.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Anna-Alycia Tucker",
+									:visible_name => "Anna-Alycia Tucker",
+									:email => "aamtuck@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Maya Burns",
+									:visible_name => "Maya Burns",
+									:email => "msburns@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Anna-Alycia Tucker")
+thisFinOf = User.find_by_full_name("Maya Burns")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "aamtuck@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "msburns@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Black Recruitment Orientation Committee",
+								:visible_name => "Black Recruitment Orientation Committee",
+								:description => "Established in 1976 as a committee of the Black Student Union, the Black Recruitment Orientation Committee (BROC) introduces prospective and incoming Black students to faculty, staff and students.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Megan McKoy",
+									:visible_name => "Megan McKoy",
+									:email => "mmckoy@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Tayo Amos",
+									:visible_name => "Tayo Amos",
+									:email => "tayoamos@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Megan McKoy")
+thisFinOf = User.find_by_full_name("Tayo Amos")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mmckoy@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "tayoamos@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Black Student Union",
+								:visible_name => "Black Student Union",
+								:description => "The Black Student Union, or BSU, of Stanford University strives to meaningfully represent the varied interests of Stanford's Black student population by developing and implementing advocacy and community-building initiatives that foster a greater appreciation for Black issues, history and culture within the Stanford community. The BSU pledges to uphold the values of commitment, dependability, vision, organization, and responsibility when executing its mission.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Farris Blount III",
+									:visible_name => "Farris Blount III",
+									:email => "fblount@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Gerald Higginbotham",
+									:visible_name => "Gerald Higginbotham",
+									:email => "ghigg@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Farris Blount III")
+thisFinOf = User.find_by_full_name("Gerald Higginbotham")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "fblount@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "ghigg@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Blackstage",
+								:visible_name => "Blackstage",
+								:description => "We are a group of students dedicated to highlighting the minority experience, primarily the black experience, through theatrical arts.",
+								:website => "blackstage.stanford.edu",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Zahra Axinn",
+									:visible_name => "Zahra Axinn",
+									:email => "zaxinn@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Brandon Jackson",
+									:visible_name => "Brandon Jackson",
+									:email => "jacksonb@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Zahra Axinn")
+thisFinOf = User.find_by_full_name("Brandon Jackson")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "zaxinn@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jacksonb@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Bolivian Students Association",
+								:visible_name => "Bolivian Students Association",
+								:description => "BSA (Bolivian Student Association) is a student group with the primary goal of bringing together all community members who share a Bolivian background, have lived in the country or who are simply interested in acquiring more understanding of our country and culture. Moreover we hope to engage and educate the Stanford community on issues related to Bolivian culture, history and identity. Finally, BSA hopes to connect and attract prospective Bolivian students to Stanford University.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Eitan Winer",
+									:visible_name => "Eitan Winer",
+									:email => "eitanwp@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Vanessa Quiroga",
+									:visible_name => "Vanessa Quiroga",
+									:email => "vquiroga@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Eitan Winer")
+thisFinOf = User.find_by_full_name("Vanessa Quiroga")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "eitanwp@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "vquiroga@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Buddhist Community at Stanford",
+								:visible_name => "Buddhist Community at Stanford",
+								:description => "The Buddhist Community at Stanford is an ecumenical group dedicated to creating a supportive community for Buddhist study and practice. We welcome experienced Buddhists from different traditions as well as people who are exploring. Our activites include: daily sitting periods, meditation classes, study groups, visits to local monasteries, Dharma talks, social gatherings, community service and more!",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Hannah Kopp-Yates",
+									:visible_name => "Hannah Kopp-Yates",
+									:email => "hannahky@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Shane Shucheng Wong",
+									:visible_name => "Shane Shucheng Wong",
+									:email => "wongss@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Hannah Kopp-Yates")
+thisFinOf = User.find_by_full_name("Shane Shucheng Wong")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "hannahky@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "wongss@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Bulgarian Club at Stanford",
+								:visible_name => "Bulgarian Club at Stanford",
+								:description => "Raising awareness of Bulgarian culture.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Deyan Simeonov",
+									:visible_name => "Deyan Simeonov",
+									:email => "deyan@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Radoslav Stanchev",
+									:visible_name => "Radoslav Stanchev",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("Deyan Simeonov")
+thisFinOf = User.find_by_full_name("Radoslav Stanchev")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "deyan@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Preprofessional")
+newGroup = Group.new(:full_name => "Business Association of Stanford Engineering Students",
+								:visible_name => "Business Association of Stanford Engineering Students",
+								:description => "BASES is one of the largest student entrepreneurship organizations in the United States. This non-profit, student-run organization was founded in 1996 by a group of five Stanford University engineering students. They looked to gain top-level business advice and experience from industry leaders in the high-tech world, including high-profile CEOs, engineers, and prominent venture capitalists. Chartered with cultivating the next generation of entrepreneurs, these students received valuable insight as they developed their own business ventures and entered the working world.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Mary McCann",
+									:visible_name => "Mary McCann",
+									:email => "mmmccann@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Ruby Lee",
+									:visible_name => "Ruby Lee",
+									:email => "rubylee@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Mary McCann")
+thisFinOf = User.find_by_full_name("Ruby Lee")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mmmccann@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "rubylee@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Women's Community Center")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Cap and Gown",
+								:visible_name => "Cap and Gown",
+								:description => "Cap and Gown, the Society of Women Leaders at Stanford, brings together women who have been constructively active in student affairs and the community, and who have demonstrated strong leadership throughout their time at Stanford.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Reagan Thompson",
+									:visible_name => "Reagan Thompson",
+									:email => "reagant@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Sara Silberstein",
+									:visible_name => "Sara Silberstein",
+									:email => "silbs@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Reagan Thompson")
+thisFinOf = User.find_by_full_name("Sara Silberstein")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "reagant@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "silbs@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Cardinal Calypso",
+								:visible_name => "Cardinal Calypso",
+								:description => "Cardinal Calypso is Stanford University's premiere steelpan ensemble. We bring the music and culture of Trinidad and Tobago to the greater university community by performing both traditional Caribbean music and popular songs, as well as exuding general enthusiasm for music, dancing, and sunshine. Our members are all students at Stanford, and we arrange all our own songs.",
+								:website => "cardinalcalypso.stanford.edu",
+								:email => "stanfordcalypso@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Adam Genecov",
+									:visible_name => "Adam Genecov",
+									:email => "agenecov@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Jesse Ruder",
+									:visible_name => "Jesse Ruder",
+									:email => "jruder@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Adam Genecov")
+thisFinOf = User.find_by_full_name("Jesse Ruder")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "agenecov@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jruder@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Medical School")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Cardinal Free Clinics",
+								:visible_name => "Cardinal Free Clinics",
+								:description => "Cardinal Free Clinics encompasses both Pacific Free Clinic and Arbor Free Clinic, free clinics owned. operated, and run by medical students at Stanford University School of Medicine and undergraduates at Stanford University. The student leadership team is overseen by a pair of physicians who work at Stanford Hospital & Clinics and are part of the faculty at Stanford University School of Medicine. In addition, there is an overseeing director of Cardinal Free Clinics who works full time at Stanford School of Medicine. Pacific Free Clinic is a Stanford student-run clinic providing free health care services for adults in the East San Jose area with low-income, no insurance, and/or low English proficiency. Open to all, the clinic offers on-site medical interpretation services in Spanish, Vietnamese, and Mandarin Chinese to help patients overcome cultural and language barriers to health care access. Student volunteers are provided the opportunity to learn about primary care medicine and cultural competency. Arbor Free Clinic operates similarly, serving primarily a Latino-based population in the greater Menlo Park/Palo Alto Area.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Daniel Wong",
+									:visible_name => "Daniel Wong",
+									:email => "dwong527@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Lisa Chen")
+thisFinOf = User.find_by_full_name("Daniel Wong")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "lisachen@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dwong527@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Cardinal Life",
+								:visible_name => "Cardinal Life",
+								:description => "Cardinal Life is a non-denominational Christian fellowship for athletes and students. The purpose of Cardinal Life is to teach what it means to have a relationship with God and Jesus Christ through speakers at meetings, Bible studies, and other functions. Cardinal Life also provides a welcoming and open fellowship for Christians and seekers alike.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Hannah Seaton",
+									:visible_name => "Hannah Seaton",
+									:email => "hseaton@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Jami Haskins",
+									:visible_name => "Jami Haskins",
+									:email => "jamih@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Hannah Seaton")
+thisFinOf = User.find_by_full_name("Jami Haskins")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "hseaton@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jamih@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Bechtel")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Caribbean Students Association",
+								:visible_name => "Caribbean Students Association",
+								:description => "CSA members are first and second-generation Caribbean immigrants and students who wish to gain a greater understanding of Caribbean Culture. The CSA seeks to foster awareness around the Caribbean at Stanford through cultural, political, and social activities. In addition to being an avenue through which Caribbean culture and issues are disseminated unto the Stanford campus, CSA creates a space for members to relax and enjoy themselves in the true West Indian spirit of food, music and collective exploration of Caribbean culture. Through the years, the Caribbean Students Association has been and will continue to be a source of diversity and education.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Norian Watson",
+									:visible_name => "Norian Watson",
+									:email => "n9242671@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Gayon Douglas",
+									:visible_name => "Gayon Douglas",
+									:email => "gdouglas@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Norian Watson")
+thisFinOf = User.find_by_full_name("Gayon Douglas")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "n9242671@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "gdouglas@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Catholic Community at Stanford - Newman",
+								:visible_name => "Catholic Community at Stanford - Newman",
+								:description => "The Catholic Community here at Stanford. We provide activities, fellowships, and service for Catholic students at Stanford.",
+								:website => "catholic.stanford.edu",
+								:email => "lalonso@stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Gloria Munoz",
+									:visible_name => "Gloria Munoz",
+									:email => "gmunoz@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Kenneth Capps",
+									:visible_name => "Kenneth Capps",
+									:email => "kcapps@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Gloria Munoz")
+thisFinOf = User.find_by_full_name("Kenneth Capps")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "gmunoz@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "kcapps@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Caucasus Student Association",
+								:visible_name => "Caucasus Student Association",
+								:description => "The Caucasus Student Association is established to bring together the Stanford students from the Caucasus region (Georgia, Armenia etc.) to celebrate our unique culture and to raise the awareness about Caucasus region at Stanford University.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Inga Mghebrishvili",
+									:visible_name => "Inga Mghebrishvili",
+									:email => "ingam@stanford.edu"
+									)
+# New User
+User.create(:full_name => "David Boinagrov",
+									:visible_name => "David Boinagrov",
+									:email => "david86@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Inga Mghebrishvili")
+thisFinOf = User.find_by_full_name("David Boinagrov")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ingam@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "david86@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Ceramics Club",
+								:visible_name => "Ceramics Club",
+								:description => "The Ceramics Club manages the ceramics studio and offers membership, classes, and other programming to the Stanford community.",
+								:website => "ceramics.stanford.edu",
+								:email => "ceramics-managers@lists.stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Joanna Rosene-Mirvis",
+									:visible_name => "Joanna Rosene-Mirvis",
+									:email => "jorosene@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Nicole Clarke",
+									:visible_name => "Nicole Clarke",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("Joanna Rosene-Mirvis")
+thisFinOf = User.find_by_full_name("Nicole Clarke")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jorosene@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Chabad at Stanford",
+								:visible_name => "Chabad at Stanford",
+								:description => "Chabad at Stanford is a vibrant Jewish student organization that is dedicated to sharing the warmth, wisdom and depth of Judaism in an exciting, non-judgemental fashion. Chabad helps create student programming, plan social action projects and offers many volunteer opportunities. Chabad center, located at 1289 College Ave., Palo Alto, CA 94306 offers a place where students can socialize in a comfortable home-like setting with great friends, superb food and stimulating discussion. All are welcome no matter what background or affiliation.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "natalie sudikoff",
+									:visible_name => "natalie sudikoff",
+									:email => "sudikoff@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Daniel Shaffer",
+									:visible_name => "Daniel Shaffer",
+									:email => "danshaff@stanford.edu"
+									)
+thisPres = User.find_by_full_name("natalie sudikoff")
+thisFinOf = User.find_by_full_name("Daniel Shaffer")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "sudikoff@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "danshaff@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Chemical Engineering Graduate Students",
+								:visible_name => "Chemical Engineering Graduate Students",
+								:description => "Constitution ratified 10/27/06. Article II – Statement of Purpose: The mission and purpose of the Action Committee are here enumerated: 1. To represent the academic, business and social interests of chemical engineering Doctoral and masters students in interactions with the Department of Chemical Engineering. 2. To provide support to the faculty of Chemical Engineering in the continued pursuit of academic excellence. 3. To provide resources and advice to incoming/junior graduate students for the successful pursuit of advanced degrees in the Department of Chemical Engineering. 4. To aid Doctoral and masters students in the attainment of employment or otherwise further their professional goals. 5. To provide events of an informal nature to spur networking and collaboration among scholars. 6. To improve the sense of community in the Stanford Dept. of Chemical Engineering.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jesse Benck",
+									:visible_name => "Jesse Benck",
+									:email => "benck@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Elyse Coletta",
+									:visible_name => "Elyse Coletta",
+									:email => "ecoletta@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jesse Benck")
+thisFinOf = User.find_by_full_name("Elyse Coletta")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "benck@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "ecoletta@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "Native American Center")
+
+# New Group
+thisDepartment = Department.find_by_name("Native American Center")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Cherokee Student Group",
+								:visible_name => "Cherokee Student Group",
+								:description => "The Stanford Cherokee Student Group provides a cultural, educational, and social presence for Cherokee students, faculty, staff, and alumni at Stanford. We strive to educate ourselves and others about Cherokee culture and history through workshops, a speaker series, and various cultural events.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Annemarie Golz",
+									:visible_name => "Annemarie Golz",
+									:email => "aegolz@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Benjamin Jensen",
+									:visible_name => "Benjamin Jensen",
+									:email => "tsalagi7@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Annemarie Golz")
+thisFinOf = User.find_by_full_name("Benjamin Jensen")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "aegolz@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "tsalagi7@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Chi Alpha Christian Fellowship",
+								:visible_name => "Chi Alpha Christian Fellowship",
+								:description => "Chi Alpha (XA) is a community of students earnestly following Jesus. Our gatherings are informal, charged with music, given to humor and deal with everything from relationships to the nature of truth. We are sponsored by the Assemblies of God, and we welcome students from all ethnicities, nationalities, and religious heritages. We strive to become a community devoted to prayer, worship, fellowship, discipleship, and witness.",
+								:website => "xastanford.org",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Lucia Ayala",
+									:visible_name => "Lucia Ayala",
+									:email => "layala@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Rachel Terrell-Perica",
+									:visible_name => "Rachel Terrell-Perica",
+									:email => "racheltp@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Lucia Ayala")
+thisFinOf = User.find_by_full_name("Rachel Terrell-Perica")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "layala@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "racheltp@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("El Centro Chicano")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Chicano Latino Graduate Student Association",
+								:visible_name => "Chicano Latino Graduate Student Association",
+								:description => "Our goals as an organization are to promote recruitment and retention of Chicano/Latino graduate students at Stanford; to promote Chicano/Latino cultural and academic events, projects, and forums; and to support the increased communication and collaboration between the Chicano/Latino community and other communities at stanford.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "James Estrella",
+									:visible_name => "James Estrella",
+									:email => "estrella@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Maribel Santiago",
+									:visible_name => "Maribel Santiago",
+									:email => "maribels@stanford.edu"
+									)
+thisPres = User.find_by_full_name("James Estrella")
+thisFinOf = User.find_by_full_name("Maribel Santiago")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "estrella@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "maribels@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("El Centro Chicano")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Chicano/Latino Graduation",
+								:visible_name => "Chicano/Latino Graduation",
+								:description => "Chicano/Latino Graduation is a group dedicated to planning a graduation celebration for our fellow students, families, and friends. It is a time to celebrate our successful career here at stanford.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Gilberto Jimenez",
+									:visible_name => "Gilberto Jimenez",
+									:email => "jimenez2@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Noemi Alarcon")
+thisFinOf = User.find_by_full_name("Gilberto Jimenez")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "nalarcon@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jimenez2@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("El Centro Chicano")
+thisGroupType = GroupType.find_by_name("Preprofessional")
+newGroup = Group.new(:full_name => "Chicanos Latinos in Health Education",
+								:visible_name => "Chicanos Latinos in Health Education",
+								:description => "CHE's central purpose is to provide academic, professional, cultural, and social support to Chicanos and Latinos pursuing careers in the areas of science and medicine while at Stanford University. Our fundamental goal is to promote the education of culturally aware physicians, scientists, and health care providers by instilling members with a sense of duty toward the community.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Michael Tejada",
+									:visible_name => "Michael Tejada",
+									:email => "mtejada@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Juan Reynoso",
+									:visible_name => "Juan Reynoso",
+									:email => "reynosoj@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Michael Tejada")
+thisFinOf = User.find_by_full_name("Juan Reynoso")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mtejada@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "reynosoj@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Chilean Stanford Student Association",
+								:visible_name => "Chilean Stanford Student Association",
+								:description => "Association of Chilean Students at Stanford.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Mauricio Farias",
+									:visible_name => "Mauricio Farias",
+									:email => "farias@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Jose Carvallo",
+									:visible_name => "Jose Carvallo",
+									:email => "carvallo@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Mauricio Farias")
+thisFinOf = User.find_by_full_name("Jose Carvallo")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "farias@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "carvallo@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Chinese Campus Evangelistic Fellowship",
+								:visible_name => "Chinese Campus Evangelistic Fellowship",
+								:description => "(Chinese) Campus Evangelistic Fellowship (CEF) is a Christian organization at Stanford. We believe that there are more to life than academic achievement and material wealth. To be a whole person, we can't live as islands, isolated from each other (and from ourselves). Our purpose is to help students and scholars from China to explore the fullness of life abroad through intellectual, cultural and spiritual endeavors. In this world of uncertainty, our hope and faith go way beyond job security and the size of our bank account. We model our lives after the life and love of our Lord Jesus Christ.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Chen Chen",
+									:visible_name => "Chen Chen",
+									:email => "cchen86@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Xiao Zhang",
+									:visible_name => "Xiao Zhang",
+									:email => "szhangx@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Chen Chen")
+thisFinOf = User.find_by_full_name("Xiao Zhang")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "cchen86@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "szhangx@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Christian Science Organization",
+								:visible_name => "Christian Science Organization",
+								:description => "-- None specified --",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jennifer Thompson",
+									:visible_name => "Jennifer Thompson",
+									:email => "jthomp@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Debra Hausladen",
+									:visible_name => "Debra Hausladen",
+									:email => "dhauslad@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jennifer Thompson")
+thisFinOf = User.find_by_full_name("Debra Hausladen")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jthomp@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dhauslad@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Circle K",
+								:visible_name => "Circle K",
+								:description => "Circle K International is the world's largest collegiate service organization. Its mission not only incorporates campus and community service, but also focuses on developing quality leaders and building friendships. Circle K is not bound to any particular area of service; instead, each club adapts to its local situation and determines an effective and multi-faceted approach toward serving the community. Along with the chance to make a difference now through service, students involved in Circle K have an excellent opportunity to gain valuable leadership abilities and make new friends and contacts. Circle K combines all of these to create an exciting atmosphere filled with friends, fun, and the spirit of service!",
+								:website => "http://www.stanford.edu/group/circle-k/cgi-bin/index.php",
+								:email => "stanfordcirclek@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Amy Harris",
+									:visible_name => "Amy Harris",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Namir Shah",
+									:visible_name => "Namir Shah",
+									:email => "namir@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Amy Harris")
+thisFinOf = User.find_by_full_name("Namir Shah")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "namir@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New GroupType
+GroupType.create(:name => "Social")
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Social")
+newGroup = Group.new(:full_name => "Class of 2012",
+								:visible_name => "Class of 2012",
+								:description => "ASSU Senior Class Government for the Class of 2012. A branch of the ASSU devoted to Seniorclass pride, events, and government. Promotes leadership and community within the cabinet as well.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Shruthi Baskaran",
+									:visible_name => "Shruthi Baskaran",
+									:email => "shruthi@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Jack Trotter",
+									:visible_name => "Jack Trotter",
+									:email => "jtrotter@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Shruthi Baskaran")
+thisFinOf = User.find_by_full_name("Jack Trotter")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "shruthi@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jtrotter@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Social")
+newGroup = Group.new(:full_name => "Class of 2013",
+								:visible_name => "Class of 2013",
+								:description => "This group consists of the ASSU Sophomore Class Presidents. which acts as the leadership team for the Class of 2013. It is affiliated with the Office of Undergraduate Advising and Research and the ASSU.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Alex Walker",
+									:visible_name => "Alex Walker",
+									:email => "sawalker@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Joel Aguero",
+									:visible_name => "Joel Aguero",
+									:email => "jaguero@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Alex Walker")
+thisFinOf = User.find_by_full_name("Joel Aguero")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "sawalker@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jaguero@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Social")
+newGroup = Group.new(:full_name => "Class of 2014",
+								:visible_name => "Class of 2014",
+								:description => "2014 Sophomore Class Presidents",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Phounsouk Sivilay",
+									:visible_name => "Phounsouk Sivilay",
+									:email => "psivilay@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Dhruv Amin",
+									:visible_name => "Dhruv Amin",
+									:email => "dhruv92@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Phounsouk Sivilay")
+thisFinOf = User.find_by_full_name("Dhruv Amin")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "psivilay@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dhruv92@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Social")
+newGroup = Group.new(:full_name => "Class of 2015",
+								:visible_name => "Class of 2015",
+								:description => "Class of 2015 (Frosh Council)",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Alison Maggioncalda",
+									:visible_name => "Alison Maggioncalda",
+									:email => "alimagg@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Aishu Venkataraman",
+									:visible_name => "Aishu Venkataraman",
+									:email => "aishuv@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Alison Maggioncalda")
+thisFinOf = User.find_by_full_name("Aishu Venkataraman")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "alimagg@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "aishuv@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Political / Social Awareness")
+newGroup = Group.new(:full_name => "Colleges Against Cancer",
+								:visible_name => "Colleges Against Cancer",
+								:description => "Colleges Against Cancer is a student organization dedicated to fighting cancer through advocacy, service, education, and volunteer work. Perhaps our most significant contribution to the community is the Stanford Relay For Life, held each spring.",
+								:website => "http://stanfordcac.wordpress.com/",
+								:email => "stanfordrelay@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Stacy Kaufman",
+									:visible_name => "Stacy Kaufman",
+									:email => "skaufman@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Ana Cristina Gadala-Maria",
+									:visible_name => "Ana Cristina Gadala-Maria",
+									:email => "acgadala@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Stacy Kaufman")
+thisFinOf = User.find_by_full_name("Ana Cristina Gadala-Maria")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "skaufman@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "acgadala@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Common Origins",
+								:visible_name => "Common Origins",
+								:description => "Even the largest tree was once a seed. There are a lot of talented and amazing performers out there in the world. Watching them tear up and grace the stage, it’s hard to imagine that we have anything similar between us. But, in the end, we are all the same. In the end, what link all of us together are our common origins. No matter how lofty, no matter how great, there was a point where all of us knew nothing -- a point where it all began. Common Origins is a hip-hop group that was founded in the belief that everyone has the potential to be great -- they simply need the opportunity to take that first step. The group focuses on creating a unique environment of both experienced and new dancers performing together, sharing the mutual passion for dance. Common Origins welcomes dancers of all levels. Through our performances, we aim to challenge and train our members with a myriad of fresh, new choreography. As a hip hop dance team, we hope to instill an appreciation of dancing in general, as all types of dancing have their common origins too -- expression through movement. And whether they’re masters of the stage or just making their debuts, our members dance together as one group -- one family. This dynamic is what defines our time together -- challenging, yet warm and welcoming. So, long after the applause has faded and the lights have dimmed, the show goes on. Because as long as our members remain performers at heart, our mission is accomplished. See, it’s difficult to lose a connection so strong once you discover it’s there: our common origins.",
+								:website => "http://www.stanford.edu/group/commonorigins/",
+								:email => "commonoriginsdance@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Phil Delrosario",
+									:visible_name => "Phil Delrosario",
+									:email => "pdel@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Marcus Leaks",
+									:visible_name => "Marcus Leaks",
+									:email => "mleaks@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Phil Delrosario")
+thisFinOf = User.find_by_full_name("Marcus Leaks")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "pdel@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "mleaks@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Computational and Mathematical Consultants",
+								:visible_name => "Computational and Mathematical Consultants",
+								:description => "Computational and Mathematical Consulting, run by students in the Institute for Computational and Mathematical Engineering, will answer questions and work with students and faculty in and around Stanford on difficult computational problems. Computational mathematics is highly interdisciplinary and difficult problems can be encountered in a broad range of research areas. By providing consulting services to the Stanford community, we hope to make research problems easier, research solutions faster, and researchers more confident in their work.",
+								:website => "http://icme.stanford.edu/consulting/csquared/index.php",
+								:email => "c2questions@list.stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Arthur Friend",
+									:visible_name => "Arthur Friend",
+									:email => "ajfriend@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Madeleine Udell",
+									:visible_name => "Madeleine Udell",
+									:email => "udell@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Arthur Friend")
+thisFinOf = User.find_by_full_name("Madeleine Udell")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ajfriend@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "udell@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Confucian Life and Study at Stanford",
+								:visible_name => "Confucian Life and Study at Stanford",
+								:description => "Our purpose is to enable the Stanford community to draw on the Confucian tradition to understand and enact ethical and meaningful lives. Our group represents both intellectual inquiry into the Confucian tradition and the personal and contemporary application of its insights.",
+								:website => "confucian.stanford.edu",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Seanan Fong",
+									:visible_name => "Seanan Fong",
+									:email => "ssfong@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Yibai Shu",
+									:visible_name => "Yibai Shu",
+									:email => "yibai@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Seanan Fong")
+thisFinOf = User.find_by_full_name("Yibai Shu")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ssfong@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "yibai@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Coptic Club",
+								:visible_name => "Coptic Club",
+								:description => "The Stanford Coptic Club is a fellowship of Stanford students who share the common goal of understanding and embracing the traditions, history, and theology of the Coptic Orthodox Church",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Peter Abraham",
+									:visible_name => "Peter Abraham",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Matthew Kerolus",
+									:visible_name => "Matthew Kerolus",
+									:email => "kerolus@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Peter Abraham")
+thisFinOf = User.find_by_full_name("Matthew Kerolus")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "kerolus@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Counterpoint a cappella",
+								:visible_name => "Counterpoint a cappella",
+								:description => "Counterpoint is Stanford's only all-female a cappella group. Originally formed in 1979, Counterpoint continues to sing its heart out on songs from every genre and manages to liven things up with choreography as well. You can catch these hot ladies singing almost anywhere, and having the time of their lives.",
+								:website => "https://www.stanford.edu/group/counterpoint/",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Teresa Caprioglio",
+									:visible_name => "Teresa Caprioglio",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Stephanie Ogonor",
+									:visible_name => "Stephanie Ogonor",
+									:email => "sogonor1@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Teresa Caprioglio")
+thisFinOf = User.find_by_full_name("Stephanie Ogonor")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "sogonor1@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Fraternity")
+newGroup = Group.new(:full_name => "Delta Kappa Epsilon Fraternity, Sigma Rho Chapter",
+								:visible_name => "Delta Kappa Epsilon Fraternity, Sigma Rho Chapter",
+								:description => "Delta Kappa Epsilon is an unhoused fraternity founded in 1901. DKE attempts to help its members reach their full potential at Stanford both academically and socially. DKE events include campus-wide parties, BBQs, bowling nights, and community service activities.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Juan Pablo Samper Mejia",
+									:visible_name => "Juan Pablo Samper Mejia",
+									:email => "jpsamper@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Paul Ferrell",
+									:visible_name => "Paul Ferrell",
+									:email => "ferrell@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Juan Pablo Samper Mejia")
+thisFinOf = User.find_by_full_name("Paul Ferrell")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jpsamper@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "ferrell@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Black Community Services Center")
+thisGroupType = GroupType.find_by_name("Sorority")
+newGroup = Group.new(:full_name => "Delta Sigma Theta",
+								:visible_name => "Delta Sigma Theta",
+								:description => "The founders of Delta Sigma Theta Sorority, Incorporated were a group of twenty-two college-educated women who envisioned an organization that went beyond self-fulfillment. In 1913 at Howard University, these courageous women wanted an organization that focused more upon the social issues of their time, in lieu of creating one that would cater to social whims of the community. Along with their concern for the welfare of human beings, they also promoted academic excellence and wanted to culturally enrich community life. Although these twenty-two women shared similar values and concerns for humankind, they were each individuals who possessed their own unique inner and outer strengths. Eventually, these strengths came together to produce one flame, one vision whose torch will burn forever¿ Delta Sigma Theta. Omicron Chi Chapter was chartered June 2, 1983 by Floraline I. Stevens, Director of the Farwest Region, as a city-wide chapter serving women enrolled at Stanford University, Santa Clara University and the College of Notre Dame. The principle purposes and aims of this chapter are to engage in cultural, educational, and public service activities; to establish, maintain and encourage high cultural, intellectual, and moral standards among its members; to engange in public service programs, and to promote and encourage high achievement in education.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "rameerah Anderson",
+									:visible_name => "rameerah Anderson",
+									:email => "rsa41890@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Taryn Peacock",
+									:visible_name => "Taryn Peacock",
+									:email => "tpeacock@stanford.edu"
+									)
+thisPres = User.find_by_full_name("rameerah Anderson")
+thisFinOf = User.find_by_full_name("Taryn Peacock")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "rsa41890@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "tpeacock@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Fraternity")
+newGroup = Group.new(:full_name => "Delta Tau Delta Fraternity",
+								:visible_name => "Delta Tau Delta Fraternity",
+								:description => "The Beta Rho chapter of Delta Tau Delta Fraternity has been a fixture on the Stanford Campus since its chartering in 1893. From being pioneers in Greek life on the Stanford campus in the late 1800s to winning Stanford's only Heisman Trophy (Jim Plunkett '70), Stanford Delts have always been leaders on campus. Today, the Stanford Delts volunteer at the East Palo Alto Boys and Girls Club and put on a charity golf tournament each spring to benefit the Club. Definitely the most fun group of guys on campus, the Stanford Delts look forward to their next one hundred years on Stanford's campus.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "William Lee",
+									:visible_name => "William Lee",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Darien Niamir",
+									:visible_name => "Darien Niamir",
+									:email => "dniamir@stanford.edu"
+									)
+thisPres = User.find_by_full_name("William Lee")
+thisFinOf = User.find_by_full_name("Darien Niamir")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "dniamir@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Dosti",
+								:visible_name => "Dosti",
+								:description => "Project Dosti is a student-run group that sends students to India to engage in community service projects. During the school year, Dosti puts on events to increase of awareness of social issues in India and helps with various Indian cultural events put on by other South Asian student organizations.",
+								:website => "www.stanford.edu/group/dosti/",
+								:email => "projectdosti@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Makala Kaupalolo",
+									:visible_name => "Makala Kaupalolo",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Genevieve tuveson",
+									:visible_name => "Genevieve tuveson",
+									:email => "gtuveson@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Makala Kaupalolo")
+thisFinOf = User.find_by_full_name("Genevieve tuveson")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "gtuveson@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Down With Gravity",
+								:visible_name => "Down With Gravity",
+								:description => "Down with Gravity is a club committed to keeping a strong juggling presence on Stanford's campus. We meet in White Plaza every Friday afternoon to juggle together, and to teach others to juggle. We are also happy to perform our art upon request.",
+								:website => "dwg.stanford.edu",
+								:email => "juggle@stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jeremy Keeshin",
+									:visible_name => "Jeremy Keeshin",
+									:email => "jkeeshin@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Turner Stanley",
+									:visible_name => "Turner Stanley",
+									:email => "tstan4@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jeremy Keeshin")
+thisFinOf = User.find_by_full_name("Turner Stanley")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jkeeshin@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "tstan4@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Media / Publications")
+newGroup = Group.new(:full_name => "Dualist, The",
+								:visible_name => "Dualist, The",
+								:description => "The Dualist: Stanford's Most Prestigious Undergraduate Philosophy Journal",
+								:website => "http://philosophy.stanford.edu/departmental-information/undergraduate-program/the-dualist-undergraduate-journal/",
+								:email => "the.dualist@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Daniel Hollingshead",
+									:visible_name => "Daniel Hollingshead",
+									:email => "theseus@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Brian Lewis",
+									:visible_name => "Brian Lewis",
+									:email => "bblew@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Daniel Hollingshead")
+thisFinOf = User.find_by_full_name("Brian Lewis")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "theseus@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "bblew@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Dutch@Stanford",
+								:visible_name => "Dutch@Stanford",
+								:description => "This group has as its main purpose to ease the acclimatization process for new Dutch students, to provide opportunities for students with an interest in the Netherlands or Dutch culture to convene, and to hold events that share the richness and provide a better understanding of Dutch culture. Please contact us if you are interested in becoming a member.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Arthur van Benthem",
+									:visible_name => "Arthur van Benthem",
+									:email => "arthurvb@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Sjoerd de Ridder",
+									:visible_name => "Sjoerd de Ridder",
+									:email => "ridder@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Arthur van Benthem")
+thisFinOf = User.find_by_full_name("Sjoerd de Ridder")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "arthurvb@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "ridder@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "DV8",
+								:visible_name => "DV8",
+								:description => "dv8 a hip hop dance performance group Est. 2001 * Stanford University We dv8 from the norm. We push boundaries, explore various dimensions (new realms) of dance, and fuse our unique backgrounds to form a fresh style of hip hop. We strive to inspire more interest in hip hop's multifaceted culture, as well as to promote awareness of the genre's dance styles beyond what's featured in popular media . We accomplish these goals primarily through performances and workshops, but also through shows featuring off-campus groups. We are a team filled with spirit and creative energy. The dv8 family is as diverse as we are spunky, and we looove to git funky on the dance flo'! Dare to dv8.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Kevin Smith",
+									:visible_name => "Kevin Smith",
+									:email => "kdsmith3@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Sharleen Tu",
+									:visible_name => "Sharleen Tu",
+									:email => "stu2@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Kevin Smith")
+thisFinOf = User.find_by_full_name("Sharleen Tu")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "kdsmith3@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "stu2@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Educational Studies Program",
+								:visible_name => "Educational Studies Program",
+								:description => "The Educational Studies Program is a volunteer student organization at Stanford founded in Spring 1996. Through an extensive offering of academic and non-academic classes, ESP is dedicated to providing a unique, affordable educational experience for intellectually motivated Bay Area high school students. It is our firm belief that education is and should be fun and fascinating. Most of our projects are run and taught by Stanford students, but we welcome any and all students, professionals, or interested individuals who wish to contribute to our spectrum of educational opportunities.",
+								:website => "stanfordesp.org",
+								:email => "stanfordesp@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Maria Baryakhtar",
+									:visible_name => "Maria Baryakhtar",
+									:email => "mbaryakh@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Maria Baryakhtar")
+thisFinOf = User.find_by_full_name("Caglanur Kaymaz")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mbaryakh@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "ckaymaz@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Elijah Christian Cell Group at Stanford",
+								:visible_name => "Elijah Christian Cell Group at Stanford",
+								:description => "Elijah Christian Cell Group at Stanford is a religious group which serves Cantonese speaking students who are mainly from Hong Kong and other parts of Greater China.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Mandy Man Chu Wong",
+									:visible_name => "Mandy Man Chu Wong",
+									:email => "mandyman@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Hendrick Chan",
+									:visible_name => "Hendrick Chan",
+									:email => "hchan1@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Mandy Man Chu Wong")
+thisFinOf = User.find_by_full_name("Hendrick Chan")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mandyman@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "hchan1@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Medical School")
+thisGroupType = GroupType.find_by_name("Preprofessional")
+newGroup = Group.new(:full_name => "Emergency Medicine Interest Group",
+								:visible_name => "Emergency Medicine Interest Group",
+								:description => "The purpose of the Emergency Medicine Interest Group (EMIG) is to increase awareness of career options within the specialty of emergency medicine, to facilitate communication and interaction with health care professionals in this field, and to serve as a liaison between the medical students at Stanford University and ACEP/EMRA (American College of Emergency Physicians/Emergency Medicine Residents Association). Our planned activities are intended to complement the existing Emergency Medicine curriculum at Stanford.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Luz Silverio",
+									:visible_name => "Luz Silverio",
+									:email => "luzs@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Vivian Li",
+									:visible_name => "Vivian Li",
+									:email => "vvli@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Luz Silverio")
+thisFinOf = User.find_by_full_name("Vivian Li")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "luzs@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "vvli@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Academic")
+newGroup = Group.new(:full_name => "Engineering Physics Interdisciplinary Community",
+								:visible_name => "Engineering Physics Interdisciplinary Community",
+								:description => "EPIC will represent, promote, coordinate, and unify Engineering Physics majors and those interested in Engineering Physics at Stanford University. Goals include offering advising aid to majors, organizing social events to increase student interaction, organizing industry related activities such as site visits and guest speakers, and acting as a venue through which students can enact their Engineering Physics related ideas and projects.",
+								:website => "ephys.stanford.edu",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Isaac Kauvar",
+									:visible_name => "Isaac Kauvar",
+									:email => "ikauvar@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Scott Cauble",
+									:visible_name => "Scott Cauble",
+									:email => "cauble@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Isaac Kauvar")
+thisFinOf = User.find_by_full_name("Scott Cauble")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ikauvar@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "cauble@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Episcopal - Lutheran Campus Ministry",
+								:visible_name => "Episcopal - Lutheran Campus Ministry",
+								:description => "ELCM is a Christian community of Episcopal, Lutheran, and other faith-seeking students. We meet for worship, fellowship, faith development, study, and community service.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Kristiana Schneck",
+									:visible_name => "Kristiana Schneck",
+									:email => "kschneck@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Nelson James",
+									:visible_name => "Nelson James",
+									:email => "najames@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Kristiana Schneck")
+thisFinOf = User.find_by_full_name("Nelson James")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "kschneck@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "najames@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "Esperanto Stanford",
+								:visible_name => "Esperanto Stanford",
+								:description => "A group for conlangers and those interested in creating languages and discussing languages created by others.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "David Edwards",
+									:visible_name => "David Edwards",
+									:email => "dedwards@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Scott Parks",
+									:visible_name => "Scott Parks",
+									:email => "sparks7@stanford.edu"
+									)
+thisPres = User.find_by_full_name("David Edwards")
+thisFinOf = User.find_by_full_name("Scott Parks")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "dedwards@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "sparks7@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Bechtel")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "European Association at Stanford",
+								:visible_name => "European Association at Stanford",
+								:description => "The European Association at Stanford University seeks to 1. Provide a social and interactive forum for undergraduate and graduate students from Europe and/or with an interest in European affairs and culture 2. Educate the community about a range of economic, political, and social issues in Europe 3. Build a strong network of European alumni and students for the purpose of establishing partnerships and exploring careers in a variety of fields (mention focus on entrepreneurship?) 4. Establishing a network to European Clubs in other Universities",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Deanna Chase",
+									:visible_name => "Deanna Chase",
+									:email => "dpchase@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Heather Altman",
+									:visible_name => "Heather Altman",
+									:email => "haltman@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Deanna Chase")
+thisFinOf = User.find_by_full_name("Heather Altman")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "dpchase@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "haltman@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Haas Center for Public Service")
+thisGroupType = GroupType.find_by_name("Community Service")
+newGroup = Group.new(:full_name => "Everybody Dance Now",
+								:visible_name => "Everybody Dance Now",
+								:description => "Everybody Dance Now! offers free, hip-hop dance programming to children and teens who may otherwise lack the funds, transportation, physical/mental ability, or parental support to access dance classes. EDN! mobilizes highly qualified dance instructors to teach at different locations, such as low-income apartment complexes, after school programs, local schools, and on the Stanford campus.",
+								:website => "None specified",
+								:email => "ednstanford@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Anjana Bala",
+									:visible_name => "Anjana Bala",
+									:email => "anjanab@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Anjana Bala")
+thisFinOf = User.find_by_full_name("Sharleen Tu")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "anjanab@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "stu2@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Everyday People",
+								:visible_name => "Everyday People",
+								:description => "Everyday People is Stanford's R&B, Motown, Hip-Hop and Soul a cappella group on campus. Since its inception in October of 1987, Everyday People strives to create an all inclusive community, regardless of race, ethnicity, sexual orientation or gender.",
+								:website => "www.everydaypeople.org",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Sydney Beache",
+									:visible_name => "Sydney Beache",
+									:email => "sbeache@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Kari Giberson",
+									:visible_name => "Kari Giberson",
+									:email => "giberson@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Sydney Beache")
+thisFinOf = User.find_by_full_name("Kari Giberson")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "sbeache@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "giberson@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Religious")
+newGroup = Group.new(:full_name => "Fellowship in Christ at Stanford",
+								:visible_name => "Fellowship in Christ at Stanford",
+								:description => "FiCS is a campus ministry of Korean Central Presbyterian Church in Daly City. We hold weekly large group meetings as well as single-sex small group Bible studies at various times midweek. For more information, please visit our website at http://fics.stanford.edu",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Grace Huh",
+									:visible_name => "Grace Huh",
+									:email => "ghuh@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Annelise Mah",
+									:visible_name => "Annelise Mah",
+									:email => "aiyahmah@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Grace Huh")
+thisFinOf = User.find_by_full_name("Annelise Mah")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "ghuh@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "aiyahmah@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("El Centro Chicano")
+thisGroupType = GroupType.find_by_name("Creative Arts")
+newGroup = Group.new(:full_name => "Flamenco Cardenal",
+								:visible_name => "Flamenco Cardenal",
+								:description => "Flamenco Cardenal is a performance group that also provides classes, workshops and community events for lovers of flamenco. We welcome current and future dancers, singers, musicians, poets, and anyone with a love of the gitano arts.",
+								:website => "flamenco.stanford.edu",
+								:email => "flamenco-cardenal@lists.stanford.edu"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Javier Stell-Fresquez",
+									:visible_name => "Javier Stell-Fresquez",
+									:email => "javierf1@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Rupa Shankar",
+									:visible_name => "Rupa Shankar",
+									:email => "rupss@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Javier Stell-Fresquez")
+thisFinOf = User.find_by_full_name("Rupa Shankar")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "javierf1@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "rupss@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "FLIP: First-Generation, Low-Income Partnership",
+								:visible_name => "FLIP: First-Generation, Low-Income Partnership",
+								:description => "The mission of FLIP is to build a first generation, low income community at Stanford, engage in cross-class and cross-community dialogue in order to foster an open and respectful campus environment, provide resources for and advocate on behalf of the community, and empower first generation and low income students at Stanford.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Lena Sweeney",
+									:visible_name => "Lena Sweeney",
+									:email => "lenas@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Joshua Alvarez",
+									:visible_name => "Joshua Alvarez",
+									:email => "alvie11@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Lena Sweeney")
+thisFinOf = User.find_by_full_name("Joshua Alvarez")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "lenas@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "alvie11@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Bechtel")
+thisGroupType = GroupType.find_by_name("Ethnic / Cultural")
+newGroup = Group.new(:full_name => "French Stanford Student Association",
+								:visible_name => "French Stanford Student Association",
+								:description => "This association helps bringing together people from French heritage and people interested in French culture. It organizes cultural, social and recreational events for the Stanford Community.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Laura Sasportas",
+									:visible_name => "Laura Sasportas",
+									:email => "None specified"
+									)
+# New User
+User.create(:full_name => "Catherine Boubekeur",
+									:visible_name => "Catherine Boubekeur",
+									:email => "None specified"
+									)
+thisPres = User.find_by_full_name("Laura Sasportas")
+thisFinOf = User.find_by_full_name("Catherine Boubekeur")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "None specified")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "None specified")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("El Centro Chicano")
+thisGroupType = GroupType.find_by_name("Fraternity")
+newGroup = Group.new(:full_name => "Gamma Zeta Alpha Fraternity",
+								:visible_name => "Gamma Zeta Alpha Fraternity",
+								:description => "Gamma Zeta Alpha is a Latino-interest Fraternity focused on academic excellence, community service, and the maintanance of the Latino culture through brotherhood.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Jesus Salas",
+									:visible_name => "Jesus Salas",
+									:email => "jsalas08@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Jesus Espinoza",
+									:visible_name => "Jesus Espinoza",
+									:email => "jesuse@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Jesus Salas")
+thisFinOf = User.find_by_full_name("Jesus Espinoza")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "jsalas08@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "jesuse@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Department
+Department.create(:name => "LGBTCRC")
+
+# New Group
+thisDepartment = Department.find_by_name("LGBTCRC")
+thisGroupType = GroupType.find_by_name("Social")
+newGroup = Group.new(:full_name => "GradQ",
+								:visible_name => "GradQ",
+								:description => "GradQ is Stanford's umbrella group for all LGBT and allied students in the graduate and professional schools. Our goal is to support the campus LGBT graduate community through social, academic, and political interaction. We encourage all queer and allied students on campus to join and help shape this group so that it best serves the needs of our community.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Drew Compston",
+									:visible_name => "Drew Compston",
+									:email => "drewc@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Alexander Watts",
+									:visible_name => "Alexander Watts",
+									:email => "awwatts@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Drew Compston")
+thisFinOf = User.find_by_full_name("Alexander Watts")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "drewc@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "awwatts@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Social")
+newGroup = Group.new(:full_name => "Graduate Student Programming Board",
+								:visible_name => "Graduate Student Programming Board",
+								:description => "Graduate Student Programming Board is run through the Graduate Life Office. We strive to bring together graduate students from all over campus and varied backgrounds. We organize social, educational, cultural and athletic events for small and medium sized groups. GSPB is student run, and any student participant may suggest and plan an event with the support of the GSPB and GLO.",
+								:website => "None specified",
+								:email => "None specified"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "Georgios Michelogiannakis",
+									:visible_name => "Georgios Michelogiannakis",
+									:email => "mihelog@stanford.edu"
+									)
+# New User
+User.create(:full_name => "Krystal St. Julien",
+									:visible_name => "Krystal St. Julien",
+									:email => "krystals@stanford.edu"
+									)
+thisPres = User.find_by_full_name("Georgios Michelogiannakis")
+thisFinOf = User.find_by_full_name("Krystal St. Julien")
+thisPres.groups << newGroup
+thisPres.save
+thisFinOf.groups << newGroup
+thisFinOf.save
+
+# New President and Financial Officer
+newOfficer = Officer.new(:type => "President",
+								:email => "mihelog@stanford.edu")
+newOfficer.user = thisPres
+newOfficer.group = newGroup
+newOfficer.save
+newOfficer = Officer.new(:type => "Financial Officer",
+								:email => "krystals@stanford.edu")
+newOfficer.user = thisFinOf
+newOfficer.group = newGroup
+newOfficer.save
+
+# New Group
+thisDepartment = Department.find_by_name("Other")
+thisGroupType = GroupType.find_by_name("Political / Social Awareness")
+newGroup = Group.new(:full_name => "Green Living Council",
+								:visible_name => "Green Living Council",
+								:description => "The Green Living Council brings together and supports a network of Green Living Coordinators working in student residences to promote sustainable behaviors in campus life.",
+								:website => "glc.stanford.edu",
+								:email => "greenlivingcouncil@gmail.com"
+								)
+newGroup.department = thisDepartment
+newGroup.group_type = thisGroupType
+newGroup.save
+
+# New User
+User.create(:full_name => "William Greenbaum",
+									:visible_name => "William Gr

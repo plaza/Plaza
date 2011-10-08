@@ -1,0 +1,2 @@
+module GroupPostsHelper
+end

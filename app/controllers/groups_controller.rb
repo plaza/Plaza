@@ -16,6 +16,13 @@ class GroupsController < ApplicationController
     @group = Group.find(params[:id])
     @group_name = @group.visible_name
     @group_users = @group.users
+    @group_upcoming_events = @group.events.where("\"events\".\"start_date\" > \"#{DateTime.now}\"")
+    						.limit(4).order("start_date DESC").find(:all)
+    @group_past_events = @group.events.where("\"events\".\"start_date\" < \"#{DateTime.now}\"")
+    						.limit(2).order("start_date DESC").find(:all)
+    #@group_upcoming_events = @group.events.find_by_start_date(:limit => 4, :order => "start_date DESC")
+    #@group_past_events = @group.events.where("start_date > #{Time.now}").limit(1).order("start_date DESC")
+    #@group_blog_posts = 
 
     respond_to do |format|
       format.html # show.html.erb

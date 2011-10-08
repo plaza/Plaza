@@ -1,5 +1,13 @@
 # encoding:cp1252
 
+# New Test Locations
+location1 = Location.create(:full_name => "White Plaza", :visible_name => "White Plaza")
+location2 = Location.create(:full_name => "The CoHo", :visible_name => "The CoHo")
+location3 = Location.create(:full_name => "Loro 210", :visible_name => "Loro 210")
+location4 = Location.create(:full_name => "Meyer Library", :visible_name => "Meyer Library")
+location5 = Location.create(:full_name => "Arroyo", :visible_name => "Arroyo")
+location6 = Location.create(:full_name => "Phi Si", :visible_name => "Phi Si")
+
 # New Department
 Department.create(:name => "Medical School")
 
@@ -18,6 +26,29 @@ newGroup = Group.new(:full_name => "49ers Academy Teaching Team",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "IZUMI HINKSON",
@@ -67,6 +98,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Willys DeVoll",
 									:visible_name => "Willys DeVoll",
@@ -115,6 +169,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jocelyn Kinsey",
 									:visible_name => "Jocelyn Kinsey",
@@ -159,6 +236,29 @@ newGroup = Group.new(:full_name => "Aiki Association of Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Aubrey Shapero",
@@ -205,6 +305,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "John Lindsay",
 									:visible_name => "John Lindsay",
@@ -250,6 +373,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Tiffany Hsieh",
 									:visible_name => "Tiffany Hsieh",
@@ -291,6 +437,29 @@ newGroup = Group.new(:full_name => "ALMANAC",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "David Fresko",
@@ -340,6 +509,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Alexandra Hunter",
 									:visible_name => "Alexandra Hunter",
@@ -382,6 +574,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Tyler White",
 									:visible_name => "Tyler White",
@@ -423,6 +638,29 @@ newGroup = Group.new(:full_name => "Alpha Phi",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Nina Brener-Hellmund",
@@ -469,6 +707,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Elijah Frazier",
 									:visible_name => "Elijah Frazier",
@@ -513,6 +774,29 @@ newGroup = Group.new(:full_name => "Alpha Phi Omega",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Amy Dao",
@@ -559,6 +843,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Miles Unterreiner",
 									:visible_name => "Miles Unterreiner",
@@ -603,6 +910,29 @@ newGroup = Group.new(:full_name => "American Constitution Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sean Hassan",
@@ -649,6 +979,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jai Madhok",
 									:visible_name => "Jai Madhok",
@@ -690,6 +1043,29 @@ newGroup = Group.new(:full_name => "American Medical Student Association Stanfor
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "John Do",
@@ -733,6 +1109,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Chelsey Simmons",
 									:visible_name => "Chelsey Simmons",
@@ -774,6 +1173,29 @@ newGroup = Group.new(:full_name => "American Society of Civil Engineers",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Anthony Clarke",
@@ -817,6 +1239,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Annamaria Prati",
 									:visible_name => "Annamaria Prati",
@@ -859,6 +1304,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Tania Anaissie",
 									:visible_name => "Tania Anaissie",
@@ -900,6 +1368,29 @@ newGroup = Group.new(:full_name => "Arbor Free Clinic",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Lara Vogel",
@@ -946,6 +1437,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Andres Drenik",
 									:visible_name => "Andres Drenik",
@@ -988,6 +1502,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Narek Tovmasyan",
 									:visible_name => "Narek Tovmasyan",
@@ -1029,6 +1566,29 @@ newGroup = Group.new(:full_name => "Asha for Education",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Harendra Guturu",
@@ -1075,6 +1635,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Michael Wu",
 									:visible_name => "Michael Wu",
@@ -1116,6 +1699,29 @@ newGroup = Group.new(:full_name => "Asian American Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Justin Lam",
@@ -1159,6 +1765,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Deanna Tan",
 									:visible_name => "Deanna Tan",
@@ -1200,6 +1829,29 @@ newGroup = Group.new(:full_name => "Asian American Wellness Program",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jenny Nguyen",
@@ -1243,6 +1895,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "James Xie",
 									:visible_name => "James Xie",
@@ -1285,6 +1960,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 thisPres = User.find_by_full_name("Justin Lam")
 thisFinOf = User.find_by_full_name("Nancy Pham")
 thisPres.groups << newGroup
@@ -1316,6 +2014,29 @@ newGroup = Group.new(:full_name => "Asia-Pacific Student Entreprenuership Societ
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ricardo Corona",
@@ -1359,6 +2080,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Rahul Sastry",
 									:visible_name => "Rahul Sastry",
@@ -1400,6 +2144,29 @@ newGroup = Group.new(:full_name => "Association for Radiological Sciences Studen
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Elena Kaye",
@@ -1446,6 +2213,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ken Wang",
 									:visible_name => "Ken Wang",
@@ -1488,6 +2278,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Feross Aboukhadijeh",
 									:visible_name => "Feross Aboukhadijeh",
@@ -1529,6 +2342,29 @@ newGroup = Group.new(:full_name => "ASSU Arts Grant Program",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ketaki Shriram",
@@ -1575,6 +2411,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jimmy Grayson",
 									:visible_name => "Jimmy Grayson",
@@ -1619,6 +2478,29 @@ newGroup = Group.new(:full_name => "Bahai Association at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sadaf Sobhani",
@@ -1665,6 +2547,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Merlin Greuel",
 									:visible_name => "Merlin Greuel",
@@ -1706,6 +2611,29 @@ newGroup = Group.new(:full_name => "Barrio Assistance",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Christopher Brunson",
@@ -1749,6 +2677,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Siddharth Damania",
 									:visible_name => "Siddharth Damania",
@@ -1790,6 +2741,29 @@ newGroup = Group.new(:full_name => "BELGICA",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Stéphanie Dupont",
@@ -1833,6 +2807,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Gourab Mukherjee",
 									:visible_name => "Gourab Mukherjee",
@@ -1874,6 +2871,29 @@ newGroup = Group.new(:full_name => "Bent Spoon Dance Company",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Samantha Smith-Eppsteiner",
@@ -1917,6 +2937,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Himanshu Asnani",
 									:visible_name => "Himanshu Asnani",
@@ -1958,6 +3001,29 @@ newGroup = Group.new(:full_name => "Biomedical Engineering Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Meghan Bowler",
@@ -2001,6 +3067,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ashley Lyle",
 									:visible_name => "Ashley Lyle",
@@ -2042,6 +3131,29 @@ newGroup = Group.new(:full_name => "Black Graduate Students Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jarrell Cook",
@@ -2085,6 +3197,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Camille Fletcher",
 									:visible_name => "Camille Fletcher",
@@ -2127,6 +3262,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jabari Nyomba",
 									:visible_name => "Jabari Nyomba",
@@ -2163,6 +3321,29 @@ newGroup = Group.new(:full_name => "Black Psychology Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Anna-Alycia Tucker",
@@ -2206,6 +3387,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Megan McKoy",
 									:visible_name => "Megan McKoy",
@@ -2247,6 +3451,29 @@ newGroup = Group.new(:full_name => "Black Student Union",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Farris Blount III",
@@ -2290,6 +3517,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Zahra Axinn",
 									:visible_name => "Zahra Axinn",
@@ -2331,6 +3581,29 @@ newGroup = Group.new(:full_name => "Bolivian Students Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Eitan Winer",
@@ -2374,6 +3647,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Hannah Kopp-Yates",
 									:visible_name => "Hannah Kopp-Yates",
@@ -2415,6 +3711,29 @@ newGroup = Group.new(:full_name => "Bulgarian Club at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Deyan Simeonov",
@@ -2458,6 +3777,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Mary McCann",
 									:visible_name => "Mary McCann",
@@ -2499,6 +3841,29 @@ newGroup = Group.new(:full_name => "Cap and Gown",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Reagan Thompson",
@@ -2542,6 +3907,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Adam Genecov",
 									:visible_name => "Adam Genecov",
@@ -2584,6 +3972,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Daniel Wong",
 									:visible_name => "Daniel Wong",
@@ -2620,6 +4031,29 @@ newGroup = Group.new(:full_name => "Cardinal Life",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Hannah Seaton",
@@ -2663,6 +4097,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Norian Watson",
 									:visible_name => "Norian Watson",
@@ -2704,6 +4161,29 @@ newGroup = Group.new(:full_name => "Catholic Community at Stanford - Newman",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Gloria Munoz",
@@ -2747,6 +4227,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Inga Mghebrishvili",
 									:visible_name => "Inga Mghebrishvili",
@@ -2788,6 +4291,29 @@ newGroup = Group.new(:full_name => "Ceramics Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Joanna Rosene-Mirvis",
@@ -2831,6 +4357,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "natalie sudikoff",
 									:visible_name => "natalie sudikoff",
@@ -2872,6 +4421,29 @@ newGroup = Group.new(:full_name => "Chemical Engineering Graduate Students",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jesse Benck",
@@ -2918,6 +4490,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Annemarie Golz",
 									:visible_name => "Annemarie Golz",
@@ -2959,6 +4554,29 @@ newGroup = Group.new(:full_name => "Chi Alpha Christian Fellowship",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Lucia Ayala",
@@ -3002,6 +4620,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "James Estrella",
 									:visible_name => "James Estrella",
@@ -3044,6 +4685,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Gilberto Jimenez",
 									:visible_name => "Gilberto Jimenez",
@@ -3080,6 +4744,29 @@ newGroup = Group.new(:full_name => "Chicanos Latinos in Health Education",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Tejada",
@@ -3123,6 +4810,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Mauricio Farias",
 									:visible_name => "Mauricio Farias",
@@ -3164,6 +4874,29 @@ newGroup = Group.new(:full_name => "Chinese Campus Evangelistic Fellowship",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Chen Chen",
@@ -3207,6 +4940,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jennifer Thompson",
 									:visible_name => "Jennifer Thompson",
@@ -3248,6 +5004,29 @@ newGroup = Group.new(:full_name => "Circle K",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Amy Harris",
@@ -3294,6 +5073,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Shruthi Baskaran",
 									:visible_name => "Shruthi Baskaran",
@@ -3335,6 +5137,29 @@ newGroup = Group.new(:full_name => "Class of 2013",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Alex Walker",
@@ -3378,6 +5203,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Phounsouk Sivilay",
 									:visible_name => "Phounsouk Sivilay",
@@ -3419,6 +5267,29 @@ newGroup = Group.new(:full_name => "Class of 2015",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Alison Maggioncalda",
@@ -3462,6 +5333,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Stacy Kaufman",
 									:visible_name => "Stacy Kaufman",
@@ -3503,6 +5397,29 @@ newGroup = Group.new(:full_name => "Common Origins",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Phil Delrosario",
@@ -3546,6 +5463,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Arthur Friend",
 									:visible_name => "Arthur Friend",
@@ -3587,6 +5527,29 @@ newGroup = Group.new(:full_name => "Confucian Life and Study at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Seanan Fong",
@@ -3630,6 +5593,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Peter Abraham",
 									:visible_name => "Peter Abraham",
@@ -3671,6 +5657,29 @@ newGroup = Group.new(:full_name => "Counterpoint a cappella",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Teresa Caprioglio",
@@ -3714,6 +5723,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Juan Pablo Samper Mejia",
 									:visible_name => "Juan Pablo Samper Mejia",
@@ -3755,6 +5787,29 @@ newGroup = Group.new(:full_name => "Delta Sigma Theta",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "rameerah Anderson",
@@ -3798,6 +5853,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "William Lee",
 									:visible_name => "William Lee",
@@ -3839,6 +5917,29 @@ newGroup = Group.new(:full_name => "Dosti",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Makala Kaupalolo",
@@ -3882,6 +5983,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jeremy Keeshin",
 									:visible_name => "Jeremy Keeshin",
@@ -3923,6 +6047,29 @@ newGroup = Group.new(:full_name => "Dualist, The",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Daniel Hollingshead",
@@ -3966,6 +6113,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Arthur van Benthem",
 									:visible_name => "Arthur van Benthem",
@@ -4007,6 +6177,29 @@ newGroup = Group.new(:full_name => "DV8",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kevin Smith",
@@ -4050,6 +6243,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Maria Baryakhtar",
 									:visible_name => "Maria Baryakhtar",
@@ -4086,6 +6302,29 @@ newGroup = Group.new(:full_name => "Elijah Christian Cell Group at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mandy Man Chu Wong",
@@ -4129,6 +6368,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Luz Silverio",
 									:visible_name => "Luz Silverio",
@@ -4170,6 +6432,29 @@ newGroup = Group.new(:full_name => "Engineering Physics Interdisciplinary Commun
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Isaac Kauvar",
@@ -4213,6 +6498,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kristiana Schneck",
 									:visible_name => "Kristiana Schneck",
@@ -4254,6 +6562,29 @@ newGroup = Group.new(:full_name => "Esperanto Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "David Edwards",
@@ -4297,6 +6628,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Deanna Chase",
 									:visible_name => "Deanna Chase",
@@ -4339,6 +6693,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Anjana Bala",
 									:visible_name => "Anjana Bala",
@@ -4375,6 +6752,29 @@ newGroup = Group.new(:full_name => "Everyday People",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sydney Beache",
@@ -4418,6 +6818,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Grace Huh",
 									:visible_name => "Grace Huh",
@@ -4459,6 +6882,29 @@ newGroup = Group.new(:full_name => "Flamenco Cardenal",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Javier Stell-Fresquez",
@@ -4502,6 +6948,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Lena Sweeney",
 									:visible_name => "Lena Sweeney",
@@ -4544,6 +7013,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Laura Sasportas",
 									:visible_name => "Laura Sasportas",
@@ -4585,6 +7077,29 @@ newGroup = Group.new(:full_name => "Gamma Zeta Alpha Fraternity",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jesus Salas",
@@ -4631,6 +7146,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Drew Compston",
 									:visible_name => "Drew Compston",
@@ -4673,6 +7211,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Georgios Michelogiannakis",
 									:visible_name => "Georgios Michelogiannakis",
@@ -4714,6 +7275,29 @@ newGroup = Group.new(:full_name => "Green Living Council",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "William Greenbaum",
@@ -4760,6 +7344,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Meredith Bates",
 									:visible_name => "Meredith Bates",
@@ -4801,6 +7408,29 @@ newGroup = Group.new(:full_name => "GSB Arts, Media & Entertainment Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jackie Rocca",
@@ -4844,6 +7474,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "David Yang",
 									:visible_name => "David Yang",
@@ -4885,6 +7538,29 @@ newGroup = Group.new(:full_name => "GSB Band",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Benjamin Levick",
@@ -4928,6 +7604,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Mark Madsen",
 									:visible_name => "Mark Madsen",
@@ -4969,6 +7668,29 @@ newGroup = Group.new(:full_name => "GSB Big Ideas Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Anneke Jong",
@@ -5012,6 +7734,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Lenora Robinson",
 									:visible_name => "Lenora Robinson",
@@ -5053,6 +7798,29 @@ newGroup = Group.new(:full_name => "GSB Brewers Guild",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Justin Marcoux",
@@ -5096,6 +7864,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Catha Mullen",
 									:visible_name => "Catha Mullen",
@@ -5137,6 +7928,29 @@ newGroup = Group.new(:full_name => "GSB Challenge 4 Charity",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sara Ittelson",
@@ -5180,6 +7994,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "William Norvell",
 									:visible_name => "William Norvell",
@@ -5221,6 +8058,29 @@ newGroup = Group.new(:full_name => "GSB Dogs",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Laura Kruizenga",
@@ -5264,6 +8124,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Supriya Balsekar",
 									:visible_name => "Supriya Balsekar",
@@ -5306,6 +8189,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Austin Kiessig",
 									:visible_name => "Austin Kiessig",
@@ -5342,6 +8248,29 @@ newGroup = Group.new(:full_name => "GSB Epicureans at the GSB",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "sabah oney",
@@ -5385,6 +8314,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "luca gualco",
 									:visible_name => "luca gualco",
@@ -5426,6 +8378,29 @@ newGroup = Group.new(:full_name => "GSB Family Business Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mubarik Imam",
@@ -5469,6 +8444,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Peter Blaustein",
 									:visible_name => "Peter Blaustein",
@@ -5511,6 +8509,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Caroline Mullen",
 									:visible_name => "Caroline Mullen",
@@ -5547,6 +8568,29 @@ newGroup = Group.new(:full_name => "GSB Gives Back",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Weiss",
@@ -5590,6 +8634,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Samuel Epstein",
 									:visible_name => "Samuel Epstein",
@@ -5626,6 +8693,29 @@ newGroup = Group.new(:full_name => "GSB Government & Politics Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Drew DeWalt",
@@ -5668,6 +8758,29 @@ newGroup = Group.new(:full_name => "GSB Greater China Business Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Danny Lin",
@@ -5714,6 +8827,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Erin Sprague",
 									:visible_name => "Erin Sprague",
@@ -5755,6 +8891,29 @@ newGroup = Group.new(:full_name => "GSB Health Care Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Winlo",
@@ -5798,6 +8957,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Yi Liu",
 									:visible_name => "Yi Liu",
@@ -5839,6 +9021,29 @@ newGroup = Group.new(:full_name => "GSB Hispanic Business Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Valerie Villarreal",
@@ -5882,6 +9087,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jeff Volling",
 									:visible_name => "Jeff Volling",
@@ -5918,6 +9146,29 @@ newGroup = Group.new(:full_name => "GSB International Development Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kathryn Pauli",
@@ -5961,6 +9212,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Julia Bernstein",
 									:visible_name => "Julia Bernstein",
@@ -6002,6 +9276,29 @@ newGroup = Group.new(:full_name => "GSB Latin American Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Adriana Peon",
@@ -6045,6 +9342,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Elizabeth Encisco",
 									:visible_name => "Elizabeth Encisco",
@@ -6087,6 +9407,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ari Friedland",
 									:visible_name => "Ari Friedland",
@@ -6128,6 +9471,29 @@ newGroup = Group.new(:full_name => "GSB Middle East and North Africa Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Fawaz AlRajhi",
@@ -6174,6 +9540,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Emilie Ambroise",
 									:visible_name => "Emilie Ambroise",
@@ -6215,6 +9604,29 @@ newGroup = Group.new(:full_name => "GSB PhD Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Will Cong",
@@ -6258,6 +9670,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "William Hartman",
 									:visible_name => "William Hartman",
@@ -6300,6 +9735,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Harsh Agarwal",
 									:visible_name => "Harsh Agarwal",
@@ -6336,6 +9794,29 @@ newGroup = Group.new(:full_name => "GSB Product Design and Manufacturing Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Justin Santistevan",
@@ -6379,6 +9860,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Gerbian King",
 									:visible_name => "Gerbian King",
@@ -6421,6 +9925,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Benjamin Kessler",
 									:visible_name => "Benjamin Kessler",
@@ -6457,6 +9984,29 @@ newGroup = Group.new(:full_name => "GSB Retail Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Leslie Emmons",
@@ -6500,6 +10050,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Clarke Smith",
 									:visible_name => "Clarke Smith",
@@ -6536,6 +10109,29 @@ newGroup = Group.new(:full_name => "GSB Sales Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kellee Patterson",
@@ -6579,6 +10175,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ted Lim",
 									:visible_name => "Ted Lim",
@@ -6615,6 +10234,29 @@ newGroup = Group.new(:full_name => "GSB Ski & Snowboard Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Dan Reuter",
@@ -6658,6 +10300,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Nick Tandon",
 									:visible_name => "Nick Tandon",
@@ -6694,6 +10359,29 @@ newGroup = Group.new(:full_name => "GSB Social Venture Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Amanda Lubin",
@@ -6743,6 +10431,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kriti Parashar",
 									:visible_name => "Kriti Parashar",
@@ -6782,6 +10493,29 @@ newGroup = Group.new(:full_name => "GSB Sports Management Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Araceli Ortiz",
@@ -6825,6 +10559,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Niko Raberger",
 									:visible_name => "Niko Raberger",
@@ -6861,6 +10618,29 @@ newGroup = Group.new(:full_name => "GSB Texas Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "James Crain",
@@ -6904,6 +10684,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Yael Malek",
 									:visible_name => "Yael Malek",
@@ -6940,6 +10743,29 @@ newGroup = Group.new(:full_name => "GSB Venture Capital Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "David Rohrsheim",
@@ -6983,6 +10809,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Mike Henchen",
 									:visible_name => "Mike Henchen",
@@ -7024,6 +10873,29 @@ newGroup = Group.new(:full_name => "GSB Wine Circle",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Joseph Celia",
@@ -7067,6 +10939,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Mary Ellen Player",
 									:visible_name => "Mary Ellen Player",
@@ -7108,6 +11003,29 @@ newGroup = Group.new(:full_name => "GSC-Programming",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Manish Choudhary",
@@ -7151,6 +11069,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Eliana Arredondo",
 									:visible_name => "Eliana Arredondo",
@@ -7187,6 +11128,29 @@ newGroup = Group.new(:full_name => "Health Education--Lifetime Partnerships for 
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Harrison Kay",
@@ -7230,6 +11194,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Andreas Nomikos",
 									:visible_name => "Andreas Nomikos",
@@ -7271,6 +11258,29 @@ newGroup = Group.new(:full_name => "Henry's Place",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kathryn Enriquez",
@@ -7314,6 +11324,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Pallav Agrawal",
 									:visible_name => "Pallav Agrawal",
@@ -7355,6 +11388,29 @@ newGroup = Group.new(:full_name => "Hmong Student Union",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ken Xiong",
@@ -7398,6 +11454,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Stephan Stiller",
 									:visible_name => "Stephan Stiller",
@@ -7434,6 +11513,29 @@ newGroup = Group.new(:full_name => "Hui o Hawai'i",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Elizabeth Constable",
@@ -7477,6 +11579,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Angelina Johanna",
 									:visible_name => "Angelina Johanna",
@@ -7519,6 +11644,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Vin Nie Ong",
 									:visible_name => "Vin Nie Ong",
@@ -7555,6 +11703,29 @@ newGroup = Group.new(:full_name => "Intersorority Council",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jessica Pih",
@@ -7598,6 +11769,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Nayo Hill",
 									:visible_name => "Nayo Hill",
@@ -7639,6 +11833,29 @@ newGroup = Group.new(:full_name => "InterVarsity Graduate Christian Fellowship",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Heather Stalker",
@@ -7682,6 +11899,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Galym Imanbayev",
 									:visible_name => "Galym Imanbayev",
@@ -7723,6 +11963,29 @@ newGroup = Group.new(:full_name => "Ismaili Student Association at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Al-Karim Lalani",
@@ -7766,6 +12029,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Barr Moses",
 									:visible_name => "Barr Moses",
@@ -7807,6 +12093,29 @@ newGroup = Group.new(:full_name => "Jam Pac'd",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mercedes Yee",
@@ -7850,6 +12159,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Dan Berenholtz",
 									:visible_name => "Dan Berenholtz",
@@ -7887,6 +12219,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Isaac Bleaman",
 									:visible_name => "Isaac Bleaman",
@@ -7923,6 +12278,29 @@ newGroup = Group.new(:full_name => "Jujitsu Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Bo Dwyer",
@@ -7966,6 +12344,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Olivia Isaac",
 									:visible_name => "Olivia Isaac",
@@ -8008,6 +12409,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 thisPres = User.find_by_full_name("Jessica Pih")
 thisFinOf = User.find_by_full_name("Bonnie McLindon")
 thisPres.groups << newGroup
@@ -8039,6 +12463,29 @@ newGroup = Group.new(:full_name => "Kappa Kappa Gamma",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Melissa Seidemann",
@@ -8082,6 +12529,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Gabriel Ramos",
 									:visible_name => "Gabriel Ramos",
@@ -8123,6 +12593,29 @@ newGroup = Group.new(:full_name => "Kids With Dreams",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Christine Khademi",
@@ -8166,6 +12659,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Eun Jung Lee",
 									:visible_name => "Eun Jung Lee",
@@ -8207,6 +12723,29 @@ newGroup = Group.new(:full_name => "Korean Student Association at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "jihoon jang",
@@ -8250,6 +12789,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Maxwell Kim",
 									:visible_name => "Maxwell Kim",
@@ -8291,6 +12853,29 @@ newGroup = Group.new(:full_name => "Kuumba African Dance & Drum Ensemble",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Alaina Butler",
@@ -8334,6 +12919,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Adam Pearson",
 									:visible_name => "Adam Pearson",
@@ -8375,6 +12983,29 @@ newGroup = Group.new(:full_name => "La Familia de Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Elizabeth Patino",
@@ -8418,6 +13049,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Diana Robles",
 									:visible_name => "Diana Robles",
@@ -8459,6 +13113,29 @@ newGroup = Group.new(:full_name => "Latter-day Saint Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Lena Schoemaker",
@@ -8502,6 +13179,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Nicolas Kseib",
 									:visible_name => "Nicolas Kseib",
@@ -8538,6 +13238,29 @@ newGroup = Group.new(:full_name => "Leland Stanford Junior University Marching B
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ben Lasley",
@@ -8581,6 +13304,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "William White",
 									:visible_name => "William White",
@@ -8622,6 +13368,29 @@ newGroup = Group.new(:full_name => "Los Hermanos de Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mario Vazquez",
@@ -8665,6 +13434,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Joel DuBray",
 									:visible_name => "Joel DuBray",
@@ -8706,6 +13498,29 @@ newGroup = Group.new(:full_name => "Malaysians at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Zhi Kin Loke",
@@ -8749,6 +13564,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Mariana Barraza",
 									:visible_name => "Mariana Barraza",
@@ -8790,6 +13628,29 @@ newGroup = Group.new(:full_name => "Math Magic",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "stephanie weber",
@@ -8833,6 +13694,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Samantha Bozek",
 									:visible_name => "Samantha Bozek",
@@ -8874,6 +13758,29 @@ newGroup = Group.new(:full_name => "Medical Spanish Initiative",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Amalia londono tobon",
@@ -8917,6 +13824,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Elias Rodriques",
 									:visible_name => "Elias Rodriques",
@@ -8958,6 +13888,29 @@ newGroup = Group.new(:full_name => "Men's Club Basketball",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sam Shapiro",
@@ -9001,6 +13954,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Bryce Small",
 									:visible_name => "Bryce Small",
@@ -9042,6 +14018,29 @@ newGroup = Group.new(:full_name => "Mexican Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Pablo Villanueva",
@@ -9085,6 +14084,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Brittany Bankston",
 									:visible_name => "Brittany Bankston",
@@ -9126,6 +14148,29 @@ newGroup = Group.new(:full_name => "Movimiento Estudiantil Chicano de Aztlan",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Karen Carpenter",
@@ -9169,6 +14214,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kyle Vandenberg",
 									:visible_name => "Kyle Vandenberg",
@@ -9210,6 +14278,29 @@ newGroup = Group.new(:full_name => "Muslim Students Awareness Network",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mahta Baghoolizadeh",
@@ -9253,6 +14344,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Marie Baylon",
 									:visible_name => "Marie Baylon",
@@ -9294,6 +14408,29 @@ newGroup = Group.new(:full_name => "Ohana Chinese Christian Fellowship",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Chen",
@@ -9337,6 +14474,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Terrence Stephens",
 									:visible_name => "Terrence Stephens",
@@ -9378,6 +14538,29 @@ newGroup = Group.new(:full_name => "Oncology Student Interest Group",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kipp Weiskopf",
@@ -9421,6 +14604,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Amy Kirkham",
 									:visible_name => "Amy Kirkham",
@@ -9457,6 +14663,29 @@ newGroup = Group.new(:full_name => "Organization of International Health",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Clare Cameron",
@@ -9500,6 +14729,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Norbert Stuhrmann",
 									:visible_name => "Norbert Stuhrmann",
@@ -9541,6 +14793,29 @@ newGroup = Group.new(:full_name => "Pakistanis at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ateeq Suria",
@@ -9584,6 +14859,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Diego Molino",
 									:visible_name => "Diego Molino",
@@ -9625,6 +14923,29 @@ newGroup = Group.new(:full_name => "Parakaleo Christian Ministries",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Esther Pierce",
@@ -9668,6 +14989,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jennifer Ladd",
 									:visible_name => "Jennifer Ladd",
@@ -9704,6 +15048,29 @@ newGroup = Group.new(:full_name => "Persian Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ali Nouri Dariani",
@@ -9747,6 +15114,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "michael thomas",
 									:visible_name => "michael thomas",
@@ -9789,6 +15179,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kyle Zaragoza",
 									:visible_name => "Kyle Zaragoza",
@@ -9826,6 +15239,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Yifeng Huang",
 									:visible_name => "Yifeng Huang",
@@ -9862,6 +15298,29 @@ newGroup = Group.new(:full_name => "Project Compassion: Student Chapter",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Keryn Breiterman-Loader",
@@ -9905,6 +15364,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Caitlin Woolsey",
 									:visible_name => "Caitlin Woolsey",
@@ -9946,6 +15428,29 @@ newGroup = Group.new(:full_name => "Project Motivation",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kaela Farrise",
@@ -9989,6 +15494,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Vanessa Dang",
 									:visible_name => "Vanessa Dang",
@@ -10030,6 +15558,29 @@ newGroup = Group.new(:full_name => "Queer and Questioning Asians And Pacific Isl
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Christopher Lee",
@@ -10073,6 +15624,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Nathaniel Williams",
 									:visible_name => "Nathaniel Williams",
@@ -10114,6 +15688,29 @@ newGroup = Group.new(:full_name => "Quiz Bowl Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "William Rowan",
@@ -10157,6 +15754,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Li Li",
 									:visible_name => "Li Li",
@@ -10198,6 +15818,29 @@ newGroup = Group.new(:full_name => "Ram's Head Theatrical Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Liz Stark",
@@ -10241,6 +15884,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kevin Mori",
 									:visible_name => "Kevin Mori",
@@ -10282,6 +15948,29 @@ newGroup = Group.new(:full_name => "Reformed University Fellowship at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Cason Kynes",
@@ -10325,6 +16014,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Alexis Patterson",
 									:visible_name => "Alexis Patterson",
@@ -10366,6 +16078,29 @@ newGroup = Group.new(:full_name => "Robber Barons Sketch Comedy",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Tristan Kruth",
@@ -10409,6 +16144,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Michelle Grau",
 									:visible_name => "Michelle Grau",
@@ -10450,6 +16208,29 @@ newGroup = Group.new(:full_name => "Romanian Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Adrian Albert",
@@ -10493,6 +16274,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Dmitry Pushkarev",
 									:visible_name => "Dmitry Pushkarev",
@@ -10534,6 +16338,29 @@ newGroup = Group.new(:full_name => "Sanskriti",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sheta Chatterjee",
@@ -10577,6 +16404,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Harjus Birk",
 									:visible_name => "Harjus Birk",
@@ -10618,6 +16468,29 @@ newGroup = Group.new(:full_name => "Scandinavians at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Johan Andreasson",
@@ -10664,6 +16537,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Autumn Burnes",
 									:visible_name => "Autumn Burnes",
@@ -10706,6 +16602,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "kelly rosencrans",
 									:visible_name => "kelly rosencrans",
@@ -10742,6 +16661,29 @@ newGroup = Group.new(:full_name => "Shenson Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Arpeet Shah",
@@ -10785,6 +16727,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kimberly Pham",
 									:visible_name => "Kimberly Pham",
@@ -10826,6 +16791,29 @@ newGroup = Group.new(:full_name => "Sigma Gamma Rho",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sydney Tomlin",
@@ -10869,6 +16857,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Colin Gray",
 									:visible_name => "Colin Gray",
@@ -10910,6 +16921,29 @@ newGroup = Group.new(:full_name => "Sigma Psi Zeta Sorority Inc",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Melissa Luu",
@@ -10953,6 +16987,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Samantha Johnson",
 									:visible_name => "Samantha Johnson",
@@ -10994,6 +17051,29 @@ newGroup = Group.new(:full_name => "Singaporeans at Stanford",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sherlene Chatterji",
@@ -11037,6 +17117,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Britt Jensen",
 									:visible_name => "Britt Jensen",
@@ -11078,6 +17181,29 @@ newGroup = Group.new(:full_name => "Society for Industrial and Applied Mathemati
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Pierre-David Letourneau",
@@ -11121,6 +17247,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ashley Rhoades",
 									:visible_name => "Ashley Rhoades",
@@ -11162,6 +17311,29 @@ newGroup = Group.new(:full_name => "Society of Black Scientists and Engineers",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Landon Medlock",
@@ -11205,6 +17377,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Markus Buchgraber",
 									:visible_name => "Markus Buchgraber",
@@ -11246,6 +17441,29 @@ newGroup = Group.new(:full_name => "Society of Women Engineers",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Alyson Yamada",
@@ -11289,6 +17507,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Muthu Alagappan",
 									:visible_name => "Muthu Alagappan",
@@ -11330,6 +17571,29 @@ newGroup = Group.new(:full_name => "Spicmacay",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Vikas Yendluri",
@@ -11373,6 +17637,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jack Mosbacher",
 									:visible_name => "Jack Mosbacher",
@@ -11414,6 +17701,29 @@ newGroup = Group.new(:full_name => "STAND",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mia Newman",
@@ -11457,6 +17767,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Candice Lowdermilk",
 									:visible_name => "Candice Lowdermilk",
@@ -11499,6 +17832,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Tanaka mawindi",
 									:visible_name => "Tanaka mawindi",
@@ -11540,6 +17896,29 @@ newGroup = Group.new(:full_name => "Stanford Alpine Project",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mairi Litherland",
@@ -11586,6 +17965,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Elizabeth Rosen",
 									:visible_name => "Elizabeth Rosen",
@@ -11628,6 +18030,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "George Malkin",
 									:visible_name => "George Malkin",
@@ -11664,6 +18089,29 @@ newGroup = Group.new(:full_name => "Stanford Amateur Radio Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Daniel Clark",
@@ -11707,6 +18155,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Faith Begay",
 									:visible_name => "Faith Begay",
@@ -11748,6 +18219,29 @@ newGroup = Group.new(:full_name => "Stanford American Indigenous Medical Student
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Adrian Begaye",
@@ -11791,6 +18285,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Deborah Fretwell",
 									:visible_name => "Deborah Fretwell",
@@ -11833,6 +18350,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Bernard VanBerkum",
 									:visible_name => "Bernard VanBerkum",
@@ -11869,6 +18409,29 @@ newGroup = Group.new(:full_name => "Stanford Archery Program",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Crayne",
@@ -11912,6 +18475,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Van Anh Tran",
 									:visible_name => "Van Anh Tran",
@@ -11953,6 +18539,29 @@ newGroup = Group.new(:full_name => "Stanford Association for International Devel
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Cooper Williams",
@@ -11996,6 +18605,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Catherine Del Vecchio",
 									:visible_name => "Catherine Del Vecchio",
@@ -12037,6 +18669,29 @@ newGroup = Group.new(:full_name => "Stanford AXE Committee",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Bradley Moylan",
@@ -12080,6 +18735,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Alexander Embiricos",
 									:visible_name => "Alexander Embiricos",
@@ -12121,6 +18799,29 @@ newGroup = Group.new(:full_name => "Stanford Beach Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Randy Casals",
@@ -12164,6 +18865,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Meredith Wheeler",
 									:visible_name => "Meredith Wheeler",
@@ -12200,6 +18924,29 @@ newGroup = Group.new(:full_name => "Stanford Biosciences Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Louis Fernandes",
@@ -12243,6 +18990,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "William Noderer",
 									:visible_name => "William Noderer",
@@ -12284,6 +19054,29 @@ newGroup = Group.new(:full_name => "Stanford Bridge Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Samuel Lichtenstein",
@@ -12327,6 +19120,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jessica Reeves",
 									:visible_name => "Jessica Reeves",
@@ -12368,6 +19184,29 @@ newGroup = Group.new(:full_name => "Stanford Capoeira",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Leonid Pekelis",
@@ -12411,6 +19250,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Emily Song",
 									:visible_name => "Emily Song",
@@ -12453,6 +19315,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Danya Volkov",
 									:visible_name => "Danya Volkov",
@@ -12489,6 +19374,29 @@ newGroup = Group.new(:full_name => "Stanford Chamber Chorale",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Eric Tuan",
@@ -12532,6 +19440,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Alex Hertz",
 									:visible_name => "Alex Hertz",
@@ -12573,6 +19504,29 @@ newGroup = Group.new(:full_name => "Stanford Chemistry Women's Committee on Grad
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Erika Geihe",
@@ -12616,6 +19570,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Burjis Godrej",
 									:visible_name => "Burjis Godrej",
@@ -12657,6 +19634,29 @@ newGroup = Group.new(:full_name => "Stanford China Connect",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Yuming Jiang",
@@ -12700,6 +19700,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Carolyn MacDonald",
 									:visible_name => "Carolyn MacDonald",
@@ -12741,6 +19764,29 @@ newGroup = Group.new(:full_name => "Stanford Club Baseball",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Lazarus",
@@ -12784,6 +19830,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jack Jorgensen",
 									:visible_name => "Jack Jorgensen",
@@ -12825,6 +19894,29 @@ newGroup = Group.new(:full_name => "Stanford Club Sports",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jonathan Boyd-Meredith",
@@ -12868,6 +19960,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jonathan Noguchi",
 									:visible_name => "Jonathan Noguchi",
@@ -12909,6 +20024,29 @@ newGroup = Group.new(:full_name => "Stanford Club Triathlon Team",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "John Kegelman",
@@ -12952,6 +20090,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Emily Pollock",
 									:visible_name => "Emily Pollock",
@@ -12994,6 +20155,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kyle Huwa",
 									:visible_name => "Kyle Huwa",
@@ -13031,6 +20215,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Angela Chiang",
 									:visible_name => "Angela Chiang",
@@ -13067,6 +20274,29 @@ newGroup = Group.new(:full_name => "Stanford Cricket Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Raman Nelakanti",
@@ -13110,6 +20340,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Eileen Mazzochette",
 									:visible_name => "Eileen Mazzochette",
@@ -13151,6 +20404,29 @@ newGroup = Group.new(:full_name => "Stanford Dance Marathon",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Alexandra Coleman",
@@ -13194,6 +20470,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Emma Pierson",
 									:visible_name => "Emma Pierson",
@@ -13236,6 +20535,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Lindsay Lamont",
 									:visible_name => "Lindsay Lamont",
@@ -13272,6 +20594,29 @@ newGroup = Group.new(:full_name => "Stanford Design Initiative",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Rob Ryan",
@@ -13315,6 +20660,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Rebecca Hetey",
 									:visible_name => "Rebecca Hetey",
@@ -13356,6 +20724,29 @@ newGroup = Group.new(:full_name => "Stanford Dragon Boat",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Terence Li",
@@ -13399,6 +20790,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Brentan Alexander",
 									:visible_name => "Brentan Alexander",
@@ -13440,6 +20854,29 @@ newGroup = Group.new(:full_name => "Stanford Equestrian Team",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Rachel Kolb",
@@ -13483,6 +20920,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Heidi Thorsen",
 									:visible_name => "Heidi Thorsen",
@@ -13524,6 +20984,29 @@ newGroup = Group.new(:full_name => "Stanford Farm Project",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Caroline Hodge",
@@ -13567,6 +21050,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jennifer Schaffer",
 									:visible_name => "Jennifer Schaffer",
@@ -13608,6 +21114,29 @@ newGroup = Group.new(:full_name => "Stanford Finance",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Miles Penn",
@@ -13651,6 +21180,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Joshua Siegel",
 									:visible_name => "Joshua Siegel",
@@ -13692,6 +21244,29 @@ newGroup = Group.new(:full_name => "Stanford Gaming Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Daniel Whalen",
@@ -13735,6 +21310,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Cornelius Kloeck",
 									:visible_name => "Cornelius Kloeck",
@@ -13776,6 +21374,29 @@ newGroup = Group.new(:full_name => "Stanford Gleaning Project",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Tim Huang",
@@ -13819,6 +21440,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Tajah Tubbs",
 									:visible_name => "Tajah Tubbs",
@@ -13860,6 +21504,29 @@ newGroup = Group.new(:full_name => "Stanford Habitat for Humanity",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Keren Mikva",
@@ -13903,6 +21570,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Sarah Rudolph",
 									:visible_name => "Sarah Rudolph",
@@ -13945,6 +21635,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jennifer Lyman",
 									:visible_name => "Jennifer Lyman",
@@ -13981,6 +21694,29 @@ newGroup = Group.new(:full_name => "Stanford Hurling",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Steven Roach",
@@ -14024,6 +21760,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Seok Hyeong Lee",
 									:visible_name => "Seok Hyeong Lee",
@@ -14065,6 +21824,29 @@ newGroup = Group.new(:full_name => "Stanford Immigrant Rights Project",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jessica Rivas",
@@ -14108,6 +21890,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Otis Reid",
 									:visible_name => "Otis Reid",
@@ -14149,6 +21954,29 @@ newGroup = Group.new(:full_name => "Stanford India Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Siddharth Krishna Kumar",
@@ -14192,6 +22020,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Rahul Pandey",
 									:visible_name => "Rahul Pandey",
@@ -14233,6 +22084,29 @@ newGroup = Group.new(:full_name => "Stanford Israel Alliance",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Daniel Bardenstein",
@@ -14276,6 +22150,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Aki Kobashi",
 									:visible_name => "Aki Kobashi",
@@ -14318,6 +22215,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "John D'Atri",
 									:visible_name => "John D'Atri",
@@ -14354,6 +22274,29 @@ newGroup = Group.new(:full_name => "Stanford Journal of East Asian Affairs",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Fang Xie",
@@ -14397,6 +22340,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Mitul Bhat",
 									:visible_name => "Mitul Bhat",
@@ -14438,6 +22404,29 @@ newGroup = Group.new(:full_name => "Stanford Journal of Public Health",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Rebecca Johnson",
@@ -14481,6 +22470,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Irteza Binte-Farid",
 									:visible_name => "Irteza Binte-Farid",
@@ -14522,6 +22534,29 @@ newGroup = Group.new(:full_name => "Stanford Kayak Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Benjamin Waxman",
@@ -14565,6 +22600,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jake Hughey",
 									:visible_name => "Jake Hughey",
@@ -14601,6 +22659,29 @@ newGroup = Group.new(:full_name => "Stanford Khmer Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Sakara Seng",
@@ -14644,6 +22725,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Gregory Gorraiz",
 									:visible_name => "Gregory Gorraiz",
@@ -14686,6 +22790,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "David Rosenthal",
 									:visible_name => "David Rosenthal",
@@ -14722,6 +22849,29 @@ newGroup = Group.new(:full_name => "Stanford Labor Action Coalition",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Teresa Ortega",
@@ -14765,6 +22915,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Aviva Gilbert",
 									:visible_name => "Aviva Gilbert",
@@ -14806,6 +22979,29 @@ newGroup = Group.new(:full_name => "Stanford Law & Technology Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "alexandra moss",
@@ -14849,6 +23045,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Joshua Aidan Dunn",
 									:visible_name => "Joshua Aidan Dunn",
@@ -14890,6 +23109,29 @@ newGroup = Group.new(:full_name => "Stanford Marketing Group",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Tiffany Li",
@@ -14933,6 +23175,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Amit Desai",
 									:visible_name => "Amit Desai",
@@ -14975,6 +23240,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Cheolkyun Jeong",
 									:visible_name => "Cheolkyun Jeong",
@@ -15011,6 +23299,29 @@ newGroup = Group.new(:full_name => "Stanford Medical Students Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Woody Chang",
@@ -15054,6 +23365,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Calvin Fernandez",
 									:visible_name => "Calvin Fernandez",
@@ -15096,6 +23430,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Sebastian Gil",
 									:visible_name => "Sebastian Gil",
@@ -15132,6 +23489,29 @@ newGroup = Group.new(:full_name => "Stanford Men's Lacrosse",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Samuel Romer",
@@ -15175,6 +23555,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jordan Dickson",
 									:visible_name => "Jordan Dickson",
@@ -15216,6 +23619,29 @@ newGroup = Group.new(:full_name => "Stanford Muay Thai",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Gil Shotan",
@@ -15259,6 +23685,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jared Schwede",
 									:visible_name => "Jared Schwede",
@@ -15300,6 +23749,29 @@ newGroup = Group.new(:full_name => "Stanford National Association for the Advanc
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Tubbs",
@@ -15343,6 +23815,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Nicholas Viles",
 									:visible_name => "Nicholas Viles",
@@ -15379,6 +23874,29 @@ newGroup = Group.new(:full_name => "Stanford Native American Pre-Law",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Janet Bill",
@@ -15422,6 +23940,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Pukar Hamal",
 									:visible_name => "Pukar Hamal",
@@ -15464,6 +24005,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Russell Chou",
 									:visible_name => "Russell Chou",
@@ -15500,6 +24064,29 @@ newGroup = Group.new(:full_name => "Stanford Nonprofits",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Yuliya Mykhaylovska",
@@ -15543,6 +24130,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Julia Brownell",
 									:visible_name => "Julia Brownell",
@@ -15584,6 +24194,29 @@ newGroup = Group.new(:full_name => "Stanford Outdoors",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Vivian Ericson",
@@ -15627,6 +24260,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Lindsey Barnhart",
 									:visible_name => "Lindsey Barnhart",
@@ -15668,6 +24324,29 @@ newGroup = Group.new(:full_name => "Stanford Peace of Mind",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Patrick McGuire",
@@ -15711,6 +24390,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Malav Chakravorty",
 									:visible_name => "Malav Chakravorty",
@@ -15752,6 +24454,29 @@ newGroup = Group.new(:full_name => "Stanford Powwow",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Maija Cruz",
@@ -15795,6 +24520,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Susie Choi",
 									:visible_name => "Susie Choi",
@@ -15837,6 +24585,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kevin Tran",
 									:visible_name => "Kevin Tran",
@@ -15873,6 +24644,29 @@ newGroup = Group.new(:full_name => "Stanford Project on Hunger",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kyle Craft",
@@ -15916,6 +24710,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kevin Hardekopf",
 									:visible_name => "Kevin Hardekopf",
@@ -15958,6 +24775,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Michael Chen",
 									:visible_name => "Michael Chen",
@@ -15994,6 +24834,29 @@ newGroup = Group.new(:full_name => "Stanford Racquetball",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Daniel Pivonka",
@@ -16037,6 +24900,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Benjamin Kallman",
 									:visible_name => "Benjamin Kallman",
@@ -16078,6 +24964,29 @@ newGroup = Group.new(:full_name => "Stanford Savoyards",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jack Kastrop",
@@ -16121,6 +25030,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Joshua Schott",
 									:visible_name => "Joshua Schott",
@@ -16162,6 +25094,29 @@ newGroup = Group.new(:full_name => "Stanford Shakespeare Company",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mary Glen Fredrick",
@@ -16205,6 +25160,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ryan Jones",
 									:visible_name => "Ryan Jones",
@@ -16247,6 +25225,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Nathan Hall-Snyder",
 									:visible_name => "Nathan Hall-Snyder",
@@ -16283,6 +25284,29 @@ newGroup = Group.new(:full_name => "Stanford Spoken Word Collective",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Yingrui Sun",
@@ -16326,6 +25350,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ben Lubkin",
 									:visible_name => "Ben Lubkin",
@@ -16368,6 +25415,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Sara Cullinane",
 									:visible_name => "Sara Cullinane",
@@ -16404,6 +25474,29 @@ newGroup = Group.new(:full_name => "Stanford Students for Queer Liberation",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Leanna Keyes",
@@ -16447,6 +25540,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Huyen Tran",
 									:visible_name => "Huyen Tran",
@@ -16489,6 +25605,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Ming-Chieh Tsai",
 									:visible_name => "Ming-Chieh Tsai",
@@ -16525,6 +25664,29 @@ newGroup = Group.new(:full_name => "Stanford Tango Club",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Stephanie Galanie",
@@ -16568,6 +25730,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Holley Horrell",
 									:visible_name => "Holley Horrell",
@@ -16609,6 +25794,29 @@ newGroup = Group.new(:full_name => "Stanford Undergraduate Research Journal",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "William Bassett",
@@ -16652,6 +25860,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Moor Xu",
 									:visible_name => "Moor Xu",
@@ -16694,6 +25925,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Miquell Miller",
 									:visible_name => "Miquell Miller",
@@ -16730,6 +25984,29 @@ newGroup = Group.new(:full_name => "Stanford University Nikkei",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Christine McFadden",
@@ -16773,6 +26050,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kinfai Au",
 									:visible_name => "Kinfai Au",
@@ -16809,6 +26109,29 @@ newGroup = Group.new(:full_name => "Stanford V-Day",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Viviana Arcia",
@@ -16852,6 +26175,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Brian Tolkin",
 									:visible_name => "Brian Tolkin",
@@ -16888,6 +26234,29 @@ newGroup = Group.new(:full_name => "Stanford Vietnamese Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Tina Duong",
@@ -16931,6 +26300,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Alex Kasner",
 									:visible_name => "Alex Kasner",
@@ -16973,6 +26365,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Jacob Leverich",
 									:visible_name => "Jacob Leverich",
@@ -17009,6 +26424,29 @@ newGroup = Group.new(:full_name => "Stanford Women in Business",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "kelsey mrkonic",
@@ -17052,6 +26490,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Victoria Fischman",
 									:visible_name => "Victoria Fischman",
@@ -17093,6 +26554,29 @@ newGroup = Group.new(:full_name => "Stanford Women's Club Soccer",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Keshia Bonner",
@@ -17136,6 +26620,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Karen Scrivner",
 									:visible_name => "Karen Scrivner",
@@ -17177,6 +26684,29 @@ newGroup = Group.new(:full_name => "Stanford Women's Rugby",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Frances Wehrwein",
@@ -17220,6 +26750,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Zahra Sayyid",
 									:visible_name => "Zahra Sayyid",
@@ -17261,6 +26814,29 @@ newGroup = Group.new(:full_name => "Stanford Zen Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Suraj Pradhan",
@@ -17304,6 +26880,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Li Xu",
 									:visible_name => "Li Xu",
@@ -17340,6 +26939,29 @@ newGroup = Group.new(:full_name => "Strategies for Ecology Education, Diversity 
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mattias Lanas",
@@ -17383,6 +27005,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Melina Platas",
 									:visible_name => "Melina Platas",
@@ -17425,6 +27070,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Samir Siddhanti",
 									:visible_name => "Samir Siddhanti",
@@ -17461,6 +27129,29 @@ newGroup = Group.new(:full_name => "Student Interest Group in Neurology",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mark Terrelonge",
@@ -17499,6 +27190,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 thisPres = User.find_by_full_name("Miquell Miller")
 thisFinOf = User.find_by_full_name("Mark Terrelonge")
 thisPres.groups << newGroup
@@ -17530,6 +27244,29 @@ newGroup = Group.new(:full_name => "Student Organizing Committee for the Arts",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Marianne Naval",
@@ -17567,6 +27304,29 @@ newGroup = Group.new(:full_name => "Student Society for Stem Cell Research",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Karthik Prasad",
@@ -17610,6 +27370,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Meghan Berman",
 									:visible_name => "Meghan Berman",
@@ -17651,6 +27434,29 @@ newGroup = Group.new(:full_name => "Students Confronting Apartheid in Israel",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Firas Abuzaid",
@@ -17694,6 +27500,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Alexander Luisi",
 									:visible_name => "Alexander Luisi",
@@ -17735,6 +27564,29 @@ newGroup = Group.new(:full_name => "Students for an Open Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Chen Lossos",
@@ -17778,6 +27630,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Christopher Holve",
 									:visible_name => "Christopher Holve",
@@ -17814,6 +27689,29 @@ newGroup = Group.new(:full_name => "Surgery Interest Group",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jonathan Dunlap",
@@ -17857,6 +27755,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Liza Lizcano",
 									:visible_name => "Liza Lizcano",
@@ -17898,6 +27819,29 @@ newGroup = Group.new(:full_name => "Sustainable Fashion Collective",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ollie Khakwani",
@@ -17941,6 +27885,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kevin Ho",
 									:visible_name => "Kevin Ho",
@@ -17982,6 +27949,29 @@ newGroup = Group.new(:full_name => "SwingKids",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Paul Csonka",
@@ -18025,6 +28015,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Gretchen O'Henley",
 									:visible_name => "Gretchen O'Henley",
@@ -18066,6 +28079,29 @@ newGroup = Group.new(:full_name => "Taiwanese Cultural Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Stephanie Doong",
@@ -18109,6 +28145,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "William Tarpeh",
 									:visible_name => "William Tarpeh",
@@ -18150,6 +28209,29 @@ newGroup = Group.new(:full_name => "tapTH@T",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Arielle Garcia",
@@ -18193,6 +28275,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Christopher Paiji",
 									:visible_name => "Christopher Paiji",
@@ -18234,6 +28339,29 @@ newGroup = Group.new(:full_name => "Testimony A Cappella",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jonathan Tilley",
@@ -18277,6 +28405,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Tara Hasan",
 									:visible_name => "Tara Hasan",
@@ -18318,6 +28469,29 @@ newGroup = Group.new(:full_name => "The Cardinal Principle",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Michael Hughes",
@@ -18361,6 +28535,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Alex Hoffer",
 									:visible_name => "Alex Hoffer",
@@ -18402,6 +28599,29 @@ newGroup = Group.new(:full_name => "The Claw",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Caroline Ferguson",
@@ -18445,6 +28665,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Lida Teneva",
 									:visible_name => "Lida Teneva",
@@ -18487,6 +28730,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Midori Greenwood-Goodwin",
 									:visible_name => "Midori Greenwood-Goodwin",
@@ -18523,6 +28789,29 @@ newGroup = Group.new(:full_name => "The Stanford Daily",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kathleen Chaykowski",
@@ -18566,6 +28855,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Petr Johanes",
 									:visible_name => "Petr Johanes",
@@ -18608,6 +28920,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Adam Adler",
 									:visible_name => "Adam Adler",
@@ -18644,6 +28979,29 @@ newGroup = Group.new(:full_name => "The Stanford Optical Society",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Ross Audet",
@@ -18687,6 +29045,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Estela Marie Go",
 									:visible_name => "Estela Marie Go",
@@ -18729,6 +29110,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Everet Frost",
 									:visible_name => "Everet Frost",
@@ -18766,6 +29170,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kristi Bohl",
 									:visible_name => "Kristi Bohl",
@@ -18802,6 +29229,29 @@ newGroup = Group.new(:full_name => "Theta Delta Chi",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Cody Sam",
@@ -18845,6 +29295,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Patrick Colson",
 									:visible_name => "Patrick Colson",
@@ -18886,6 +29359,29 @@ newGroup = Group.new(:full_name => "Turkish Student Association",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Veysel Firat Bozcali",
@@ -18929,6 +29425,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Sheng Tang",
 									:visible_name => "Sheng Tang",
@@ -18971,6 +29490,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 thisPres = User.find_by_full_name("Yifeng Huang")
 thisFinOf = User.find_by_full_name("Nelson James")
 thisPres.groups << newGroup
@@ -19002,6 +29544,29 @@ newGroup = Group.new(:full_name => "Urban Styles",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Mindy Phung",
@@ -19045,6 +29610,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Zoe Kaufman",
 									:visible_name => "Zoe Kaufman",
@@ -19086,6 +29674,29 @@ newGroup = Group.new(:full_name => "Viennese Ball Committee",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Jiating Ma",
@@ -19129,6 +29740,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Kenji Tanabe",
 									:visible_name => "Kenji Tanabe",
@@ -19170,6 +29804,29 @@ newGroup = Group.new(:full_name => "Vox Clara: A Journal of Christian Thought at
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Tara Guarino",
@@ -19213,6 +29870,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "lara vogel",
 									:visible_name => "lara vogel",
@@ -19254,6 +29934,29 @@ newGroup = Group.new(:full_name => "Women and Youth Supporting Each Other",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Kaitlyn Toole",
@@ -19297,6 +30000,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Cristina Pop",
 									:visible_name => "Cristina Pop",
@@ -19338,6 +30064,29 @@ newGroup = Group.new(:full_name => "Women in Electrical Engineering",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Uchechukwuka Monu",
@@ -19381,6 +30130,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Taylor McAdam",
 									:visible_name => "Taylor McAdam",
@@ -19418,6 +30190,29 @@ newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
 
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
+
 # New User
 User.create(:full_name => "Sophia Paliza-Carre",
 									:visible_name => "Sophia Paliza-Carre",
@@ -19454,6 +30249,29 @@ newGroup = Group.new(:full_name => "World Peace Buddhists",
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
 newGroup.save
+
+# New Test Events
+thisEvent = Event.new(:name => "Future Event 1",
+								:start_date => "2011-10-30T12:00:00+168:00",
+								:end_date => "2011-10-30T03:00:00+168:00",
+								:location_details => "Near the Claw!")
+thisEvent.groups << newGroup
+thisEvent.locations << location1
+thisEvent.save
+thisEvent = Event.new(:name => "Future Event 2",
+								:start_date => "2011-10-18T12:00:00+168:00",
+								:end_date => "2011-10-18T03:00:00+168:00",
+								:location_details => "On the stage!")
+thisEvent.groups << newGroup
+thisEvent.locations << location2
+thisEvent.save
+thisEvent = Event.new(:name => "Past Event 1",
+								:start_date => "2011-10-03T12:00:00+168:00",
+								:end_date => "2011-10-03T03:00:00+168:00",
+								:location_details => "At the best room ever!")
+thisEvent.groups << newGroup
+thisEvent.locations << location3
+thisEvent.save
 
 # New User
 User.create(:full_name => "Erika Roach",

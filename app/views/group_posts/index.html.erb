@@ -1,0 +1,21 @@
+<h1>Listing group_posts</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @group_posts.each do |group_post| %>
+  <tr>
+    <td><%= link_to 'Show', group_post %></td>
+    <td><%= link_to 'Edit', edit_group_post_path(group_post) %></td>
+    <td><%= link_to 'Destroy', group_post, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Group post', new_group_post_path %>
