@@ -29,13 +29,13 @@
 	</div>
 	<div class="text-block" style="text-align: left">
 		<p class="small-black">Website: 
-		<% if @group_website != "None specified"  %>
-		<a href="<%= @group_website %>"><%= @group_website %></a>
+		<% if @group.website != "None specified"  %>
+		<a href="<%= @group_website %>"><%= @group.website %></a>
 		<% end %>
 		</p>
 		<p class="small-black">Email
-		<% if @group_email != "None specified"  %>
-		<%= @group_email %>
+		<% if @group.email != "None specified"  %>
+		<%= @group.email %>
 		<% end %>
 		</p>
 	</div>
