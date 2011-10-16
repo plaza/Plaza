@@ -28,8 +28,16 @@
 		<!--					<img src="images/Members.png" width="165" height="108" alt="Members" />-->
 	</div>
 	<div class="text-block" style="text-align: left">
-		<p class="small-black">Website</p>
-		<p class="small-black">Email</p>
+		<p class="small-black">Website: 
+		<% if @group_website != "None specified"  %>
+		<a href="<%= @group_website %>"><%= @group_website %></a>
+		<% end %>
+		</p>
+		<p class="small-black">Email
+		<% if @group_email != "None specified"  %>
+		<%= @group_email %>
+		<% end %>
+		</p>
 	</div>
 </div>
 
@@ -59,55 +67,42 @@
 		</span>
 		<div class="clear"></div>
 	</div>
-	<% if @group_upcoming_events != nil %>
+	<% for i in 0..3 %>
+		<% if @group_future_events[i] != nil %>
+		<% future_event = @group_future_events[i] %>
 		<div class="text-block">
 			<%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
-			<strong><%= @group_upcoming_events[0].name %></strong>
-			<p><%= @group_upcoming_events[0].start_date %></p>
-			<p>Location</p>
+			<strong><%= future_event.name %></strong>
+			<p><%= future_event.start_date %></p>
+			<p><%= future_event.locations[0].visible_name %></p>
 		</div>
-	<% else %>
+		<% else %>
 		<div class="text-block">
 			<%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
 			<strong>Event name</strong>
 			<p>Time</p>
 			<p>Location</p>
 		</div>
+		<% end %>
 	<% end %>
 
-	<div class="text-block">
-		<%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
-		<strong>Event name</strong>
-		<p>Time</p>
-		<p>Location</p>
-	</div>
-
-	<div class="text-block">
-		<%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
-		<strong>Event name</strong>
-		<p>Time</p>
-		<p>Location</p>
-	</div>
-
-	<div class="text-block">
-		<%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
-		<strong>Event name</strong>
-		<p>Time</p>
-		<p>Location</p>
-	</div>
-
 	<div class="medium-grey">Past Events:</div>
-	<div class="text-block">
-		<strong>Event name</strong>
-		<p>Date and Time</p>
-		<p>Location</p>
-	</div>
-
-	<div class="text-block">
-		<strong>Event name</strong>
-		<p>Date and Time</p>
-		<p>Location</p>
-	</div>
-
+	<% for i in 0..1 %>
+		<% if @group_past_events[i] != nil %>
+		<% past_event = @group_past_events[i] %>
+		<div class="text-block">
+			<%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
+			<strong><%= past_event.name %></strong>
+			<p><%= past_event.start_date %></p>
+			<p><%= past_event.locations[0].visible_name %></p>
+		</div>
+		<% else %>
+		<div class="text-block">
+			<strong>Event name</strong>
+			<p>Date and Time</p>
+			<p>Location</p>
+		</div>
+		<% end %>
+	<% end %>
 </div>
 <div class="clear"></div>
