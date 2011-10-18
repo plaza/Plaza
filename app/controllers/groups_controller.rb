@@ -16,7 +16,8 @@ class GroupsController < ApplicationController
     @group = Group.find(params[:id])
     @group_name = @group.visible_name
     @group_users = @group.users
-    @group_upcoming_events = @group.events.where("\"events\".\"start_date\" > \"#{DateTime.now}\"")
+    #change to find_by_sql more efficient
+    @group_future_events = @group.events.where("\"events\".\"start_date\" > \"#{DateTime.now}\"")
     						.limit(4).order("start_date DESC").find(:all)
     @group_past_events = @group.events.where("\"events\".\"start_date\" < \"#{DateTime.now}\"")
     						.limit(2).order("start_date DESC").find(:all)
