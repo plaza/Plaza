@@ -59,7 +59,7 @@
 		</span>
 		<div class="clear"></div>
 	</div>
-	<% if @group_upcoming_events != nil %>
+	<% if @group_upcoming_events && !@group_upcoming_events.empty? %>
 		<div class="text-block">
 			<%= image_tag("ASSU_iCal.png", :alt => "iCal", :class => "ical", :id => "") %>
 			<strong><%= @group_upcoming_events[0].name %></strong>
