@@ -67,7 +67,7 @@
 		</span>
 		<div class="clear"></div>
 	</div>
-	<% if @group_upcoming_events %>
+	<% if @group_upcoming_events && !@group_upcoming_events.empty? %>
 	<% for i in 0..3 %>
 		<% if @group_future_events[i] != nil %>
 		<% future_event = @group_future_events[i] %>
