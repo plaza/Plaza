@@ -25,6 +25,8 @@ newGroup = Group.new(:full_name => "49ers Academy Teaching Team",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -96,6 +98,8 @@ newGroup = Group.new(:full_name => "6th Man Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -167,6 +171,8 @@ newGroup = Group.new(:full_name => "85 Broads, Stanford Chapter",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -235,6 +241,8 @@ newGroup = Group.new(:full_name => "Aiki Association of Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -303,6 +311,8 @@ newGroup = Group.new(:full_name => "Aisthesis, Stanford Undergraduate Journal of
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -371,6 +381,8 @@ newGroup = Group.new(:full_name => "Alliance Streetdance",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -436,6 +448,8 @@ newGroup = Group.new(:full_name => "ALMANAC",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -507,6 +521,8 @@ newGroup = Group.new(:full_name => "Alpha Kappa Alpha Sorority, Incorporated",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -572,6 +588,8 @@ newGroup = Group.new(:full_name => "Alpha Kappa Psi",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -637,6 +655,8 @@ newGroup = Group.new(:full_name => "Alpha Phi",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -705,6 +725,8 @@ newGroup = Group.new(:full_name => "Alpha Phi Alpha",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -773,6 +795,8 @@ newGroup = Group.new(:full_name => "Alpha Phi Omega",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -841,6 +865,8 @@ newGroup = Group.new(:full_name => "American Civil Liberties Union, Stanford Cha
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -909,6 +935,8 @@ newGroup = Group.new(:full_name => "American Constitution Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -977,6 +1005,8 @@ newGroup = Group.new(:full_name => "American Medical Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1042,6 +1072,8 @@ newGroup = Group.new(:full_name => "American Medical Student Association Stanfor
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1107,6 +1139,8 @@ newGroup = Group.new(:full_name => "American Society for Engineering Education (
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1172,6 +1206,8 @@ newGroup = Group.new(:full_name => "American Society of Civil Engineers",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1237,6 +1273,8 @@ newGroup = Group.new(:full_name => "Amnesty International, Stanford University C
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1302,6 +1340,8 @@ newGroup = Group.new(:full_name => "Arabesque Middle Eastern Dance",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1367,6 +1407,8 @@ newGroup = Group.new(:full_name => "Arbor Free Clinic",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1435,6 +1477,8 @@ newGroup = Group.new(:full_name => "Argentinos en Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1500,6 +1544,8 @@ newGroup = Group.new(:full_name => "Armenian Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1565,6 +1611,8 @@ newGroup = Group.new(:full_name => "Asha for Education",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1633,6 +1681,8 @@ newGroup = Group.new(:full_name => "Asian American Graduate Student Association"
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1698,6 +1748,8 @@ newGroup = Group.new(:full_name => "Asian American Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1763,6 +1815,8 @@ newGroup = Group.new(:full_name => "Asian American Theater Project",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1828,6 +1882,8 @@ newGroup = Group.new(:full_name => "Asian American Wellness Program",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1893,6 +1949,8 @@ newGroup = Group.new(:full_name => "Asian Pacific American Medical Student Assoc
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -1958,6 +2016,8 @@ newGroup = Group.new(:full_name => "Asian/Pacific Islander Heritage Month",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2013,6 +2073,8 @@ newGroup = Group.new(:full_name => "Asia-Pacific Student Entreprenuership Societ
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2078,6 +2140,8 @@ newGroup = Group.new(:full_name => "Associated Students of Stanford University S
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2143,6 +2207,8 @@ newGroup = Group.new(:full_name => "Association for Radiological Sciences Studen
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2211,6 +2277,8 @@ newGroup = Group.new(:full_name => "Association of Chinese Students and Scholars
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2276,6 +2344,8 @@ newGroup = Group.new(:full_name => "Association of Computing Machinery",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2341,6 +2411,8 @@ newGroup = Group.new(:full_name => "ASSU Arts Grant Program",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2409,6 +2481,8 @@ newGroup = Group.new(:full_name => "Atheists, Humanists, and Agnostics at Stanfo
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2477,6 +2551,8 @@ newGroup = Group.new(:full_name => "Bahai Association at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2545,6 +2621,8 @@ newGroup = Group.new(:full_name => "Ballet Folklorico de Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2610,6 +2688,8 @@ newGroup = Group.new(:full_name => "Barrio Assistance",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2675,6 +2755,8 @@ newGroup = Group.new(:full_name => "Basmati Raas",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2740,6 +2822,8 @@ newGroup = Group.new(:full_name => "BELGICA",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2805,6 +2889,8 @@ newGroup = Group.new(:full_name => "Bengalis at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2870,6 +2956,8 @@ newGroup = Group.new(:full_name => "Bent Spoon Dance Company",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -2935,6 +3023,8 @@ newGroup = Group.new(:full_name => "Bhakti Yoga Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3000,6 +3090,8 @@ newGroup = Group.new(:full_name => "Biomedical Engineering Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3065,6 +3157,8 @@ newGroup = Group.new(:full_name => "Black Family Gathering Committee",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3130,6 +3224,8 @@ newGroup = Group.new(:full_name => "Black Graduate Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3195,6 +3291,8 @@ newGroup = Group.new(:full_name => "Black Law Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3260,6 +3358,8 @@ newGroup = Group.new(:full_name => "Black Men's Forum",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3320,6 +3420,8 @@ newGroup = Group.new(:full_name => "Black Psychology Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3385,6 +3487,8 @@ newGroup = Group.new(:full_name => "Black Recruitment Orientation Committee",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3450,6 +3554,8 @@ newGroup = Group.new(:full_name => "Black Student Union",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3515,6 +3621,8 @@ newGroup = Group.new(:full_name => "Blackstage",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3580,6 +3688,8 @@ newGroup = Group.new(:full_name => "Bolivian Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3645,6 +3755,8 @@ newGroup = Group.new(:full_name => "Buddhist Community at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3710,6 +3822,8 @@ newGroup = Group.new(:full_name => "Bulgarian Club at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3775,6 +3889,8 @@ newGroup = Group.new(:full_name => "Business Association of Stanford Engineering
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3840,6 +3956,8 @@ newGroup = Group.new(:full_name => "Cap and Gown",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3905,6 +4023,8 @@ newGroup = Group.new(:full_name => "Cardinal Calypso",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -3970,6 +4090,8 @@ newGroup = Group.new(:full_name => "Cardinal Free Clinics",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4030,6 +4152,8 @@ newGroup = Group.new(:full_name => "Cardinal Life",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4095,6 +4219,8 @@ newGroup = Group.new(:full_name => "Caribbean Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4160,6 +4286,8 @@ newGroup = Group.new(:full_name => "Catholic Community at Stanford - Newman",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4225,6 +4353,8 @@ newGroup = Group.new(:full_name => "Caucasus Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4290,6 +4420,8 @@ newGroup = Group.new(:full_name => "Ceramics Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4355,6 +4487,8 @@ newGroup = Group.new(:full_name => "Chabad at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4420,6 +4554,8 @@ newGroup = Group.new(:full_name => "Chemical Engineering Graduate Students",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4488,6 +4624,8 @@ newGroup = Group.new(:full_name => "Cherokee Student Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4553,6 +4691,8 @@ newGroup = Group.new(:full_name => "Chi Alpha Christian Fellowship",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4618,6 +4758,8 @@ newGroup = Group.new(:full_name => "Chicano Latino Graduate Student Association"
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4683,6 +4825,8 @@ newGroup = Group.new(:full_name => "Chicano/Latino Graduation",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4743,6 +4887,8 @@ newGroup = Group.new(:full_name => "Chicanos Latinos in Health Education",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4808,6 +4954,8 @@ newGroup = Group.new(:full_name => "Chilean Stanford Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4873,6 +5021,8 @@ newGroup = Group.new(:full_name => "Chinese Campus Evangelistic Fellowship",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -4938,6 +5088,8 @@ newGroup = Group.new(:full_name => "Christian Science Organization",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5003,6 +5155,8 @@ newGroup = Group.new(:full_name => "Circle K",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5071,6 +5225,8 @@ newGroup = Group.new(:full_name => "Class of 2012",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5136,6 +5292,8 @@ newGroup = Group.new(:full_name => "Class of 2013",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5201,6 +5359,8 @@ newGroup = Group.new(:full_name => "Class of 2014",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5266,6 +5426,8 @@ newGroup = Group.new(:full_name => "Class of 2015",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5331,6 +5493,8 @@ newGroup = Group.new(:full_name => "Colleges Against Cancer",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5396,6 +5560,8 @@ newGroup = Group.new(:full_name => "Common Origins",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5461,6 +5627,8 @@ newGroup = Group.new(:full_name => "Computational and Mathematical Consultants",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5526,6 +5694,8 @@ newGroup = Group.new(:full_name => "Confucian Life and Study at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5591,6 +5761,8 @@ newGroup = Group.new(:full_name => "Coptic Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5656,6 +5828,8 @@ newGroup = Group.new(:full_name => "Counterpoint a cappella",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5721,6 +5895,8 @@ newGroup = Group.new(:full_name => "Delta Kappa Epsilon Fraternity, Sigma Rho Ch
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5786,6 +5962,8 @@ newGroup = Group.new(:full_name => "Delta Sigma Theta",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5851,6 +6029,8 @@ newGroup = Group.new(:full_name => "Delta Tau Delta Fraternity",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5916,6 +6096,8 @@ newGroup = Group.new(:full_name => "Dosti",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -5981,6 +6163,8 @@ newGroup = Group.new(:full_name => "Down With Gravity",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6046,6 +6230,8 @@ newGroup = Group.new(:full_name => "Dualist, The",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6111,6 +6297,8 @@ newGroup = Group.new(:full_name => "Dutch@Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6176,6 +6364,8 @@ newGroup = Group.new(:full_name => "DV8",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6241,6 +6431,8 @@ newGroup = Group.new(:full_name => "Educational Studies Program",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6301,6 +6493,8 @@ newGroup = Group.new(:full_name => "Elijah Christian Cell Group at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6366,6 +6560,8 @@ newGroup = Group.new(:full_name => "Emergency Medicine Interest Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6431,6 +6627,8 @@ newGroup = Group.new(:full_name => "Engineering Physics Interdisciplinary Commun
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6496,6 +6694,8 @@ newGroup = Group.new(:full_name => "Episcopal - Lutheran Campus Ministry",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6561,6 +6761,8 @@ newGroup = Group.new(:full_name => "Esperanto Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6626,6 +6828,8 @@ newGroup = Group.new(:full_name => "European Association at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6691,6 +6895,8 @@ newGroup = Group.new(:full_name => "Everybody Dance Now",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6751,6 +6957,8 @@ newGroup = Group.new(:full_name => "Everyday People",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6816,6 +7024,8 @@ newGroup = Group.new(:full_name => "Fellowship in Christ at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6881,6 +7091,8 @@ newGroup = Group.new(:full_name => "Flamenco Cardenal",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -6946,6 +7158,8 @@ newGroup = Group.new(:full_name => "FLIP: First-Generation, Low-Income Partnersh
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7011,6 +7225,8 @@ newGroup = Group.new(:full_name => "French Stanford Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7076,6 +7292,8 @@ newGroup = Group.new(:full_name => "Gamma Zeta Alpha Fraternity",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7144,6 +7362,8 @@ newGroup = Group.new(:full_name => "GradQ",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7209,6 +7429,8 @@ newGroup = Group.new(:full_name => "Graduate Student Programming Board",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7274,6 +7496,8 @@ newGroup = Group.new(:full_name => "Green Living Council",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7342,6 +7566,8 @@ newGroup = Group.new(:full_name => "GSB Africa Business Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7407,6 +7633,8 @@ newGroup = Group.new(:full_name => "GSB Arts, Media & Entertainment Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7472,6 +7700,8 @@ newGroup = Group.new(:full_name => "GSB Asian Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7537,6 +7767,8 @@ newGroup = Group.new(:full_name => "GSB Band",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7602,6 +7834,8 @@ newGroup = Group.new(:full_name => "GSB Basketball Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7667,6 +7901,8 @@ newGroup = Group.new(:full_name => "GSB Big Ideas Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7732,6 +7968,8 @@ newGroup = Group.new(:full_name => "GSB Black Business Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7797,6 +8035,8 @@ newGroup = Group.new(:full_name => "GSB Brewers Guild",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7862,6 +8102,8 @@ newGroup = Group.new(:full_name => "GSB Catholic Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7927,6 +8169,8 @@ newGroup = Group.new(:full_name => "GSB Challenge 4 Charity",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -7992,6 +8236,8 @@ newGroup = Group.new(:full_name => "GSB Christians in Business",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8057,6 +8303,8 @@ newGroup = Group.new(:full_name => "GSB Dogs",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8122,6 +8370,8 @@ newGroup = Group.new(:full_name => "GSB Education Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8187,6 +8437,8 @@ newGroup = Group.new(:full_name => "GSB Entrepreneur Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8247,6 +8499,8 @@ newGroup = Group.new(:full_name => "GSB Epicureans at the GSB",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8312,6 +8566,8 @@ newGroup = Group.new(:full_name => "GSB Europe Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8377,6 +8633,8 @@ newGroup = Group.new(:full_name => "GSB Family Business Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8442,6 +8700,8 @@ newGroup = Group.new(:full_name => "GSB Finance & Investment Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8507,6 +8767,8 @@ newGroup = Group.new(:full_name => "GSB Food and Agriculture Resource Management
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8567,6 +8829,8 @@ newGroup = Group.new(:full_name => "GSB Gives Back",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8632,6 +8896,8 @@ newGroup = Group.new(:full_name => "GSB Golf Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8692,6 +8958,8 @@ newGroup = Group.new(:full_name => "GSB Government & Politics Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8757,6 +9025,8 @@ newGroup = Group.new(:full_name => "GSB Greater China Business Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8825,6 +9095,8 @@ newGroup = Group.new(:full_name => "GSB Health & Wellness Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8890,6 +9162,8 @@ newGroup = Group.new(:full_name => "GSB Health Care Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -8955,6 +9229,8 @@ newGroup = Group.new(:full_name => "GSB High Tech Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9020,6 +9296,8 @@ newGroup = Group.new(:full_name => "GSB Hispanic Business Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9085,6 +9363,8 @@ newGroup = Group.new(:full_name => "GSB I Have a Dream",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9145,6 +9425,8 @@ newGroup = Group.new(:full_name => "GSB International Development Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9210,6 +9492,8 @@ newGroup = Group.new(:full_name => "GSB Jewish Business Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9275,6 +9559,8 @@ newGroup = Group.new(:full_name => "GSB Latin American Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9340,6 +9626,8 @@ newGroup = Group.new(:full_name => "GSB Marketing Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9405,6 +9693,8 @@ newGroup = Group.new(:full_name => "GSB MBA Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9470,6 +9760,8 @@ newGroup = Group.new(:full_name => "GSB Middle East and North Africa Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9538,6 +9830,8 @@ newGroup = Group.new(:full_name => "GSB Outdoor Adventures",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9603,6 +9897,8 @@ newGroup = Group.new(:full_name => "GSB PhD Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9668,6 +9964,8 @@ newGroup = Group.new(:full_name => "GSB Pride",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9733,6 +10031,8 @@ newGroup = Group.new(:full_name => "GSB Private Equity Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9793,6 +10093,8 @@ newGroup = Group.new(:full_name => "GSB Product Design and Manufacturing Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9858,6 +10160,8 @@ newGroup = Group.new(:full_name => "GSB Real Estate Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9923,6 +10227,8 @@ newGroup = Group.new(:full_name => "GSB Reporter",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -9983,6 +10289,8 @@ newGroup = Group.new(:full_name => "GSB Retail Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10048,6 +10356,8 @@ newGroup = Group.new(:full_name => "GSB Rugby Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10108,6 +10418,8 @@ newGroup = Group.new(:full_name => "GSB Sales Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10173,6 +10485,8 @@ newGroup = Group.new(:full_name => "GSB Show",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10233,6 +10547,8 @@ newGroup = Group.new(:full_name => "GSB Ski & Snowboard Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10298,6 +10614,8 @@ newGroup = Group.new(:full_name => "GSB Soccer Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10358,6 +10676,8 @@ newGroup = Group.new(:full_name => "GSB Social Venture Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10429,6 +10749,8 @@ newGroup = Group.new(:full_name => "GSB South Asian Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10492,6 +10814,8 @@ newGroup = Group.new(:full_name => "GSB Sports Management Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10557,6 +10881,8 @@ newGroup = Group.new(:full_name => "GSB Sustainable Business Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10617,6 +10943,8 @@ newGroup = Group.new(:full_name => "GSB Texas Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10682,6 +11010,8 @@ newGroup = Group.new(:full_name => "GSB Travel & Hospitality Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10742,6 +11072,8 @@ newGroup = Group.new(:full_name => "GSB Venture Capital Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10807,6 +11139,8 @@ newGroup = Group.new(:full_name => "GSB Veterans Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10872,6 +11206,8 @@ newGroup = Group.new(:full_name => "GSB Wine Circle",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -10937,6 +11273,8 @@ newGroup = Group.new(:full_name => "GSB Women in Management",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11002,6 +11340,8 @@ newGroup = Group.new(:full_name => "GSC-Programming",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11067,6 +11407,8 @@ newGroup = Group.new(:full_name => "Habla",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11127,6 +11469,8 @@ newGroup = Group.new(:full_name => "Health Education--Lifetime Partnerships for 
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11192,6 +11536,8 @@ newGroup = Group.new(:full_name => "Hellenic Association of Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11257,6 +11603,8 @@ newGroup = Group.new(:full_name => "Henry's Place",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11322,6 +11670,8 @@ newGroup = Group.new(:full_name => "Hindu Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11387,6 +11737,8 @@ newGroup = Group.new(:full_name => "Hmong Student Union",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11452,6 +11804,8 @@ newGroup = Group.new(:full_name => "Hong Kong Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11512,6 +11866,8 @@ newGroup = Group.new(:full_name => "Hui o Hawai'i",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11577,6 +11933,8 @@ newGroup = Group.new(:full_name => "Indonesian Club at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11642,6 +12000,8 @@ newGroup = Group.new(:full_name => "International Undergraduate Community",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11702,6 +12062,8 @@ newGroup = Group.new(:full_name => "Intersorority Council",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11767,6 +12129,8 @@ newGroup = Group.new(:full_name => "InterVarsity Christian Fellowship",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11832,6 +12196,8 @@ newGroup = Group.new(:full_name => "InterVarsity Graduate Christian Fellowship",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11897,6 +12263,8 @@ newGroup = Group.new(:full_name => "Islamic Society of Stanford University",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -11962,6 +12330,8 @@ newGroup = Group.new(:full_name => "Ismaili Student Association at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12027,6 +12397,8 @@ newGroup = Group.new(:full_name => "Israeli Student Organization",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12092,6 +12464,8 @@ newGroup = Group.new(:full_name => "Jam Pac'd",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12157,6 +12531,8 @@ newGroup = Group.new(:full_name => "Jewish Graduate Student Union",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12217,6 +12593,8 @@ newGroup = Group.new(:full_name => "Jewish Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12277,6 +12655,8 @@ newGroup = Group.new(:full_name => "Jujitsu Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12342,6 +12722,8 @@ newGroup = Group.new(:full_name => "Kaorihiva",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12407,6 +12789,8 @@ newGroup = Group.new(:full_name => "Kappa Alpha Theta",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12462,6 +12846,8 @@ newGroup = Group.new(:full_name => "Kappa Kappa Gamma",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12527,6 +12913,8 @@ newGroup = Group.new(:full_name => "Kayumanggi",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12592,6 +12980,8 @@ newGroup = Group.new(:full_name => "Kids With Dreams",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12657,6 +13047,8 @@ newGroup = Group.new(:full_name => "Korean Christian Fellowship",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12722,6 +13114,8 @@ newGroup = Group.new(:full_name => "Korean Student Association at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12787,6 +13181,8 @@ newGroup = Group.new(:full_name => "Korean-American Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12852,6 +13248,8 @@ newGroup = Group.new(:full_name => "Kuumba African Dance & Drum Ensemble",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12917,6 +13315,8 @@ newGroup = Group.new(:full_name => "KZSU 90.1 FM",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -12982,6 +13382,8 @@ newGroup = Group.new(:full_name => "La Familia de Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13047,6 +13449,8 @@ newGroup = Group.new(:full_name => "Latino Medical Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13112,6 +13516,8 @@ newGroup = Group.new(:full_name => "Latter-day Saint Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13177,6 +13583,8 @@ newGroup = Group.new(:full_name => "Lebanese Student Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13237,6 +13645,8 @@ newGroup = Group.new(:full_name => "Leland Stanford Junior University Marching B
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13302,6 +13712,8 @@ newGroup = Group.new(:full_name => "LGBT-Meds",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13367,6 +13779,8 @@ newGroup = Group.new(:full_name => "Los Hermanos de Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13432,6 +13846,8 @@ newGroup = Group.new(:full_name => "Low Battery: Stanford’s Video Gaming Socie
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13497,6 +13913,8 @@ newGroup = Group.new(:full_name => "Malaysians at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13562,6 +13980,8 @@ newGroup = Group.new(:full_name => "Mariachi Cardenal de Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13627,6 +14047,8 @@ newGroup = Group.new(:full_name => "Math Magic",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13692,6 +14114,8 @@ newGroup = Group.new(:full_name => "Mechanical Engineering Women's Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13757,6 +14181,8 @@ newGroup = Group.new(:full_name => "Medical Spanish Initiative",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13822,6 +14248,8 @@ newGroup = Group.new(:full_name => "Men Against Abuse Now",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13887,6 +14315,8 @@ newGroup = Group.new(:full_name => "Men's Club Basketball",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -13952,6 +14382,8 @@ newGroup = Group.new(:full_name => "Men's Club Water Polo",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14017,6 +14449,8 @@ newGroup = Group.new(:full_name => "Mexican Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14082,6 +14516,8 @@ newGroup = Group.new(:full_name => "Mixed Company",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14147,6 +14583,8 @@ newGroup = Group.new(:full_name => "Movimiento Estudiantil Chicano de Aztlan",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14212,6 +14650,8 @@ newGroup = Group.new(:full_name => "Music Enrichment Learning on Developing Yout
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14277,6 +14717,8 @@ newGroup = Group.new(:full_name => "Muslim Students Awareness Network",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14342,6 +14784,8 @@ newGroup = Group.new(:full_name => "Night Outreach",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14407,6 +14851,8 @@ newGroup = Group.new(:full_name => "Ohana Chinese Christian Fellowship",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14472,6 +14918,8 @@ newGroup = Group.new(:full_name => "Omega Psi Phi Fraternity, Inc.",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14537,6 +14985,8 @@ newGroup = Group.new(:full_name => "Oncology Student Interest Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14602,6 +15052,8 @@ newGroup = Group.new(:full_name => "Organ Donor Education",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14662,6 +15114,8 @@ newGroup = Group.new(:full_name => "Organization of International Health",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14727,6 +15181,8 @@ newGroup = Group.new(:full_name => "Outdoor Education Program",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14792,6 +15248,8 @@ newGroup = Group.new(:full_name => "Pakistanis at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14857,6 +15315,8 @@ newGroup = Group.new(:full_name => "Panamanians at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14922,6 +15382,8 @@ newGroup = Group.new(:full_name => "Parakaleo Christian Ministries",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -14987,6 +15449,8 @@ newGroup = Group.new(:full_name => "Pediatric Interest Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15047,6 +15511,8 @@ newGroup = Group.new(:full_name => "Persian Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15112,6 +15578,8 @@ newGroup = Group.new(:full_name => "Phi Beta Sigma",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15177,6 +15645,8 @@ newGroup = Group.new(:full_name => "Pilipino American Student Union",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15237,6 +15707,8 @@ newGroup = Group.new(:full_name => "Progressive Christians at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15297,6 +15769,8 @@ newGroup = Group.new(:full_name => "Project Compassion: Student Chapter",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15362,6 +15836,8 @@ newGroup = Group.new(:full_name => "Project Love",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15427,6 +15903,8 @@ newGroup = Group.new(:full_name => "Project Motivation",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15492,6 +15970,8 @@ newGroup = Group.new(:full_name => "Quakers at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15557,6 +16037,8 @@ newGroup = Group.new(:full_name => "Queer and Questioning Asians And Pacific Isl
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15622,6 +16104,8 @@ newGroup = Group.new(:full_name => "Queer/Straight Alliance",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15687,6 +16171,8 @@ newGroup = Group.new(:full_name => "Quiz Bowl Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15752,6 +16238,8 @@ newGroup = Group.new(:full_name => "Radiology Interest Group at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15817,6 +16305,8 @@ newGroup = Group.new(:full_name => "Ram's Head Theatrical Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15882,6 +16372,8 @@ newGroup = Group.new(:full_name => "Redwood Outdoor Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -15947,6 +16439,8 @@ newGroup = Group.new(:full_name => "Reformed University Fellowship at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16012,6 +16506,8 @@ newGroup = Group.new(:full_name => "ReJoyce in Jesus Campus Fellowship",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16077,6 +16573,8 @@ newGroup = Group.new(:full_name => "Robber Barons Sketch Comedy",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16142,6 +16640,8 @@ newGroup = Group.new(:full_name => "Robotica",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16207,6 +16707,8 @@ newGroup = Group.new(:full_name => "Romanian Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16272,6 +16774,8 @@ newGroup = Group.new(:full_name => "Russian Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16337,6 +16841,8 @@ newGroup = Group.new(:full_name => "Sanskriti",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16402,6 +16908,8 @@ newGroup = Group.new(:full_name => "Satrang, Stanford Sikh Students Association"
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16467,6 +16975,8 @@ newGroup = Group.new(:full_name => "Scandinavians at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16535,6 +17045,8 @@ newGroup = Group.new(:full_name => "Sexual Health Peer Resources Center",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16600,6 +17112,8 @@ newGroup = Group.new(:full_name => "Shaking the Foundations Conference",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16660,6 +17174,8 @@ newGroup = Group.new(:full_name => "Shenson Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16725,6 +17241,8 @@ newGroup = Group.new(:full_name => "Side by Side",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16790,6 +17308,8 @@ newGroup = Group.new(:full_name => "Sigma Gamma Rho",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16855,6 +17375,8 @@ newGroup = Group.new(:full_name => "Sigma Phi Epsilon",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16920,6 +17442,8 @@ newGroup = Group.new(:full_name => "Sigma Psi Zeta Sorority Inc",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -16985,6 +17509,8 @@ newGroup = Group.new(:full_name => "Sigma Theta Psi",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17050,6 +17576,8 @@ newGroup = Group.new(:full_name => "Singaporeans at Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17115,6 +17643,8 @@ newGroup = Group.new(:full_name => "Six Degrees: A Stanford Journal of Human Rig
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17180,6 +17710,8 @@ newGroup = Group.new(:full_name => "Society for Industrial and Applied Mathemati
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17245,6 +17777,8 @@ newGroup = Group.new(:full_name => "Society for International Affairs at Stanfor
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17310,6 +17844,8 @@ newGroup = Group.new(:full_name => "Society of Black Scientists and Engineers",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17375,6 +17911,8 @@ newGroup = Group.new(:full_name => "Society of Petroleum Engineers, Stanford Stu
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17440,6 +17978,8 @@ newGroup = Group.new(:full_name => "Society of Women Engineers",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17505,6 +18045,8 @@ newGroup = Group.new(:full_name => "South Asian Preventive Health Outreach Progr
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17570,6 +18112,8 @@ newGroup = Group.new(:full_name => "Spicmacay",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17635,6 +18179,8 @@ newGroup = Group.new(:full_name => "Sports Challenge",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17700,6 +18246,8 @@ newGroup = Group.new(:full_name => "STAND",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17765,6 +18313,8 @@ newGroup = Group.new(:full_name => "Stanford Aerobics and Yoga",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17830,6 +18380,8 @@ newGroup = Group.new(:full_name => "Stanford African Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17895,6 +18447,8 @@ newGroup = Group.new(:full_name => "Stanford Alpine Project",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -17963,6 +18517,8 @@ newGroup = Group.new(:full_name => "Stanford Alpine Ski Team",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18028,6 +18584,8 @@ newGroup = Group.new(:full_name => "Stanford Alumni Mentoring",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18088,6 +18646,8 @@ newGroup = Group.new(:full_name => "Stanford Amateur Radio Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18153,6 +18713,8 @@ newGroup = Group.new(:full_name => "Stanford American Indian Organization",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18218,6 +18780,8 @@ newGroup = Group.new(:full_name => "Stanford American Indigenous Medical Student
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18283,6 +18847,8 @@ newGroup = Group.new(:full_name => "Stanford Anesthesia Interest Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18348,6 +18914,8 @@ newGroup = Group.new(:full_name => "Stanford Anscombe Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18408,6 +18976,8 @@ newGroup = Group.new(:full_name => "Stanford Archery Program",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18473,6 +19043,8 @@ newGroup = Group.new(:full_name => "Stanford Asian American Activism Coalition",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18538,6 +19110,8 @@ newGroup = Group.new(:full_name => "Stanford Association for International Devel
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18603,6 +19177,8 @@ newGroup = Group.new(:full_name => "Stanford Association for Multi-Disciplinary 
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18668,6 +19244,8 @@ newGroup = Group.new(:full_name => "Stanford AXE Committee",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18733,6 +19311,8 @@ newGroup = Group.new(:full_name => "Stanford Badminton Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18798,6 +19378,8 @@ newGroup = Group.new(:full_name => "Stanford Beach Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18863,6 +19445,8 @@ newGroup = Group.new(:full_name => "Stanford Beyond Bars",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18923,6 +19507,8 @@ newGroup = Group.new(:full_name => "Stanford Biosciences Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -18988,6 +19574,8 @@ newGroup = Group.new(:full_name => "Stanford Brewing Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19053,6 +19641,8 @@ newGroup = Group.new(:full_name => "Stanford Bridge Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19118,6 +19708,8 @@ newGroup = Group.new(:full_name => "Stanford Canadian Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19183,6 +19775,8 @@ newGroup = Group.new(:full_name => "Stanford Capoeira",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19248,6 +19842,8 @@ newGroup = Group.new(:full_name => "Stanford Cardinal Broadcasting Network Telev
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19313,6 +19909,8 @@ newGroup = Group.new(:full_name => "Stanford Ceili Dance",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19373,6 +19971,8 @@ newGroup = Group.new(:full_name => "Stanford Chamber Chorale",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19438,6 +20038,8 @@ newGroup = Group.new(:full_name => "Stanford Chaparral",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19503,6 +20105,8 @@ newGroup = Group.new(:full_name => "Stanford Chemistry Women's Committee on Grad
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19568,6 +20172,8 @@ newGroup = Group.new(:full_name => "Stanford Chess Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19633,6 +20239,8 @@ newGroup = Group.new(:full_name => "Stanford China Connect",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19698,6 +20306,8 @@ newGroup = Group.new(:full_name => "Stanford Classics in Theater",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19763,6 +20373,8 @@ newGroup = Group.new(:full_name => "Stanford Club Baseball",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19828,6 +20440,8 @@ newGroup = Group.new(:full_name => "Stanford Club Ice Hockey",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19893,6 +20507,8 @@ newGroup = Group.new(:full_name => "Stanford Club Sports",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -19958,6 +20574,8 @@ newGroup = Group.new(:full_name => "Stanford Club Tennis",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20023,6 +20641,8 @@ newGroup = Group.new(:full_name => "Stanford Club Triathlon Team",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20088,6 +20708,8 @@ newGroup = Group.new(:full_name => "Stanford Concert Network",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20153,6 +20775,8 @@ newGroup = Group.new(:full_name => "Stanford Conservative Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20213,6 +20837,8 @@ newGroup = Group.new(:full_name => "Stanford Consulting",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20273,6 +20899,8 @@ newGroup = Group.new(:full_name => "Stanford Cricket Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20338,6 +20966,8 @@ newGroup = Group.new(:full_name => "Stanford Cycling",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20403,6 +21033,8 @@ newGroup = Group.new(:full_name => "Stanford Dance Marathon",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20468,6 +21100,8 @@ newGroup = Group.new(:full_name => "Stanford Debate Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20533,6 +21167,8 @@ newGroup = Group.new(:full_name => "Stanford Democrats",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20593,6 +21229,8 @@ newGroup = Group.new(:full_name => "Stanford Design Initiative",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20658,6 +21296,8 @@ newGroup = Group.new(:full_name => "Stanford Doctoral Students' Association for 
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20723,6 +21363,8 @@ newGroup = Group.new(:full_name => "Stanford Dragon Boat",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20788,6 +21430,8 @@ newGroup = Group.new(:full_name => "Stanford Energy Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20853,6 +21497,8 @@ newGroup = Group.new(:full_name => "Stanford Equestrian Team",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20918,6 +21564,8 @@ newGroup = Group.new(:full_name => "Stanford Faiths Act in Togetherness and Hope
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -20983,6 +21631,8 @@ newGroup = Group.new(:full_name => "Stanford Farm Project",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21048,6 +21698,8 @@ newGroup = Group.new(:full_name => "Stanford Film Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21113,6 +21765,8 @@ newGroup = Group.new(:full_name => "Stanford Finance",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21178,6 +21832,8 @@ newGroup = Group.new(:full_name => "Stanford Fleet Street Singers",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21243,6 +21899,8 @@ newGroup = Group.new(:full_name => "Stanford Gaming Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21308,6 +21966,8 @@ newGroup = Group.new(:full_name => "Stanford German Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21373,6 +22033,8 @@ newGroup = Group.new(:full_name => "Stanford Gleaning Project",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21438,6 +22100,8 @@ newGroup = Group.new(:full_name => "Stanford Gospel Choir",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21503,6 +22167,8 @@ newGroup = Group.new(:full_name => "Stanford Habitat for Humanity",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21568,6 +22234,8 @@ newGroup = Group.new(:full_name => "Stanford Harmonics",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21633,6 +22301,8 @@ newGroup = Group.new(:full_name => "Stanford Hawaii Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21693,6 +22363,8 @@ newGroup = Group.new(:full_name => "Stanford Hurling",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21758,6 +22430,8 @@ newGroup = Group.new(:full_name => "Stanford Hwimori",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21823,6 +22497,8 @@ newGroup = Group.new(:full_name => "Stanford Immigrant Rights Project",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21888,6 +22564,8 @@ newGroup = Group.new(:full_name => "Stanford In Government",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -21953,6 +22631,8 @@ newGroup = Group.new(:full_name => "Stanford India Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22018,6 +22698,8 @@ newGroup = Group.new(:full_name => "Stanford Institute of Electrical and Electro
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22083,6 +22765,8 @@ newGroup = Group.new(:full_name => "Stanford Israel Alliance",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22148,6 +22832,8 @@ newGroup = Group.new(:full_name => "Stanford Japan Exchange Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22213,6 +22899,8 @@ newGroup = Group.new(:full_name => "Stanford Jazz Orchestra",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22273,6 +22961,8 @@ newGroup = Group.new(:full_name => "Stanford Journal of East Asian Affairs",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22338,6 +23028,8 @@ newGroup = Group.new(:full_name => "Stanford Journal of International Relations"
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22403,6 +23095,8 @@ newGroup = Group.new(:full_name => "Stanford Journal of Public Health",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22468,6 +23162,8 @@ newGroup = Group.new(:full_name => "Stanford Journal on Muslim Affairs",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22533,6 +23229,8 @@ newGroup = Group.new(:full_name => "Stanford Kayak Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22598,6 +23296,8 @@ newGroup = Group.new(:full_name => "Stanford Kenpo Karate Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22658,6 +23358,8 @@ newGroup = Group.new(:full_name => "Stanford Khmer Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22723,6 +23425,8 @@ newGroup = Group.new(:full_name => "Stanford Kite Flying Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22788,6 +23492,8 @@ newGroup = Group.new(:full_name => "Stanford Klezmer Band",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22848,6 +23554,8 @@ newGroup = Group.new(:full_name => "Stanford Labor Action Coalition",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22913,6 +23621,8 @@ newGroup = Group.new(:full_name => "Stanford Latino Law Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -22978,6 +23688,8 @@ newGroup = Group.new(:full_name => "Stanford Law & Technology Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23043,6 +23755,8 @@ newGroup = Group.new(:full_name => "Stanford LGBTQ-Religion Leadership Roundtabl
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23108,6 +23822,8 @@ newGroup = Group.new(:full_name => "Stanford Marketing Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23173,6 +23889,8 @@ newGroup = Group.new(:full_name => "Stanford Materials Research Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23238,6 +23956,8 @@ newGroup = Group.new(:full_name => "Stanford Mathematical Geology Student Chapte
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23298,6 +24018,8 @@ newGroup = Group.new(:full_name => "Stanford Medical Students Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23363,6 +24085,8 @@ newGroup = Group.new(:full_name => "Stanford Mendicants",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23428,6 +24152,8 @@ newGroup = Group.new(:full_name => "Stanford Men's Club Soccer Team",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23488,6 +24214,8 @@ newGroup = Group.new(:full_name => "Stanford Men's Lacrosse",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23553,6 +24281,8 @@ newGroup = Group.new(:full_name => "Stanford Mock Trial",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23618,6 +24348,8 @@ newGroup = Group.new(:full_name => "Stanford Muay Thai",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23683,6 +24415,8 @@ newGroup = Group.new(:full_name => "Stanford Nanoscience&Nanotechnology (SNS)",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23748,6 +24482,8 @@ newGroup = Group.new(:full_name => "Stanford National Association for the Advanc
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23813,6 +24549,8 @@ newGroup = Group.new(:full_name => "Stanford Native American Graduate Students",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23873,6 +24611,8 @@ newGroup = Group.new(:full_name => "Stanford Native American Pre-Law",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -23938,6 +24678,8 @@ newGroup = Group.new(:full_name => "Stanford Nepali",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24003,6 +24745,8 @@ newGroup = Group.new(:full_name => "Stanford Newtype",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24063,6 +24807,8 @@ newGroup = Group.new(:full_name => "Stanford Nonprofits",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24128,6 +24874,8 @@ newGroup = Group.new(:full_name => "Stanford Outdoor Outreach Program",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24193,6 +24941,8 @@ newGroup = Group.new(:full_name => "Stanford Outdoors",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24258,6 +25008,8 @@ newGroup = Group.new(:full_name => "Stanford OUTLAW",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24323,6 +25075,8 @@ newGroup = Group.new(:full_name => "Stanford Peace of Mind",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24388,6 +25142,8 @@ newGroup = Group.new(:full_name => "Stanford Polo Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24453,6 +25209,8 @@ newGroup = Group.new(:full_name => "Stanford Powwow",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24518,6 +25276,8 @@ newGroup = Group.new(:full_name => "Stanford Pre-Law Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24583,6 +25343,8 @@ newGroup = Group.new(:full_name => "Stanford Premedical Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24643,6 +25405,8 @@ newGroup = Group.new(:full_name => "Stanford Project on Hunger",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24708,6 +25472,8 @@ newGroup = Group.new(:full_name => "Stanford Psi Chi",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24773,6 +25539,8 @@ newGroup = Group.new(:full_name => "Stanford Raagapella",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24833,6 +25601,8 @@ newGroup = Group.new(:full_name => "Stanford Racquetball",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24898,6 +25668,8 @@ newGroup = Group.new(:full_name => "Stanford Running Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -24963,6 +25735,8 @@ newGroup = Group.new(:full_name => "Stanford Savoyards",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25028,6 +25802,8 @@ newGroup = Group.new(:full_name => "Stanford Says No to War",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25093,6 +25869,8 @@ newGroup = Group.new(:full_name => "Stanford Shakespeare Company",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25158,6 +25936,8 @@ newGroup = Group.new(:full_name => "Stanford Solar & Wind Energy Project",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25223,6 +26003,8 @@ newGroup = Group.new(:full_name => "Stanford Solar Car Project",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25283,6 +26065,8 @@ newGroup = Group.new(:full_name => "Stanford Spoken Word Collective",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25348,6 +26132,8 @@ newGroup = Group.new(:full_name => "Stanford Student Biodesign & Biopharma",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25413,6 +26199,8 @@ newGroup = Group.new(:full_name => "Stanford Students for Life",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25473,6 +26261,8 @@ newGroup = Group.new(:full_name => "Stanford Students for Queer Liberation",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25538,6 +26328,8 @@ newGroup = Group.new(:full_name => "Stanford Taiko",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25603,6 +26395,8 @@ newGroup = Group.new(:full_name => "Stanford Taiwanese Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25663,6 +26457,8 @@ newGroup = Group.new(:full_name => "Stanford Tango Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25728,6 +26524,8 @@ newGroup = Group.new(:full_name => "Stanford Technology Law Review",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25793,6 +26591,8 @@ newGroup = Group.new(:full_name => "Stanford Undergraduate Research Journal",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25858,6 +26658,8 @@ newGroup = Group.new(:full_name => "Stanford University Mathematical Organizatio
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25923,6 +26725,8 @@ newGroup = Group.new(:full_name => "Stanford University Minority Medical Allianc
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -25983,6 +26787,8 @@ newGroup = Group.new(:full_name => "Stanford University Nikkei",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26048,6 +26854,8 @@ newGroup = Group.new(:full_name => "Stanford University Wing Chun Student Associ
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26108,6 +26916,8 @@ newGroup = Group.new(:full_name => "Stanford V-Day",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26173,6 +26983,8 @@ newGroup = Group.new(:full_name => "Stanford Venture Capital Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26233,6 +27045,8 @@ newGroup = Group.new(:full_name => "Stanford Vietnamese Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26298,6 +27112,8 @@ newGroup = Group.new(:full_name => "Stanford Wind Ensemble",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26363,6 +27179,8 @@ newGroup = Group.new(:full_name => "Stanford Windsurfing Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26423,6 +27241,8 @@ newGroup = Group.new(:full_name => "Stanford Women in Business",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26488,6 +27308,8 @@ newGroup = Group.new(:full_name => "Stanford Women's Club Lacrosse",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26553,6 +27375,8 @@ newGroup = Group.new(:full_name => "Stanford Women's Club Soccer",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26618,6 +27442,8 @@ newGroup = Group.new(:full_name => "Stanford Women's Club Volleyball",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26683,6 +27509,8 @@ newGroup = Group.new(:full_name => "Stanford Women's Rugby",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26748,6 +27576,8 @@ newGroup = Group.new(:full_name => "Stanford Wushu Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26813,6 +27643,8 @@ newGroup = Group.new(:full_name => "Stanford Zen Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26878,6 +27710,8 @@ newGroup = Group.new(:full_name => "STOP - Students Taking on Poverty",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -26938,6 +27772,8 @@ newGroup = Group.new(:full_name => "Strategies for Ecology Education, Diversity 
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27003,6 +27839,8 @@ newGroup = Group.new(:full_name => "Student Forum for African Studies",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27068,6 +27906,8 @@ newGroup = Group.new(:full_name => "Student Initiated Courses",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27128,6 +27968,8 @@ newGroup = Group.new(:full_name => "Student Interest Group in Neurology",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27188,6 +28030,8 @@ newGroup = Group.new(:full_name => "Student National Medical Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27243,6 +28087,8 @@ newGroup = Group.new(:full_name => "Student Organizing Committee for the Arts",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27303,6 +28149,8 @@ newGroup = Group.new(:full_name => "Student Society for Stem Cell Research",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27368,6 +28216,8 @@ newGroup = Group.new(:full_name => "Students Advocating for Gender Equality",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27433,6 +28283,8 @@ newGroup = Group.new(:full_name => "Students Confronting Apartheid in Israel",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27498,6 +28350,8 @@ newGroup = Group.new(:full_name => "Students for a Sustainable Stanford",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27563,6 +28417,8 @@ newGroup = Group.new(:full_name => "Students for an Open Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27628,6 +28484,8 @@ newGroup = Group.new(:full_name => "Sunday Flicks",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27688,6 +28546,8 @@ newGroup = Group.new(:full_name => "Surgery Interest Group",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27753,6 +28613,8 @@ newGroup = Group.new(:full_name => "SUSE Student Guild",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27818,6 +28680,8 @@ newGroup = Group.new(:full_name => "Sustainable Fashion Collective",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27883,6 +28747,8 @@ newGroup = Group.new(:full_name => "Sweat Free Stanford Coalition",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -27948,6 +28814,8 @@ newGroup = Group.new(:full_name => "SwingKids",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28013,6 +28881,8 @@ newGroup = Group.new(:full_name => "Swingtime",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28078,6 +28948,8 @@ newGroup = Group.new(:full_name => "Taiwanese Cultural Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28143,6 +29015,8 @@ newGroup = Group.new(:full_name => "Talisman",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28208,6 +29082,8 @@ newGroup = Group.new(:full_name => "tapTH@T",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28273,6 +29149,8 @@ newGroup = Group.new(:full_name => "Team HBV",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28338,6 +29216,8 @@ newGroup = Group.new(:full_name => "Testimony A Cappella",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28403,6 +29283,8 @@ newGroup = Group.new(:full_name => "The Bridge Peer Counseling Center",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28468,6 +29350,8 @@ newGroup = Group.new(:full_name => "The Cardinal Principle",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28533,6 +29417,8 @@ newGroup = Group.new(:full_name => "The Charles R. Blyth Fund",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28598,6 +29484,8 @@ newGroup = Group.new(:full_name => "The Claw",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28663,6 +29551,8 @@ newGroup = Group.new(:full_name => "The Coastal Society-Stanford University Stud
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28728,6 +29618,8 @@ newGroup = Group.new(:full_name => "The Science Bus",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28788,6 +29680,8 @@ newGroup = Group.new(:full_name => "The Stanford Daily",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28853,6 +29747,8 @@ newGroup = Group.new(:full_name => "The Stanford Eskrima Club",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28918,6 +29814,8 @@ newGroup = Group.new(:full_name => "The Stanford Flipside",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -28978,6 +29876,8 @@ newGroup = Group.new(:full_name => "The Stanford Optical Society",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29043,6 +29943,8 @@ newGroup = Group.new(:full_name => "The Stanford Quad",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29108,6 +30010,8 @@ newGroup = Group.new(:full_name => "The Stanford Review",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29168,6 +30072,8 @@ newGroup = Group.new(:full_name => "The Unofficial Stanford Blog",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29228,6 +30134,8 @@ newGroup = Group.new(:full_name => "Theta Delta Chi",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29293,6 +30201,8 @@ newGroup = Group.new(:full_name => "Troposomatic Breakdance Crew",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29358,6 +30268,8 @@ newGroup = Group.new(:full_name => "Turkish Student Association",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29423,6 +30335,8 @@ newGroup = Group.new(:full_name => "Tzu Chi Collegiate Association, Stanford Cha
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29488,6 +30402,8 @@ newGroup = Group.new(:full_name => "United Campus Christian Ministry",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29543,6 +30459,8 @@ newGroup = Group.new(:full_name => "Urban Styles",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29608,6 +30526,8 @@ newGroup = Group.new(:full_name => "Vegetarian Students for Conscious Living",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29673,6 +30593,8 @@ newGroup = Group.new(:full_name => "Viennese Ball Committee",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29738,6 +30660,8 @@ newGroup = Group.new(:full_name => "Volunteers In Latin America",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29803,6 +30727,8 @@ newGroup = Group.new(:full_name => "Vox Clara: A Journal of Christian Thought at
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29868,6 +30794,8 @@ newGroup = Group.new(:full_name => "Women and Medicine",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29933,6 +30861,8 @@ newGroup = Group.new(:full_name => "Women and Youth Supporting Each Other",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -29998,6 +30928,8 @@ newGroup = Group.new(:full_name => "Women in Computer Science",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -30063,6 +30995,8 @@ newGroup = Group.new(:full_name => "Women in Electrical Engineering",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -30128,6 +31062,8 @@ newGroup = Group.new(:full_name => "Women's Club Basketball",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -30188,6 +31124,8 @@ newGroup = Group.new(:full_name => "Women's Coalition",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events
@@ -30248,6 +31186,8 @@ newGroup = Group.new(:full_name => "World Peace Buddhists",
 								)
 newGroup.department = thisDepartment
 newGroup.group_type = thisGroupType
+newGroup.officers_list_title = "Officers"
+newGroup.members_list_title = "Members"
 newGroup.save
 
 # New Test Events

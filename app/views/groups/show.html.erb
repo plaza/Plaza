@@ -19,7 +19,13 @@
 		<p><%= @group.description %></p>
 	</div>
 	<div class="text-block" style="text-align: left">
-		<p class="small-black" style="text-align: left">Officers</p>
+		<p class="small-black" style="text-align: left"><%= @group.officers_list_title %></p>
+		<ul style="margin-left: 20px">
+			<% @group_users.each do |user| %>
+			<li><%= user.visible_name %></li>
+			<% end %>
+		</ul>
+		<p class="small-black" style="text-align: left"><%= @group.members_list_title %></p>
 		<ul style="margin-left: 20px">
 			<% @group_users.each do |user| %>
 			<li><%= user.visible_name %></li>

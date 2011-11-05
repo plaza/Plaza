@@ -71,6 +71,8 @@ File.open(SEEDS_FILE, "w")	do |seedFile|
 								)\n"
 			seedFile.puts "newGroup.department = thisDepartment"
 			seedFile.puts "newGroup.group_type = thisGroupType"
+			seedFile.puts "newGroup.officers_list_title = \"Officers\""
+			seedFile.puts "newGroup.members_list_title = \"Members\""
 			seedFile.puts "newGroup.save"
 			seedFile.puts "\n"	
 			
