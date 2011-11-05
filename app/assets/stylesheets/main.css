@@ -31,18 +31,31 @@ body {
 		height: 73px;
 	}
 	
-		#logo-img, #search-wrapper {
+		#logo-img {
 			float: left;
 		}
 		
 		#search-wrapper {
-			margin: 35px 0px 0px 0px;
+			float: left;
+			margin-top: 33px;
+			margin-left: 65px;
 		}
 		
 			#search-input {
-				font-size: 20px;
 				width: 180px;
-				margin-left: 125px;
+				margin-left: 12px;
+				font-size: 13px;
+				-webkit-appearance: none;
+				padding: 5px 5px 5px 24px;
+				border-radius: 20px;
+				background-color: #8AD1FD;
+				background-image: url(mag-glass.png);
+				background-repeat: no-repeat;
+				background-position: 8px 6px;
+				color: white;
+				outline: none;
+				-moz-box-shadow:inset 0 2px 2px rgba(0, 0, 0, 0.75);;
+				box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.75);
 			}
 			
 			.a-result {

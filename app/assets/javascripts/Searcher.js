@@ -43,7 +43,7 @@ function Searcher () {
     $results = $search.children("#results");
     $blind = $("<div id='blind' />").appendTo(document.body)
                 .css({
-                  'position': 'absolute',
+                  'position': 'fixed',
                   'left' : 0,
                   'top' : 0,
                   'right' : 0,
@@ -175,14 +175,13 @@ function Searcher () {
       cache: true,
       data: {query: value},
       error: function(jqXHR, textStatus, errorThrown) {
-        console.log(["Error:", jqXHR, textStatus, errorThrown, settings]);
+        console.log(["Error:", jqXHR, textStatus, errorThrown]);
         // $('#spot-spinner').hide();
         if (textStatus != "abort") {
           $results.children('.none-found').remove();
           var errorText = "Server error";
           if ($.trim(errorThrown)) errorText += ": " + errorThrown;
           $results.append("<li class='error'>" + errorText + "</li>");
-          $results.show();
         }
       },
       success: function(data, textStatus, jqXHR) {
