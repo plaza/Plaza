@@ -29,15 +29,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -100,15 +100,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -171,15 +171,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -239,15 +239,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -307,15 +307,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -375,15 +375,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -440,15 +440,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -511,15 +511,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -576,15 +576,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -641,15 +641,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -709,15 +709,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -777,15 +777,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -845,15 +845,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -913,15 +913,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -981,15 +981,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1046,15 +1046,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1111,15 +1111,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1176,15 +1176,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1241,15 +1241,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1306,15 +1306,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1371,15 +1371,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1439,15 +1439,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1504,15 +1504,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1569,15 +1569,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1637,15 +1637,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1702,15 +1702,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1767,15 +1767,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1832,15 +1832,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1897,15 +1897,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -1962,15 +1962,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2017,15 +2017,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2082,15 +2082,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2147,15 +2147,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2215,15 +2215,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2280,15 +2280,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2345,15 +2345,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2413,15 +2413,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2481,15 +2481,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2549,15 +2549,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2614,15 +2614,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2679,15 +2679,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2744,15 +2744,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2809,15 +2809,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2874,15 +2874,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -2939,15 +2939,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3004,15 +3004,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3069,15 +3069,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3134,15 +3134,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3199,15 +3199,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3264,15 +3264,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3324,15 +3324,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3389,15 +3389,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3454,15 +3454,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3519,15 +3519,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3584,15 +3584,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3649,15 +3649,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3714,15 +3714,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3779,15 +3779,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3844,15 +3844,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3909,15 +3909,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -3974,15 +3974,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4034,15 +4034,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4099,15 +4099,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4164,15 +4164,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4229,15 +4229,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4294,15 +4294,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4359,15 +4359,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4424,15 +4424,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4492,15 +4492,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4557,15 +4557,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4622,15 +4622,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4687,15 +4687,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4747,15 +4747,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4812,15 +4812,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4877,15 +4877,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -4942,15 +4942,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5007,15 +5007,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5075,15 +5075,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5140,15 +5140,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5205,15 +5205,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5270,15 +5270,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5335,15 +5335,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5400,15 +5400,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5465,15 +5465,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5530,15 +5530,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5595,15 +5595,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5660,15 +5660,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5725,15 +5725,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5790,15 +5790,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5855,15 +5855,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5920,15 +5920,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -5985,15 +5985,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6050,15 +6050,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6115,15 +6115,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6180,15 +6180,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6245,15 +6245,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6305,15 +6305,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6370,15 +6370,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6435,15 +6435,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6500,15 +6500,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6565,15 +6565,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6630,15 +6630,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6695,15 +6695,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6755,15 +6755,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6820,15 +6820,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6885,15 +6885,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -6950,15 +6950,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7015,15 +7015,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7080,15 +7080,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7148,15 +7148,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7213,15 +7213,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7278,15 +7278,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7346,15 +7346,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7411,15 +7411,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7476,15 +7476,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7541,15 +7541,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7606,15 +7606,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7671,15 +7671,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7736,15 +7736,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7801,15 +7801,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7866,15 +7866,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7931,15 +7931,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -7996,15 +7996,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8061,15 +8061,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8126,15 +8126,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8191,15 +8191,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8251,15 +8251,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8316,15 +8316,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8381,15 +8381,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8446,15 +8446,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8511,15 +8511,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8571,15 +8571,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8636,15 +8636,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8696,15 +8696,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8761,15 +8761,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8829,15 +8829,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8894,15 +8894,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -8959,15 +8959,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9024,15 +9024,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9089,15 +9089,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9149,15 +9149,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9214,15 +9214,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9279,15 +9279,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9344,15 +9344,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9409,15 +9409,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9474,15 +9474,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9542,15 +9542,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9607,15 +9607,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9672,15 +9672,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9737,15 +9737,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9797,15 +9797,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9862,15 +9862,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9927,15 +9927,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -9987,15 +9987,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10052,15 +10052,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10112,15 +10112,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10177,15 +10177,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10237,15 +10237,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10302,15 +10302,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10362,15 +10362,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10433,15 +10433,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10496,15 +10496,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10561,15 +10561,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10621,15 +10621,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10686,15 +10686,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10746,15 +10746,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10811,15 +10811,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10876,15 +10876,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -10941,15 +10941,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11006,15 +11006,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11071,15 +11071,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11131,15 +11131,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11196,15 +11196,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11261,15 +11261,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11326,15 +11326,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11391,15 +11391,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11456,15 +11456,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11516,15 +11516,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11581,15 +11581,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11646,15 +11646,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11706,15 +11706,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11771,15 +11771,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11836,15 +11836,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11901,15 +11901,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -11966,15 +11966,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12031,15 +12031,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12096,15 +12096,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12161,15 +12161,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12221,15 +12221,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12281,15 +12281,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12346,15 +12346,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12411,15 +12411,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12466,15 +12466,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12531,15 +12531,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12596,15 +12596,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12661,15 +12661,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12726,15 +12726,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12791,15 +12791,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12856,15 +12856,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12921,15 +12921,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -12986,15 +12986,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13051,15 +13051,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13116,15 +13116,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13181,15 +13181,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13241,15 +13241,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13306,15 +13306,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13371,15 +13371,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13436,15 +13436,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13501,15 +13501,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13566,15 +13566,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13631,15 +13631,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13696,15 +13696,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13761,15 +13761,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13826,15 +13826,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13891,15 +13891,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -13956,15 +13956,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14021,15 +14021,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14086,15 +14086,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14151,15 +14151,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14216,15 +14216,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14281,15 +14281,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14346,15 +14346,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14411,15 +14411,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14476,15 +14476,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14541,15 +14541,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14606,15 +14606,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14666,15 +14666,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14731,15 +14731,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14796,15 +14796,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14861,15 +14861,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14926,15 +14926,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -14991,15 +14991,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15051,15 +15051,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15116,15 +15116,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15181,15 +15181,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15241,15 +15241,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15301,15 +15301,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15366,15 +15366,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15431,15 +15431,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15496,15 +15496,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15561,15 +15561,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15626,15 +15626,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15691,15 +15691,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15756,15 +15756,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15821,15 +15821,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15886,15 +15886,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -15951,15 +15951,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16016,15 +16016,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16081,15 +16081,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16146,15 +16146,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16211,15 +16211,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16276,15 +16276,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16341,15 +16341,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16406,15 +16406,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16471,15 +16471,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16539,15 +16539,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16604,15 +16604,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16664,15 +16664,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16729,15 +16729,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16794,15 +16794,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16859,15 +16859,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16924,15 +16924,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -16989,15 +16989,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17054,15 +17054,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17119,15 +17119,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17184,15 +17184,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17249,15 +17249,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17314,15 +17314,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17379,15 +17379,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17444,15 +17444,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17509,15 +17509,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17574,15 +17574,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17639,15 +17639,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17704,15 +17704,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17769,15 +17769,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17834,15 +17834,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17899,15 +17899,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -17967,15 +17967,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18032,15 +18032,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18092,15 +18092,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18157,15 +18157,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18222,15 +18222,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18287,15 +18287,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18352,15 +18352,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18412,15 +18412,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18477,15 +18477,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18542,15 +18542,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18607,15 +18607,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18672,15 +18672,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18737,15 +18737,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18802,15 +18802,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18867,15 +18867,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18927,15 +18927,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -18992,15 +18992,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19057,15 +19057,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19122,15 +19122,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19187,15 +19187,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19252,15 +19252,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19317,15 +19317,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19377,15 +19377,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19442,15 +19442,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19507,15 +19507,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19572,15 +19572,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19637,15 +19637,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19702,15 +19702,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19767,15 +19767,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19832,15 +19832,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19897,15 +19897,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -19962,15 +19962,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20027,15 +20027,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20092,15 +20092,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20157,15 +20157,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20217,15 +20217,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20277,15 +20277,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20342,15 +20342,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20407,15 +20407,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20472,15 +20472,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20537,15 +20537,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20597,15 +20597,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20662,15 +20662,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20727,15 +20727,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20792,15 +20792,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20857,15 +20857,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20922,15 +20922,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -20987,15 +20987,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21052,15 +21052,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21117,15 +21117,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21182,15 +21182,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21247,15 +21247,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21312,15 +21312,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21377,15 +21377,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21442,15 +21442,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21507,15 +21507,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21572,15 +21572,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21637,15 +21637,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21697,15 +21697,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21762,15 +21762,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21827,15 +21827,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21892,15 +21892,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -21957,15 +21957,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22022,15 +22022,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22087,15 +22087,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22152,15 +22152,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22217,15 +22217,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22277,15 +22277,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22342,15 +22342,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22407,15 +22407,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22472,15 +22472,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22537,15 +22537,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22602,15 +22602,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22662,15 +22662,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22727,15 +22727,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22792,15 +22792,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22852,15 +22852,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22917,15 +22917,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -22982,15 +22982,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23047,15 +23047,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23112,15 +23112,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23177,15 +23177,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23242,15 +23242,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23302,15 +23302,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23367,15 +23367,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23432,15 +23432,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23492,15 +23492,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23557,15 +23557,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23622,15 +23622,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23687,15 +23687,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23752,15 +23752,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23817,15 +23817,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23877,15 +23877,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -23942,15 +23942,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24007,15 +24007,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24067,15 +24067,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24132,15 +24132,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24197,15 +24197,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24262,15 +24262,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24327,15 +24327,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24392,15 +24392,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24457,15 +24457,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24522,15 +24522,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24587,15 +24587,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24647,15 +24647,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24712,15 +24712,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24777,15 +24777,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24837,15 +24837,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24902,15 +24902,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -24967,15 +24967,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25032,15 +25032,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25097,15 +25097,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25162,15 +25162,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25227,15 +25227,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25287,15 +25287,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25352,15 +25352,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25417,15 +25417,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25477,15 +25477,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25542,15 +25542,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25607,15 +25607,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25667,15 +25667,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25732,15 +25732,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25797,15 +25797,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25862,15 +25862,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25927,15 +25927,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -25987,15 +25987,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26052,15 +26052,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26112,15 +26112,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26177,15 +26177,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26237,15 +26237,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26302,15 +26302,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26367,15 +26367,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26427,15 +26427,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26492,15 +26492,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26557,15 +26557,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26622,15 +26622,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26687,15 +26687,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26752,15 +26752,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26817,15 +26817,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26882,15 +26882,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -26942,15 +26942,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27007,15 +27007,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27072,15 +27072,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27132,15 +27132,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27192,15 +27192,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27247,15 +27247,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27307,15 +27307,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27372,15 +27372,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27437,15 +27437,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27502,15 +27502,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27567,15 +27567,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27632,15 +27632,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27692,15 +27692,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27757,15 +27757,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27822,15 +27822,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27887,15 +27887,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -27952,15 +27952,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28017,15 +28017,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28082,15 +28082,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28147,15 +28147,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28212,15 +28212,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28277,15 +28277,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28342,15 +28342,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28407,15 +28407,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28472,15 +28472,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28537,15 +28537,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28602,15 +28602,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28667,15 +28667,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28732,15 +28732,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28792,15 +28792,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28857,15 +28857,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28922,15 +28922,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -28982,15 +28982,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29047,15 +29047,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29112,15 +29112,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29172,15 +29172,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29232,15 +29232,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29297,15 +29297,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29362,15 +29362,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29427,15 +29427,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29492,15 +29492,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29547,15 +29547,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29612,15 +29612,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29677,15 +29677,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29742,15 +29742,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29807,15 +29807,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29872,15 +29872,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -29937,15 +29937,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -30002,15 +30002,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -30067,15 +30067,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -30132,15 +30132,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -30192,15 +30192,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2
@@ -30252,15 +30252,15 @@ newGroup.save
 
 # New Test Events
 thisEvent = Event.new(:name => "Future Event 1",
-								:start_date => "2011-10-30T12:00:00+168:00",
-								:end_date => "2011-10-30T03:00:00+168:00",
+								:start_date => "2011-12-30T12:00:00+168:00",
+								:end_date => "2011-12-30T03:00:00+168:00",
 								:location_details => "Near the Claw!")
 thisEvent.groups << newGroup
 thisEvent.locations << location1
 thisEvent.save
 thisEvent = Event.new(:name => "Future Event 2",
-								:start_date => "2011-10-18T12:00:00+168:00",
-								:end_date => "2011-10-18T03:00:00+168:00",
+								:start_date => "2011-12-18T12:00:00+168:00",
+								:end_date => "2011-12-18T03:00:00+168:00",
 								:location_details => "On the stage!")
 thisEvent.groups << newGroup
 thisEvent.locations << location2

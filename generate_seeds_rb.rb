@@ -76,15 +76,15 @@ File.open(SEEDS_FILE, "w")	do |seedFile|
 			
 			seedFile.puts "# New Test Events"
 			seedFile.puts "thisEvent = Event.new(:name => \"Future Event 1\",
-								:start_date => \"#{DateTime.civil(2011,10,30,12,0,0,7)}\",
-								:end_date => \"#{DateTime.civil(2011,10,30,3,0,0,7)}\",
+								:start_date => \"#{DateTime.civil(2011,12,30,12,0,0,7)}\",
+								:end_date => \"#{DateTime.civil(2011,12,30,3,0,0,7)}\",
 								:location_details => \"Near the Claw!\")"
 			seedFile.puts "thisEvent.groups << newGroup"
 			seedFile.puts "thisEvent.locations << location1"
 			seedFile.puts "thisEvent.save\n"
 			seedFile.puts "thisEvent = Event.new(:name => \"Future Event 2\",
-								:start_date => \"#{DateTime.civil(2011,10,18,12,0,0,7)}\",
-								:end_date => \"#{DateTime.civil(2011,10,18,3,0,0,7)}\",
+								:start_date => \"#{DateTime.civil(2011,12,18,12,0,0,7)}\",
+								:end_date => \"#{DateTime.civil(2011,12,18,3,0,0,7)}\",
 								:location_details => \"On the stage!\")"
 			seedFile.puts "thisEvent.groups << newGroup"
 			seedFile.puts "thisEvent.locations << location2"

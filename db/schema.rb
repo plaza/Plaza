@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111008214655) do
+ActiveRecord::Schema.define(:version => 20111105010323) do
 
   create_table "badges", :force => true do |t|
     t.string   "name"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(:version => 20111008214655) do
     t.datetime "updated_at"
   end
 
-  create_table "badges_users", :id => false, :force => true do |t|
+  create_table "badges_events", :id => false, :force => true do |t|
     t.integer "badge_id"
     t.integer "user_id"
   end

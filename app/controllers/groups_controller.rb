@@ -16,14 +16,18 @@ class GroupsController < ApplicationController
     @group = Group.find(params[:id])
     @group_name = @group.visible_name
     @group_users = @group.users
-    #change to find_by_sql more efficient
-    @group_future_events = @group.events.where("\"events\".\"start_date\" > \"#{DateTime.now}\"")
-    						.limit(4).order("start_date DESC").find(:all)
-    @group_past_events = @group.events.where("\"events\".\"start_date\" < \"#{DateTime.now}\"")
-    						.limit(2).order("start_date DESC").find(:all)
-    #@group_upcoming_events = @group.events.find_by_start_date(:limit => 4, :order => "start_date DESC")
-    #@group_past_events = @group.events.where("start_date > #{Time.now}").limit(1).order("start_date DESC")
-    #@group_blog_posts = 
+    @group_future_events = Event.find_by_sql(["SELECT * 
+     	 FROM groups g, events_groups eg, events e, events_locations el, locations l 
+     	 WHERE g.id = ? AND g.id = eg.group_id AND e.id = eg.event_id 
+     	 AND e.start_date > ? AND e.id = el.event_id AND l.id = el.location_id
+    	 ORDER BY e.start_date DESC 
+    	 LIMIT 4", params[:id], DateTime.now])
+    @group_past_events = Event.find_by_sql(["SELECT * 
+     	 FROM groups g, events_groups eg, events e, events_locations el, locations l 
+     	 WHERE g.id = ? AND g.id = eg.group_id AND e.id = eg.event_id 
+     	 AND e.start_date < ? AND e.id = el.event_id AND l.id = el.location_id
+    	 ORDER BY e.start_date DESC 
+    	 LIMIT 2", params[:id], DateTime.now])
 
     respond_to do |format|
       format.html # show.html.erb
