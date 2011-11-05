@@ -67,7 +67,7 @@
 		</span>
 		<div class="clear"></div>
 	</div>
-	<% if @group_upcoming_events && !@group_upcoming_events.empty? %>
+	<% if @group_future_events && !@group_future_events.empty? %>
 	<% for i in 0..3 %>
 		<% if @group_future_events[i] != nil %>
 		<% future_event = @group_future_events[i] %>
@@ -86,7 +86,9 @@
 		</div>
 		<% end %>
 	<% end %>
-
+	<% end %>
+	
+	<% if @group_past_events && !@group_past_events.empty? %>
 	<div class="medium-grey">Past Events:</div>
 	<% for i in 0..1 %>
 		<% if @group_past_events[i] != nil %>
@@ -104,6 +106,7 @@
 			<p>Location</p>
 		</div>
 		<% end %>
+	<% end %>
 	<% end %>
 </div>
 <div class="clear"></div>
